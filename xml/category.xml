@@ -1,7 +1,7 @@
 <categories>
     <category id="1">
         <title>Cake</title>
-        <icon><!--image--></icon>
+        <icon><!--image from ..\images\--></icon>
     </category>
     <category id="2">
         <title>Cupcakes</title>

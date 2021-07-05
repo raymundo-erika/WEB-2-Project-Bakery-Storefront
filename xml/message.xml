@@ -1,0 +1,8 @@
+<messages>
+    <message datetime="">
+        <sender></sender>
+        <receiver></receiver>
+        <message></message>
+        <!-- <isSeen></isSeen> if kaya lang namern, di naman ata 'to required -->
+    </message>
+</messsages>
