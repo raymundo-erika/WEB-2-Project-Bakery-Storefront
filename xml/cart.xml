@@ -1,0 +1,13 @@
+<carts>
+    <cart id="" status="">
+        <total></total>
+        <transaction_date></transaction_date>
+        <!--pwedeng maraming cart items-->
+        <cart_item id="">
+            <productID></productID>
+            <size></size>
+            <qty></qty>
+            <total_item_price></total_item_price>
+        </cart_item>
+    </cart>
+</carts>

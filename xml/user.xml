@@ -1,0 +1,11 @@
+<users>
+    <user username="">
+        <firstName></firstName>
+        <lastName></lastName>
+        <email></email>
+        <birthdate></birthdate>
+        <address></address>
+        <password></password>
+        <profilePic></profilePic>
+    </user>
+</users>
