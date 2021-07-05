@@ -1,0 +1,15 @@
+<products>
+    <product id="">
+        <name></name>
+        <description></description>
+        <price></price>
+        <stock></stock>
+        <sizes_prices>
+            <size_price>
+                <size></size>
+                <price></price> 
+            </size_price>
+        </sizes_prices>
+        <image></image>
+    </product>
+</products>

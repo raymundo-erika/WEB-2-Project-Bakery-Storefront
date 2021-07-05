@@ -1,0 +1,22 @@
+<categories>
+    <category id="1">
+        <title>Cake</title>
+        <icon><!--image--></icon>
+    </category>
+    <category id="2">
+        <title>Cupcakes</title>
+        <icon><!--image--></icon>
+    </category>
+    <category id="3">
+        <title>Cheese Cakes</title>
+        <icon><!--image--></icon>
+    </category>
+    <category id="4">
+        <title>Macaroons</title>
+        <icon><!--image--></icon>
+    </category>
+    <category id="5">
+        <title>Donuts</title>
+        <icon><!--image--></icon>
+    </category>
+</categories>
