@@ -1,0 +1,105 @@
+
+/*IMAGE*/
+#products {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 1% 2%;
+    width: 28.5%;
+    min-height: 450px;
+    padding: 2% 3%;
+    /* border: 2px solid #DDA74F; */
+}
+
+.product-img {
+    width: 100%;
+    text-align: center;
+}
+
+.product-img img {
+    width: 85%;
+}
+
+.product .title {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #DDA74F;
+    margin: 0;
+    padding: 2% 0;
+}
+
+.product .desc {
+    font-size: 0.75em;
+    padding: 2% 0;
+}
+
+.product .price {
+    font-size: 1.125em;
+    font-weight: 700;
+    padding: 2% 0 4%;
+}
+
+
+.product .action-buttons {
+    
+    margin-top: 15px;
+}
+
+.product button {
+    background-color: #fff;
+    font-size: 1.075em;
+    font-weight: 550;
+    height: 45px;
+    border-radius: 200px;
+}
+
+.product i {
+    font-size: 1.125em;
+    /* font-weight: 600; */
+}
+
+.product .btn-addToCart {
+    width: 73%;
+    margin-right: 3%;
+}
+
+.product .btn-wishList {
+    width: 20.5%;
+}
+
+
+.pagination {
+    width: 80%;
+    margin: 5vh auto 10vh 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.pagination a {
+    width: 31px;
+    height: 31px;
+    border-radius: 100px;
+    padding: 5px;
+    /* background: rgba(255,255,255,.25); */
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255,255,255,.75);
+    font-weight: 500;
+    margin: 0 4px;
+}
+
+.pagination .active {
+    color: #070707;
+    font-weight: 700;
+    background: rgba(255,255,255,1);
+}
+
+.pagination .disabled {
+    color: rgba(255,255,255,.25);
+}

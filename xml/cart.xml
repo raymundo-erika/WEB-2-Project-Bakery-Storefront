@@ -1,8 +1,7 @@
 <carts>
-    <cart id="" status="">
+    <cart id="" status="" username="">
         <total></total>
         <transaction_date></transaction_date>
-        <!--pwedeng maraming cart items-->
         <cart_item id="">
             <productID></productID>
             <size></size>

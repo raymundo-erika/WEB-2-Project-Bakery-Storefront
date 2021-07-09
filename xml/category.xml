@@ -1,21 +1,21 @@
 <categories>
-    <category id="1">
-        <title>Cake</title>
-        <icon><!--image from ..\images\--></icon>
+    <category id="CAT-1">
+        <title>Cakes</title>
+        <icon>images\cake_icon.png</icon>
     </category>
-    <category id="2">
+    <category id="CAT-2">
+        <title>Cheese cakes</title>
+        <icon>images\cheesecake_icon.png</icon>
+    </category>
+    <category id="CAT-3">
+        <title>Croissants</title>
+        <icon>images\cake_icon.png</icon>
+    </category>
+    <category id="CAT-4">
         <title>Cupcakes</title>
         <icon><!--image--></icon>
     </category>
-    <category id="3">
-        <title>Cheese Cakes</title>
-        <icon><!--image--></icon>
-    </category>
-    <category id="4">
-        <title>Macaroons</title>
-        <icon><!--image--></icon>
-    </category>
-    <category id="5">
+    <category id="CAT-5">
         <title>Donuts</title>
         <icon><!--image--></icon>
     </category>

@@ -1,7 +1,6 @@
 <users>
     <user username="" status="">
-        <firstName></firstName>
-        <lastName></lastName>
+        <fullName></fullName>
         <email></email>
         <birthdate></birthdate>
         <address></address>
