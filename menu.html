@@ -7,10 +7,14 @@
     <title>Patisserie - Cake</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
 </head>
 <body>
-    <nav>
+    <nav>   
         <div id="banner"><button id="nav-create-cake">Create your own cake</button></div>
         <ul class="horizontal">
             <li id="nav-logo"></li>
@@ -39,33 +43,10 @@
             </li>
         </ul>
     </nav>
-
+    
     <div id="menu">
         <h1 class="title">Taste the sweetness</h1>
         <p class="title-sub">Patisserie offers the best cakes and sweets for you.</p>
-
-        <div id="categories">
-            <div id="CAT-1" class="category category-clicked">
-                <div class="image" style="background-image: url('images/category/cake_icon.png')"></div>
-                <p>CAKES</p>
-            </div>
-            <div id="CAT-2" class="category">
-                <div class="image" style="background-image: url('images/category/cupcake_icon.png')"></div>
-                <p>CUPCAKES</p>
-            </div>
-            <div id="CAT-3" class="category">
-                <div class="image" style="background-image: url('images/category/cheesecake_icon.png')"></div>
-                <p>CHEESECAKES</p>
-            </div>
-            <div id="CAT-4" class="category">
-                <div class="image" style="background-image: url('images/category/croissant_icon.png')"></div>
-                <p>CROISSANTS</p>
-            </div>
-            <div id="CAT-5" class="category">
-                <div class="image" style="background-image: url('images/category/donut_icon.png')"></div>
-                <p>DONUTS</p>
-            </div>
-        </div>
 
         <div id="products">
             <div class="product">
@@ -133,8 +114,193 @@
 
         </div>
 
+        <div class="pagination">
+            <a href="#" class="disabled"><i class="fas fa-chevron-left"></i></a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#"><i class="fas fa-chevron-right"></i></a>
+        </div>
+
+    </div>
+    
+    <div class="cart-container">
+        <div class="cart">
+            <div class="cart-header">
+                <i class="icon fas fa-shopping-cart"></i>
+                <label>Cart</label>
+                <span class="icon close">&times;</span>
+            </div>
+    
+            
+            <div class="cart-body">
+                <div class="cart-item">
+                    <div class="icon close">&times;</div>
+                    <div class="cart-item-image-left">
+                        <img src="images/category/cake/PasteldeTresLechesCake.png">
+                    </div>
+                    <div class="cart-item-right">
+    
+                        <div class="cart-item-title">
+                            Cake de la feur
+                        </div>
+                        <div class="cart-item-desc">
+                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                        </div>
+                        <div class="cart-item-qty-price">
+                            <div class="cart-item-qty">
+                                <button>+</button>
+                                <input type="text" value=1 readonly>
+                                <button>-</button>
+                            </div>
+                            <div class="cart-item-price">&#8369;750.00</div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="icon close">&times;</div>
+                    <div class="cart-item-image-left">
+                        <img src="images/category/cake/PasteldeTresLechesCake.png">
+                    </div>
+                    <div class="cart-item-right">
+    
+                        <div class="cart-item-title">
+                            Cake de la feur
+                        </div>
+                        <div class="cart-item-desc">
+                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                        </div>
+                        <div class="cart-item-qty-price">
+                            <div class="cart-item-qty">
+                                <button>+</button>
+                                <input type="text" value=1 readonly>
+                                <button>-</button>
+                            </div>
+                            <div class="cart-item-price">&#8369;750.00</div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="icon close">&times;</div>
+                    <div class="cart-item-image-left">
+                        <img src="images/category/cake/PasteldeTresLechesCake.png">
+                    </div>
+                    <div class="cart-item-right">
+    
+                        <div class="cart-item-title">
+                            Cake de la feur
+                        </div>
+                        <div class="cart-item-desc">
+                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                        </div>
+                        <div class="cart-item-qty-price">
+                            <div class="cart-item-qty">
+                                <button>+</button>
+                                <input type="text" value=1 readonly>
+                                <button>-</button>
+                            </div>
+                            <div class="cart-item-price">&#8369;750.00</div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="icon close">&times;</div>
+                    <div class="cart-item-image-left">
+                        <img src="images/category/cake/PasteldeTresLechesCake.png">
+                    </div>
+                    <div class="cart-item-right">
+    
+                        <div class="cart-item-title">
+                            Cake de la feur
+                        </div>
+                        <div class="cart-item-desc">
+                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                        </div>
+                        <div class="cart-item-qty-price">
+                            <div class="cart-item-qty">
+                                <button>+</button>
+                                <input type="text" value=1 readonly>
+                                <button>-</button>
+                            </div>
+                            <div class="cart-item-price">&#8369;750.00</div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+
+            <div class="cart-footer">
+                <div class="cart-total">Total: <b>&#8369;750.00</b></div>
+                <div class="btn-checkout"><i class="icon fas fa-shopping-cart"></i>Checkout</div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script>
+    <!--chatbox-->
+    <div class="message-container">
+        <div class="message-nav">
+            <div class="message-pic" style="background-image: url(images/users/sample.jpeg)">
+                <span class="message-user-status"></span>
+            </div>
+            <div class="message-title">Sender name</div>
+            <div class="icons">
+                <span class="icon close">−</span>
+                <span class="icon close">&times;</span>
+            </div>
+        </div>
+        <div class="message-content">
+            <div class="message-item sender">
+                <div class="message-item-info">
+                    <div class="message-pic"></div>
+                    <div class="message-details">
+                        <label class="message">Hello!</label>
+                        <label class="sent-date">July 9, 2021 9:31pm</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="message-item receiver">
+                <div class="message-item-info">
+                    <div class="message-details">
+                        <label class="message">Hello!</label>
+                        <label class="sent-date">July 9, 2021 9:31pm</label>
+                    </div>
+                    <div class="message-pic"></div>
+                </div>
+            </div>
+        </div>
+        <div class="message-writer">
+            <textarea placeholder="Write your message..."></textarea>
+            <button>Send<img src="images/icons/send.png"></button>
+        </div>
+    </div>
+    
+    <!--Active users-->
+    <div class="users-container">
+        <div class="header">
+            <div class="active-label">
+                <b>10</b> Active Users
+            </div>
+            <i class="icon fas fa-chevron-up"></i>
+        </div>
+        <ul id="user-lists">
+            <li onclick = 'showChat("")' class='user clearfix'>
+                <div class='user-img' style='background-image: url(images/users/sample.jpeg)'></div>
+                <div class='user-fullname'>erika</div>
+             </li>
+        </ul>
+    </div>
+
+    <script src="fontawesome-free-5.15.3-web/js/all.js"></script>
 </body>
 </html>

@@ -103,3 +103,13 @@
 .pagination .disabled {
     color: rgba(255,255,255,.25);
 }
+
+
+#slideshow {
+    position: absolute;
+    top: 0;
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
