@@ -2,21 +2,26 @@
     <category id="CAT-1">
         <title>Cakes</title>
         <icon>images\cake_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>
     <category id="CAT-2">
         <title>Cheese cakes</title>
         <icon>images\cheesecake_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>        
     </category>
     <category id="CAT-3">
         <title>Croissants</title>
-        <icon>images\cake_icon.png</icon>
+        <icon>images\croissant_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>
     <category id="CAT-4">
         <title>Cupcakes</title>
-        <icon><!--image--></icon>
-    </category>
+        <icon>images\cupcake_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+    </category>cake
     <category id="CAT-5">
         <title>Donuts</title>
-        <icon><!--image--></icon>
+        <icon>images\donut_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>
 </categories>

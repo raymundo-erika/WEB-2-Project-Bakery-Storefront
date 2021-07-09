@@ -1,10 +1,10 @@
 <users>
-    <user username="" status="">
-        <fullName></fullName>
-        <email></email>
-        <birthdate></birthdate>
-        <address></address>
-        <password></password>
+    <user username="erika_raymundo" status="1">
+        <fullName>Erika Raymundo</fullName>
+        <email>raymundo.erika.s.1230@gmail.com</email>
+        <birthdate>03-25-2000</birthdate>
+        <address>#40 Ligas, Malolos, Bulacan</address>
+        <password>1234abcd</password>
         <profilePic></profilePic>
     </user>
 </users>

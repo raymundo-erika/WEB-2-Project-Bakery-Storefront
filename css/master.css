@@ -8,6 +8,7 @@
 
 body {
     background-image: url(../images/graphics/full_bg.png);
+    /* background-color: #0A0A0A; */
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
