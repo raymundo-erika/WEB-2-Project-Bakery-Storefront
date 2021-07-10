@@ -18,8 +18,13 @@ function closeCart() {
 }
 
 function displayActionButtons(element) {
-    $(".product .action-buttons").hide();
+    // $(".product .action-buttons").hide();
     $(element).children(".action-buttons").show();
+}
+
+function hideActionButtons(element) {
+    $(".product .action-buttons").hide();
+    // $(element).children(".action-buttons").show();
 }
 
 function addToCart(productID, size, qty) {
@@ -33,8 +38,7 @@ function addToCart(productID, qty) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
         if(xhr.readyState == 4 && xhr.status == 200) {
-            //display sa cart yung nabili parang resibo style ganern
-            //update yung total
+            alert(xhr.responseText);
         }
     }
 

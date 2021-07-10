@@ -1,12 +1,13 @@
+<?xml version="1.0"?>
 <carts>
     <cart id="" status="" username="">
-        <total></total>
-        <transaction_date></transaction_date>
+        <total/>
+        <transaction_date/>
         <cart_item id="">
-            <productID></productID>
-            <size></size>
-            <qty></qty>
-            <total_item_price></total_item_price>
+            <productID/>
+            <size/>
+            <qty/>
+            <totalPrice/>
         </cart_item>
     </cart>
-</carts>
+<cart id="202107108308" status="0" username="erika_raymundo"><transaction_date>2021-07-10 11:12:10 pm</transaction_date><total>855</total><cart_item id=""><productID>16</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item><cart_item id=""><productID>21</productID><size/><qty>1</qty><totalPrice>135</totalPrice></cart_item><cart_item id=""><productID>20</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item><cart_item id=""><productID>17</productID><size/><qty>1</qty><totalPrice>100</totalPrice></cart_item><cart_item id=""><productID>17</productID><size/><qty>1</qty><totalPrice>100</totalPrice></cart_item><cart_item id=""><productID>17</productID><size/><qty>1</qty><totalPrice>100</totalPrice></cart_item><cart_item id=""><productID>20</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item><cart_item id=""><productID>20</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item></cart></carts>

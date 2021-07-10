@@ -38,14 +38,14 @@ $lastIndex = $startIndex + $items;
 
 for($i = $startIndex; $i < $lastIndex; $i++) {
 
-    $id = $products[$i]->getAttribute("id");
+    $id = $products[$i]->getAttribute("prodID");
     $name = $products[$i]->getElementsByTagName("name")[0]->nodeValue;
     $image = $products[$i]->getElementsByTagName("image")[0]->nodeValue;
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     $unit_price = $products[$i]->getElementsByTagName("unit_price")[0]->nodeValue;
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     
-    echo "<div class='product' id='".$id."' onmouseover='displayActionButtons(this)'>
+    echo "<div class='product' id='".$id."' onmouseover='displayActionButtons(this)' onmouseout='hideActionButtons(this)'>
             <div class='product-img'>
                 <img src=\"" . $image . "\">
             </div>
@@ -60,7 +60,7 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
     } else {
         echo "<div class='price'>&#8369;".$unit_price."</div>";
         echo "<div class='action-buttons'>
-                <button class='btn-addToCart' onclick='openCart()'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
+                <button class='btn-addToCart' onclick='addToCart(".$id.", 1)'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
                 <button class='btn-wishList'><i class='far fa-heart'></i></button>
             </div>";
     }
