@@ -8,10 +8,10 @@
 }
 
 .product {
-    margin: 1% 2%;
+    margin: 0 2%;
     width: 28.5%;
     min-height: 450px;
-    padding: 2% 3%;
+    padding: 1% 3%;
     /* border: 2px solid #DDA74F; */
 }
 
@@ -25,6 +25,7 @@
 }
 
 .product .title {
+    text-align: left;
     font-family: 'El Messiri', sans-serif;
     font-size: 1.5em;
     font-weight: 700;
@@ -34,8 +35,15 @@
 }
 
 .product .desc {
-    font-size: 0.75em;
+    font-size: 0.85em;
     padding: 2% 0;
+    max-height: 4.05em;
+    /* border: 2px solid blue; */
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
 }
 
 .product .price {
@@ -46,7 +54,7 @@
 
 
 .product .action-buttons {
-    
+    display: none;
     margin-top: 15px;
 }
 
@@ -102,14 +110,4 @@
 
 .pagination .disabled {
     color: rgba(255,255,255,.25);
-}
-
-
-#slideshow {
-    position: absolute;
-    top: 0;
-    /* border: 2px solid white; */
-    width: 100%;
-    height: 100vh;
-    z-index: -10;
 }

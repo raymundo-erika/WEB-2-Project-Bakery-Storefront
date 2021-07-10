@@ -24,8 +24,6 @@ foreach($categories as $category) {
         <p>".$title."</p>
         </div>";
     }
-
-
 }
 
 
