@@ -38,7 +38,6 @@ if($lengthOfPages > 1) {
         }
     }
     
-    
     $next = $clicked_page+1;
     $next_status = ($next > $lengthOfPages) ? "disabled" : "";
     echo "<button class='$next_status' onclick='viewPage($next)' $next_status><i class='fas fa-chevron-right'></i>";
