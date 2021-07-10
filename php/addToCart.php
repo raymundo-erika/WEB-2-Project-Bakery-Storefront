@@ -39,8 +39,6 @@
         $cart_total = getCartTotal($cart);
         echo "CARTTOTAL $cart_total";
 
-
-
         #now, let us edit the cart
 
         $newNode = $xml_cart->createElement("cart");
@@ -175,6 +173,10 @@
         }
 
         return $total;
+    }
+
+    function checkForDuplicate($productID) {
+        
     }
 
     // function getTotalPrice($productID, $size, $qty) {
