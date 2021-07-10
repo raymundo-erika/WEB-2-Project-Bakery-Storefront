@@ -57,3 +57,8 @@ button {
   ::-webkit-scrollbar-thumb:hover {
     background: #bbb; 
   }
+
+
+.icon {
+  cursor: pointer;
+}
