@@ -1,27 +1,27 @@
 <categories>
-    <category id="CAT-1">
+    <category id="cake">
         <title>Cakes</title>
-        <icon>images\cake_icon.png</icon>
+        <icon>images/category/cake_icon.png</icon>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>
-    <category id="CAT-2">
+    <category id="cheesecake">
         <title>Cheese cakes</title>
-        <icon>images\cheesecake_icon.png</icon>
+        <icon>images/category/cheesecake_icon.png</icon>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>        
     </category>
-    <category id="CAT-3">
+    <category id="croissant">
         <title>Croissants</title>
-        <icon>images\croissant_icon.png</icon>
+        <icon>images/category/croissant_icon.png</icon>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>
-    <category id="CAT-4">
+    <category id="cupcake">
         <title>Cupcakes</title>
-        <icon>images\cupcake_icon.png</icon>
+        <icon>images/category/cupcake_icon.png</icon>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>cake
-    <category id="CAT-5">
+    <category id="donut">
         <title>Donuts</title>
-        <icon>images\donut_icon.png</icon>
+        <icon>images/category/donut_icon.png</icon>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
     </category>
 </categories>
