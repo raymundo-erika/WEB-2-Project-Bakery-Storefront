@@ -1,8 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <messages>
-    <message datetime="">
-        <sender></sender>
-        <receiver></receiver>
-        <message></message>
-        <!-- <isSeen></isSeen> if kaya lang namern, di naman ata 'to required -->
+    <message>
+        <receiver>erika_raymundo</receiver>
+        <sender>sheen</sender>
+        <msgContent>Hello, Erika!</msgContent>
+        <date>June 20, 2021</date>
+        <time>4:15 pm</time>
     </message>
-</messsages>
+    <message>
+        <receiver>sheen</receiver>
+        <sender>erika_raymundo</sender>
+        <msgContent>Hi, Kenneth! How are you and Revex?</msgContent>
+        <date>June 20, 2021</date>
+        <time>4:16 pm</time>
+    </message>
+</messages>

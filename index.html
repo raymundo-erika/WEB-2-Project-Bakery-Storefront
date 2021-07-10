@@ -85,7 +85,6 @@
 
     <div id="about"></div>
 
-    <!-- <div class="cart-container"> -->
         <div class="cart">
             <div class="cart-header">
                 <i class="icon fas fa-shopping-cart"></i>
@@ -205,18 +204,18 @@
                 <div class="btn-checkout"><i class="icon fas fa-shopping-cart"></i>Checkout</div>
             </div>
         </div>
-    <!-- </div> -->
-    <div class="cart-overlay" onclick="closeCart()"></div>
+        <div class="cart-overlay" onclick="closeCart()"></div>
+    
 
     <!--chatbox-->
     <div class="message-container">
         <div class="message-nav">
-            <div class="message-pic" style="background-image: url(images/users/sample.jpeg)">
+            <div class="message-pic">
                 <span class="message-user-status"></span>
             </div>
             <div class="message-title">Sender name</div>
             <div class="icons">
-                <span class="icon close">−</span>
+                <span class="icon minimize">−</span>
                 <span class="icon close">&times;</span>
             </div>
         </div>
@@ -252,9 +251,9 @@
     <div class="users-container">
         <div class="header">
             <div class="active-label">
-                <b>10</b> Active Users
+                <b> </b> Active Users
             </div>
-            <i class="icon fas fa-chevron-up"></i>
+            <i class="icon fas fa-chevron-up" id="upArrow4Message"></i>
         </div>
         <ul id="user-lists">
             <li onclick = 'showChat("")' class='user clearfix'>
@@ -266,7 +265,7 @@
 
     
     <!-- <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script> -->
-    <script src="fontawesome-free-5.15.3-web/js/all.js"></script>
+    <!-- <script src="fontawesome-free-5.15.3-web/js/all.js"></script> -->
     <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -275,6 +274,7 @@
 
     <script src="js/homepage.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/messageFunctionalities.js"></script>
 
 </body>
 </html>

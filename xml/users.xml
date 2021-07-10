@@ -5,6 +5,14 @@
         <birthdate>03-25-2000</birthdate>
         <address>#40 Ligas, Malolos, Bulacan</address>
         <password>1234abcd</password>
-        <profilePic></profilePic>
+        <profilePic>images/users/girl-try.jpg</profilePic>
+    </user>
+     <user username="sheen" status="1">
+        <fullName>sheen the great</fullName>
+        <email>sheenthegreat0@gmail.com</email>
+        <birthdate>03-25-2000</birthdate>
+        <address>#40 Ligas, Malolos, Bulacan</address>
+        <password>1234abcd</password>
+        <profilePic>images/users/sample.jpeg</profilePic>
     </user>
 </users>
