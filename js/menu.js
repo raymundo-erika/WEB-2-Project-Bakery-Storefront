@@ -1,6 +1,5 @@
 $(document).ready(function(){
     viewPage(1);
-    // displayPagination();
 });
 
 function displayCategories() {

@@ -117,25 +117,49 @@
         return $cartID;
     }
 
-    function getCartSize(cartID) {
+    function getCartSize($cartID) {
 
         $count = 0;
 
         $carts = $GLOBALS['xml']->getElementsByTagName("cart");
         foreach($carts as $cart) {
-            if($cart->getAttribute("id") == cartID) {
+            if($cart->getAttribute("id") == $cartID) {
                 $cart_items = $cart->getElementsByTagName("cart_items");
                 return sizeof($cart_items);
             }
         }
     }
 
-    function getTotalPrice(productID, qty) {
-        $product = 
+    function getTotalPrice($productID, $qty) {
+        $products = $GLOBALS["xml"]->getElementsByTagName("product");
+
+        foreach($products as $product) {
+            if($product->getAttribute("id") == $productID) {
+                
+                $total_price = $product->getElementsByTagName("unit_price")[0] * $qty;
+                return $total_price;
+            }
+        }
+
     }
 
-    function getTotalPrice(productID, size, qty) {
+    function getTotalPrice($productID, $size, $qty) {
+        $products = $GLOBALS["xml"]->getElementsByTagName("product");
 
+        foreach($products as $product) {
+            if($product->getAttribute("id") == $productID) {
+
+                $sizes_prices = $product->getElementsByTagName("size_price");
+                if($sizes_prices!=NULL) {
+                    foreach($sizes_prices as $size_price) {
+                        
+                    }
+                }
+
+                $total_price = $product->getElementsByTagName("unit_price")[0] * $qty;
+                return $total_price;
+            }
+        }
     }
 
 ?>
