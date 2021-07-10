@@ -1,0 +1,27 @@
+<categories>
+    <category id="cake">
+        <title>Cakes</title>
+        <icon>images/category/cake_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+    </category>
+    <category id="cheesecake">
+        <title>Cheese cakes</title>
+        <icon>images/category/cheesecake_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>        
+    </category>
+    <category id="croissant">
+        <title>Croissants</title>
+        <icon>images/category/croissant_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+    </category>
+    <category id="cupcake">
+        <title>Cupcakes</title>
+        <icon>images/category/cupcake_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+    </category>cake
+    <category id="donut">
+        <title>Donuts</title>
+        <icon>images/category/donut_icon.png</icon>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+    </category>
+</categories>

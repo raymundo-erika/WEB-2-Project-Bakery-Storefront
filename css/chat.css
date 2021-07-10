@@ -203,7 +203,6 @@
     width: 15%;
     text-align: right;
     cursor: pointer;
-    /* border: 2px solid blue; */
 }
 
 .users-container .header::before {
