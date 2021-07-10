@@ -45,22 +45,22 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
     $unit_price = $products[$i]->getElementsByTagName("unit_price")[0]->nodeValue;
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     
-    echo "<div class='product' id='".$id."'>
+    echo "<div class='product' id='".$id."' onmouseover='displayActionButtons(this)'>
             <div class='product-img'>
                 <img src=\"" . $image . "\">
             </div>
             <div class='title'>" . $name . "</div>
             <div class='desc'> " . $description . " </div>";
 
-    if ($unit_price != NULL) {
-        echo "<div class='price'>&#8369;".$unit_price."</div>";
+    if ($unit_price == NULL) {
         echo "<div class='action-buttons'>
                 <a href='#'><button class='btn-addToCart'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button></a>
                 <button class='btn-wishList'><i class='far fa-heart'></i></button>
             </div>";
     } else {
+        echo "<div class='price'>&#8369;".$unit_price."</div>";
         echo "<div class='action-buttons'>
-                <button class='btn-addToCart'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
+                <button class='btn-addToCart' onclick='openCart()'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
                 <button class='btn-wishList'><i class='far fa-heart'></i></button>
             </div>";
     }

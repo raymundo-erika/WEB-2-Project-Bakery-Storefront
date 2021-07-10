@@ -8,13 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patisserie - Cake</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/chat.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
+    <link rel="stylesheet" href="css/product.css">
 </head>
 <body>
     <nav>   
@@ -52,68 +52,18 @@
         <p class="title-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</p>
 
         <div id="products">
-            <div class="product">
+            <!-- <div class="product">
                 <div class="product-img">
                     <img src="images/category/cake/UbeCastardCake.png">
                 </div>
                 <div class="title">Ube Castard Cake</div>
                 <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <!-- <div class="price">&#8369;750.00</div> -->
+                <div class="price">&#8369;750.00</div>
                 <div class="action-buttons">
                     <button class="btn-addToCart"><i class="icon fas fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</button>
                     <button class="btn-wishList"><i class="far fa-heart"></i></button>
                 </div>
-            </div>
-
-            <div class="product">
-                <div class="product-img">
-                    <img src="images/category/cake/ChocolateDecadentCake.png">
-                </div>
-                <div class="title">Ube Castard Cake</div>
-                <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <!-- <div class="price">&#8369;750.00</div> -->
-            </div>
-
-            <div class="product">
-                <div class="product-img">
-                    <img src="images/category/cake/LemonMeringueCake.png">
-                </div>
-                <div class="title">Ube Castard Cake</div>
-                <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <!-- <div class="price">&#8369;750.00</div> -->
-            </div>
-
-            
-            <div class="product">
-                <div class="product-img">
-                    <img src="images/category/cake/UbeCastardCake.png">
-                </div>
-                <div class="title">Ube Castard Cake</div>
-                <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <!-- <div class="price">&#8369;750.00</div> -->
-                <div class="action-buttons">
-                    <button class="btn-addToCart"><i class="icon fas fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</button>
-                    <button class="btn-wishList"><i class="far fa-heart"></i></button>
-                </div>
-            </div>
-
-            <div class="product">
-                <div class="product-img">
-                    <img src="images/category/cake/ChocolateDecadentCake.png">
-                </div>
-                <div class="title">Ube Castard Cake</div>
-                <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <!-- <div class="price">&#8369;750.00</div> -->
-            </div>
-
-            <div class="product">
-                <div class="product-img">
-                    <img src="images/category/cake/LemonMeringueCake.png">
-                </div>
-                <div class="title">Ube Castard Cake</div>
-                <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <!-- <div class="price">&#8369;750.00</div> -->
-            </div>
+            </div> -->
 
         </div>
 
@@ -132,7 +82,7 @@
             <div class="cart-header">
                 <i class="icon fas fa-shopping-cart"></i>
                 <label>Cart</label>
-                <span class="icon close">&times;</span>
+                <span class="icon close" onclick="closeCart()">&times;</span>
             </div>
     
             
@@ -247,6 +197,7 @@
                 <div class="btn-checkout"><i class="icon fas fa-shopping-cart"></i>Checkout</div>
             </div>
         </div>
+        <div class="cart-overlay" onclick="closeCart()"></div>
     </div>
 
     <!--chatbox-->
@@ -313,7 +264,8 @@
     crossorigin="anonymous">
     </script>
 
-    <script src="js/menu.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/menu.js"></script>
+    <!-- <script src="js/product.js"></script> -->
 </body>
 </html>
