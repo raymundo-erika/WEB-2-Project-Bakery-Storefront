@@ -23,21 +23,18 @@ foreach($xml->getElementsByTagName("product") as $product) {
 $lengthOfPages = ceil($size/$items);
 
 if($lengthOfPages > 1) {
-    $prevPage = $page-1;
-    echo "<button onclick='viewPage($prevPage)'><i class='fas fa-chevron-left'></i>";
-}
+    echo "<button id='btnPrev' onclick='viewPrevPage(this)'><i class='fas fa-chevron-left'></i>";
+    
+    for($i = 1; $i <= $lengthOfPages; $i++) {
 
-for($i = 1; $i <= $lengthOfPages; $i++) {
-
-    if($i == 1) {
-        echo "<button class='active' onclick='viewPage($i)'>$i</button>";
-    } else {
-        echo "<button onclick='viewPage($i)'>$i</button>";
+        if($i == 1) {
+            echo "<button class='page-active' onclick='viewPage(this)' value=$i>$i</button>";
+        } else {
+            echo "<button onclick='viewPage(this) value=$i'>$i</button>";
+        }
     }
-}
 
-if($lengthOfPages > 1 && $lengthOfPages != $page) {
-    echo "<a href='#'><i class='fas fa-chevron-right'></i></a>";
+        
+    echo "<button id='btnNext' onclick='viewNextPage(this)'><i class='fas fa-chevron-right'></i></a>";
 }
-
 ?>

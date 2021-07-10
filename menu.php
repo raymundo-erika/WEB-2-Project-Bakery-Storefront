@@ -1,3 +1,6 @@
+<?php?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,11 +24,11 @@
             <li class="category">
                 <a href="index.html">Home</a>
             </li>
-            <li class="category"><a href="menu.html?category=cakes">Cakes</a></li>
-            <li class="category"><a href="menu.html?category=cupcakes">Cupcakes</a></li>
-            <li class="category"><a href="menu.html?category=cheesecakes">Cheese cakes</a></li>
-            <li class="category"><a href="menu.html?category=waffles">Waffles</a></li>
-            <li class="category"><a href="menu.html?category=donuts">Donuts</a></li>
+            <li class="category"><a href="menu.php?category=cake">Cakes</a></li>
+            <li class="category"><a href="menu.php?category=cupcake">Cupcakes</a></li>
+            <li class="category"><a href="menu.php?category=cheese_cake">Cheese cakes</a></li>
+            <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
+            <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
             <li>
                 <input type="text" id="nav-search" placeholder="Search" onenter="">
             </li>
@@ -115,11 +118,11 @@
         </div>
 
         <div class="pagination">
-            <a href="#" class="disabled"><i class="fas fa-chevron-left"></i></a>
-            <a class="active" href="#">1</a>
+            <!-- <a href="#" class="disabled"><i class="fas fa-chevron-left"></i></a>
+            <a class="page-active" href="#">1</a>
             <a href="#">2</a>
             <a href="#">3</a>
-            <a href="#"><i class="fas fa-chevron-right"></i></a>
+            <a href="#"><i class="fas fa-chevron-right"></i></a> -->
         </div>
 
     </div>
@@ -311,5 +314,6 @@
     </script>
 
     <script src="js/menu.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>

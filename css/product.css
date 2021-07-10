@@ -89,20 +89,22 @@
     justify-content: flex-end;
 }
 
-.pagination a {
+.pagination button {
     width: 31px;
     height: 31px;
     border-radius: 100px;
     padding: 5px;
     /* background: rgba(255,255,255,.25); */
+    background: none;
     text-align: center;
     text-decoration: none;
-    color: rgba(255,255,255,.75);
+    /* color: #070707; */
+    color: #fff;
     font-weight: 500;
     margin: 0 4px;
 }
 
-.pagination .active {
+.pagination .page-active {
     color: #070707;
     font-weight: 700;
     background: rgba(255,255,255,1);

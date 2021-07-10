@@ -1,10 +1,10 @@
 <?php
 
-// $catID = $_GET["category"];
-// $page = $_GET["page"];
+session_start();
+// $catID = $_SESSION["current_category"];
+$catID = $_GET["category"];
+$page = $_GET["pageNo"];
 
-$catID = "cheese_cake";
-$page = 2;
 $default = 6;
 $items = $default;
 
