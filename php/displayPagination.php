@@ -1,10 +1,9 @@
 <?php
 
-// $catID = $_GET["category"];
-// $page = $_GET["page"];
 
-$catID = "cheese_cake";
-$page = 1;
+$catID = $_GET["category"];
+$current_page = $_GET["current_page"];
+$clicked_page = $_GET["clicked_page"];
 $default = 6;
 $items = $default;
 
@@ -13,7 +12,6 @@ $xml->load("../xml/products.xml");
 
 $size = 0;
 
-#get all the product ID of that category
 foreach($xml->getElementsByTagName("product") as $product) {
     if($product->getAttribute("category") == $catID)
         $size++;
@@ -23,18 +21,26 @@ foreach($xml->getElementsByTagName("product") as $product) {
 $lengthOfPages = ceil($size/$items);
 
 if($lengthOfPages > 1) {
-    echo "<button id='btnPrev' onclick='viewPrevPage(this)'><i class='fas fa-chevron-left'></i>";
+
+
+    $prev = $clicked_page-1;
+    $prev_status = ($prev <= 0) ? "disabled" : "";
+
+    echo "<button class='$prev_status' onclick='viewPage($prev)' $prev_status><i class='fas fa-chevron-left'></i>";
     
+    #pages
     for($i = 1; $i <= $lengthOfPages; $i++) {
 
-        if($i == 1) {
-            echo "<button class='page-active' onclick='viewPage(this)' value=$i>$i</button>";
+        if($i == $clicked_page) {
+            echo "<button class='page-active' onclick='viewPage($i)' value=$i>$i</button>";
         } else {
-            echo "<button onclick='viewPage(this) value=$i'>$i</button>";
+            echo "<button onclick='viewPage($i)' value=$i>$i</button>";
         }
     }
-
-        
-    echo "<button id='btnNext' onclick='viewNextPage(this)'><i class='fas fa-chevron-right'></i></a>";
+    
+    
+    $next = $clicked_page+1;
+    $next_status = ($next > $lengthOfPages) ? "disabled" : "";
+    echo "<button class='$next_status' onclick='viewPage($next)' $next_status><i class='fas fa-chevron-right'></i>";
 }
 ?>
