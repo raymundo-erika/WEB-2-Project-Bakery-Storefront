@@ -9,9 +9,15 @@
     $xml->load("xml/carts.xml");
 
     if(isset($_POST)) {
+        
+
+        $cartID = getCart();
+        $cart_item_id = getCartSize()++;
         $productID = $_POST["productID"];
         $qty = $_POST["qty"];
         $size = $_POST["size"];
+        $total_price = $_POST["size"];
+        
 
         // <cart id="" status="" username="">
         // <total></total>
@@ -23,8 +29,7 @@
         //     <total_item_price></total_item_price>
         // </cart_item>
 
-        $cartID = getCart();
-        $cart_item_id = 
+        $productID 
 
 
         foreach($users as $user) {
@@ -123,6 +128,14 @@
                 return sizeof($cart_items);
             }
         }
+    }
+
+    function getTotalPrice(productID, qty) {
+        $product = 
+    }
+
+    function getTotalPrice(productID, size, qty) {
+
     }
 
 ?>
