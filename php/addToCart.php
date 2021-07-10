@@ -18,23 +18,42 @@
         $totalPrice = 0;
         
 
-        if (isset($_POST["size"])) {
-            // $size = $_POST["size"];
-            // $total_price = getTotalPrice($productID, $size, $qty);
-        } else {
+        // if (isset($_POST["size"])) {
+        //     // $size = $_POST["size"];
+        //     // $total_price = getTotalPrice($productID, $size, $qty);
+        // } else {
             $totalPrice = getTotalPrice($productID, $qty);
             echo "<h1>TOTAL PRICE Is $totalPrice</h1>";
-        }
+        // }
 
-        #append the new item
+
+        #first! CHECK IF THE productID IS already there
+
+
+        $duplicate_item = checkForDuplicate($cart, $productID);
         $cart_item = $xml_cart->createElement("cart_item");
         $cart_item->appendChild($xml_cart->createElement("productID", $productID));
-        $cart_item->appendChild($xml_cart->createElement("size", $size));
-        $cart_item->appendChild($xml_cart->createElement("qty", $qty));
-        $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
 
-        $cart->appendChild($cart_item);
+        if($duplicate_item != NULL) {
+            $size = $duplicate_item->getElementsByTagName("size")[0]->nodeValue;
+            $newQty = $duplicate_item->getElementsByTagName("qty")[0]->nodeValue + $qty;
+            $totalPrice = getTotalPrice($productID, $newQty);
 
+            $cart_item->setAttribute("id", $duplicate_item->getAttribute("id"));
+            $cart_item->appendChild($xml_cart->createElement("size", $size));
+            $cart_item->appendChild($xml_cart->createElement("qty", $newQty));
+            $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
+            
+            $cart->replaceChild($cart_item, $duplicate_item);
+            echo "nagreplace na ako!";
+        } else {
+            $cart_item->setAttribute("id", $cart_item_id);
+            $cart_item->appendChild($xml_cart->createElement("size", $size));
+            $cart_item->appendChild($xml_cart->createElement("qty", $qty));
+            $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
+            $cart->appendChild($cart_item);
+            echo "nag-add lang ako!";
+        }
         
         $cart_total = getCartTotal($cart);
         echo "CARTTOTAL $cart_total";
@@ -66,9 +85,6 @@
 
             $newNode->appendChild($newNodeItem);
         }
-
-        
-       
 
         $currentNode = $cart;
         $xml_cart->getElementsByTagName("carts")[0]->replaceChild($newNode, $currentNode);
@@ -146,8 +162,6 @@
     function getTotalPrice($productID, $qty) {
 
         $xml_prod = new DOMDocument();
-        $xml_prod->load("../xml/carts.xml");
-        
         $xml_prod->load("../xml/products.xml");
         $products = $xml_prod->getElementsByTagName("product");
 
@@ -175,8 +189,16 @@
         return $total;
     }
 
-    function checkForDuplicate($productID) {
-        
+    function checkForDuplicate($cart, $productID) {
+        $cart_items = $cart->getElementsByTagName("cart_item");
+
+        foreach($cart_items as $cart_item) {
+            if($cart_item->getElementsByTagName("productID")[0]->nodeValue == $productID) {
+                return $cart_item;
+            }
+        }
+
+        return NULL;
     }
 
     // function getTotalPrice($productID, $size, $qty) {

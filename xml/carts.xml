@@ -1,13 +1,3 @@
 <?xml version="1.0"?>
 <carts>
-    <cart id="" status="" username="">
-        <total/>
-        <transaction_date/>
-        <cart_item id="">
-            <productID/>
-            <size/>
-            <qty/>
-            <totalPrice/>
-        </cart_item>
-    </cart>
-<cart id="202107108308" status="0" username="erika_raymundo"><transaction_date>2021-07-10 11:12:10 pm</transaction_date><total>855</total><cart_item id=""><productID>16</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item><cart_item id=""><productID>21</productID><size/><qty>1</qty><totalPrice>135</totalPrice></cart_item><cart_item id=""><productID>20</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item><cart_item id=""><productID>17</productID><size/><qty>1</qty><totalPrice>100</totalPrice></cart_item><cart_item id=""><productID>17</productID><size/><qty>1</qty><totalPrice>100</totalPrice></cart_item><cart_item id=""><productID>17</productID><size/><qty>1</qty><totalPrice>100</totalPrice></cart_item><cart_item id=""><productID>20</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item><cart_item id=""><productID>20</productID><size/><qty>1</qty><totalPrice>105</totalPrice></cart_item></cart></carts>
+<cart id="202107115954" status="0" username="erika_raymundo"><transaction_date>2021-07-11 01:27:28 am</transaction_date><total>570</total><cart_item id="1"><productID>17</productID><size/><qty>3</qty><totalPrice>300</totalPrice></cart_item><cart_item id="1"><productID>21</productID><size/><qty>2</qty><totalPrice>270</totalPrice></cart_item></cart></carts>

@@ -84,7 +84,7 @@
     
             
             <div class="cart-body">
-                <div class="cart-item">
+                <!-- <div class="cart-item">
                     <div class="icon close">&times;</div>
                     <div class="cart-item-image-left">
                         <img src="images/category/cake/PasteldeTresLechesCake.png">
@@ -108,84 +108,8 @@
                         </div>
     
                     </div>
-                </div>
+                </div> -->
                 
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
             </div>
     
 
