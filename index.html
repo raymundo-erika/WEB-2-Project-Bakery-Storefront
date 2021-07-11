@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
 </head>
-</head>
 <body>
     <nav>
         <!-- <div id="banner"><button id="nav-create-cake">Create your own cake</button></div> -->
@@ -51,7 +50,58 @@
         </ul>
     </div>
 
-    <div id="slideshow"></div>
+    <div id="slideshow">
+        <div class="radios">
+            <input type="radio" name="r" id = "r1" checked>
+            <input type="radio" name="r" id = "r2">
+            <input type="radio" name="r" id = "r3">
+        </div>
+              <div class="swiper-slide">
+                  <div class = "slide first">
+                    <div class = "title-text">
+                        <h1>Pastel de Tres<br/>Leches</h1>
+                        <p>A moist, rich, triple layer chocolate cake<br/>with a rich melt-in-your-mouth<br/>chocolate buttercream frosting and<br/>cake crumb coating.</p>
+                        <button>Buy Now</button>
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="images/category/cake/cake.png" alt="">
+                    </div>
+                  </div>
+               
+
+                 <div class = "slide second">
+                    <div class = "title-text">
+                        <h1>Pastel de Tres<br/>Leches</h1>
+                        <p>A moist, rich, triple layer chocolate cake<br/>with a rich melt-in-your-mouth<br/>chocolate buttercream frosting and<br/>cake crumb coating.</p>
+                        <button>Buy Now</button>
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="images/category/cake/cake.png" alt="">
+                    </div>
+                  </div>
+
+                <div class = "slide third">
+                    <div class = "title-text">
+                        <h1>Pastel de Tres<br/>Leches</h1>
+                        <p>A moist, rich, triple layer chocolate cake<br/>with a rich melt-in-your-mouth<br/>chocolate buttercream frosting and<br/>cake crumb coating.</p>
+                        <button>Buy Now</button>
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="images/category/cake/cake.png" alt="">
+                    </div>
+                  </div>
+              </div>
+
+              <div class = "slider-pagination">
+                <label for="r1" class = "slide-nav1"></label>
+                <label for="r2" class = "slide-nav2"></label>
+                <label for="r3" class = "slide-nav3"></label>
+              </div>
+                   
+    </div>
 
     <div id="menu">
         <h1 class="title">Taste the sweetness</h1>
@@ -89,7 +139,18 @@
 
     </div>
 
-    <div id="about"></div>
+    <div id="about">
+        <div class="content">
+            <h1>About Patisserie</h1>
+            <div class = image-con>
+                <img src="images/category/cake/cake.png" alt="">
+            </div>
+            <div class="about-text">
+                <p>All of our products are made from our<br/>scratch using family recipes with only<br/>the highest quality ingredients. We<br/>bake and sell fresh daily to ensure<br/>only the best products are sold to<br/>our customers.</p>
+            </div>
+        </div>
+
+    </div>
 
         <div class="cart">
             <div class="cart-header">
@@ -282,6 +343,7 @@
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
+
 
 </body>
 </html>
