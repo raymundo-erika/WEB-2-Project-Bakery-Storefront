@@ -42,19 +42,20 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
     $name = $products[$i]->getElementsByTagName("name")[0]->nodeValue;
     $image = $products[$i]->getElementsByTagName("image")[0]->nodeValue;
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
+    $category = getProductCategoryID($id);
     // $unit_price = $products[$i]->getElementsByTagName("unit_price")[0]->nodeValue;
     $firstSizePrice = getFirstSizePrice($id);
     $firstSizePriceID = $firstSizePrice->getAttribute("id");
 
-    echo "<h1>$firstSizePriceID</h1>"; 
 
     $firstPrice = $firstSizePrice->getElementsByTagName("price")[0]->nodeValue;
+    // echo "<h1>$firstSizePriceID</h1>$firstPrice<br>"; 
 
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     
     echo "<div class='product' id='".$id."' onmouseover='displayActionButtons(this)' onmouseout='hideActionButtons(this)'>
             <div class='product-img'>
-                <img src=\"" . $image . "\">
+                <a href='product.php?category=$category&id=$id'><img src=\"" . $image . "\"></a>
             </div>
             <div class='title'>" . $name . "</div>
             <div class='desc'> " . $description . " </div>";
@@ -75,6 +76,18 @@ function getFirstSizePrice($prodID) {
     foreach($products as $product) {
         if ($product->getAttribute("prodID") == $prodID) {
             return $product->getElementsByTagName("size_price")[0];
+        }
+    }
+}
+
+function getProductCategoryID($productID){
+    $xml_prod = new DOMDocument();
+    $xml_prod->load("../xml/products.xml");
+    $products = $xml_prod->getElementsByTagName("product");
+
+    foreach($products as $product) {
+        if($product->getAttribute("prodID") == $productID) {
+            return $product->getAttribute("category");
         }
     }
 }

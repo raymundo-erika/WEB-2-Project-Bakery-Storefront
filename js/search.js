@@ -23,3 +23,7 @@ function search(toBeSearch) {
     }
    
 }
+
+function openItemDisplay(prodID,categoryId){
+    window.location.href = "product.php?id="+prodID+"&category="+categoryId;
+}

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/product.css">
 </head>
 <body>
-    <nav>   
+<nav>
         <!-- <div id="banner"><button id="nav-create-cake">Create your own cake</button></div> -->
         <ul class="horizontal">
             <a href="index.html"><li id="nav-logo"></li></a>
@@ -27,12 +27,12 @@
             <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
             <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
             <li>
-                <input type="text" id="nav-search" placeholder="Search" onenter="">
+                <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
-            <li><i class="icon far fa-heart"></i></li>
+            <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
                 <span>10</span>
-                <i class="icon fas fa-shopping-cart"></i>
+                <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>   
             </li>
             <li>
                 <i class="icon far fa-user-circle"></i>
@@ -135,5 +135,7 @@
     <script src="js/cart.js"></script>
     <script src="js/menu.js"></script>
     <!-- <script src="js/product.js"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </body>
 </html>

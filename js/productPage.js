@@ -4,6 +4,11 @@ $(document).ready(function(){
     getProductDescription();
     getProductCategory();
     getProductSize();
+    // var firstSize = getFirstSize();
+    // console.log("first size" + firstSize);
+    getFirstSize();
+    // checkAvailability(firstSize);
+
 });
 
 
@@ -72,4 +77,172 @@ function getProductSize() {
     var productID = location.search.split('id=')[1];
     xhr.open("GET", "php/getProductSize.php?productID="+productID, true);
     xhr.send();
+}
+
+function checkProductStocks(size, qty) {
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+
+            var title = "Patisserie's Sweet Reminder";
+            console.log()
+
+            switch(xhr.responseText) {
+                case "empty":
+                    swal(title, "This product has no stocks, please try other sizes.");
+                    return false;
+
+                case "exceeded":
+                    swal(title, "You can only avail for up to 10 quantity.");
+                    return false;
+                
+                case "ok":
+                    console.log("success!");
+                    return true;
+
+                default: 
+                    swal(title, "This product has only (" + xhr.responseText + ") items.");
+                    return false;
+            }
+
+        }
+    }
+
+    var productID = location.search.split('id=')[1];
+    xhr.open("GET", "php/checkProductStocks.php?productID="+productID+"&size="+size+"&qty="+qty, true);
+    xhr.send();
+}
+
+function checkAvailability(size) {
+    $("#qtyInput").val(1);
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if(xhr.readyState == 4 && xhr.status == 200) {
+
+            console.log("size >>>" + xhr.responseText);
+            if(xhr.responseText == 0) {
+                $("#productQtyPrice").hide();
+                $("#productActionButtons").hide();
+                $("#notAvailable").show();
+            } else {
+
+                $("#productQtyPrice").show();
+                $("#productActionButtons").show();
+                $("#notAvailable").hide();
+                getProductItemTotal(size, 1);
+                // $("#productActionButtons").html("Not available");
+            }
+
+        }
+    }
+
+    var productID = location.search.split('id=')[1];
+
+    console.log("productID" + productID);
+    console.log("size" + size);
+
+    xhr.open("POST", "php/checkAvailability.php", true);
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.send("productID="+productID+"&size="+size);
+}
+
+function getFirstSize() {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if(xhr.readyState == 4 && xhr.status == 200) {
+            checkAvailability(xhr.responseText);
+            getProductItemTotal(xhr.responseText, 1);
+        }
+    }
+
+    var productID = location.search.split('id=')[1];
+
+    xhr.open("GET", "php/getFirstSize.php?productID="+productID, true);
+    xhr.send();
+}
+
+function changeQty(operation) {
+
+    var currentQtyValue = $("#qtyInput").val();
+
+    if (operation == 0) {
+        currentQtyValue++;
+    } else {
+        currentQtyValue--;
+    }
+
+
+    // currentQtyValue = (operation == 0) ? currentQtyValue++ : currentQtyValue--;
+    console.log("current qty value = " + currentQtyValue);
+
+    var size = $('input[name="size_price"]:checked').val();
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+
+            var title = "Patisserie's Sweet Reminder";
+            console.log()
+
+            switch(xhr.responseText) {
+                case "empty":
+                    swal(title, "This product has no stocks, please try other sizes.");
+                    return false;
+
+                case "exceeded":
+                    swal(title, "You can only avail for up to 10 quantity.");
+                    return false;
+
+                case "invalid":
+                    swal(title, "Please avail atleast one.");
+                    return false;
+                
+                case "ok":
+                    console.log("success!");
+                    $("#qtyInput").val(currentQtyValue);
+                    getProductItemTotal(size, currentQtyValue);
+                   
+                    return true;
+
+                default: 
+                    swal(title, "This product has only (" + xhr.responseText + ") items.");
+                    return false;
+            }
+
+        }
+    }
+
+    var productID = location.search.split('id=')[1];
+    xhr.open("GET", "php/checkProductStocks.php?productID="+productID+"&size="+size+"&qty="+currentQtyValue, true);
+    xhr.send();
+}
+
+
+function getProductItemTotal(size, qty) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if(xhr.readyState == 4 && xhr.status == 200) {
+            $("#productTotalAmount").html(xhr.responseText);
+        }
+    }
+
+
+    console.log("huy2");
+    var productID = location.search.split('id=')[1];
+
+    xhr.open("GET", "php/getProductItemTotal.php?productID="+productID+"&size="+size+"&qty="+qty, true);
+    xhr.send();
+}
+
+function buttonAddToCartOnClick() {
+
+    console.log("YOWWAAGAGA2");
+    var productID = location.search.split('id=')[1];
+    var size = $('input[name="size_price"]:checked').val();
+    var qty = $("#qtyInput").val();
+
+    addToCart(productID, size, qty);
+
+    console.log("YOWWAAGAGA");
 }

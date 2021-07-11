@@ -218,3 +218,7 @@ p {
     /* height: 100vh; */
     background: #DDA74F;
 }
+
+#notAvailable {
+    display: none;
+}
