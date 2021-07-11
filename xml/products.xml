@@ -363,123 +363,123 @@
     </product>
 
 <!--Cheese Cakes-->
-    <product prodID="16" category="cheese_cake"> 
+    <product prodID="16" category="cheese cake"> 
         <name>Apple Cheesecake</name>
         <description>
         An apple a day keeps the doctor away! A mix of health and happiness in one cake. This cake is the perfect combination of your favorite creamy and rich cheesecake paired with a nice refreshing crunch from the apples.
         </description>
         <stocks>100</stocks>
         <unit_price>105</unit_price>
-        <image>images/category/cheese_cake/AppleCheesecake.png</image>
+        <image>images/category/cheese cake/AppleCheesecake.png</image>
     </product>
 
-    <product prodID="17" category="cheese_cake"> 
+    <product prodID="17" category="cheese cake"> 
         <name>Basque Cheesecake</name>
         <description>
         This cheesecake has a beautiful, dark exterior full of bittersweet notes that make the light, creamy cheesecake interior seem even more rich and flavorful.
         </description>
         <unit_price>100</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/BasqueCheesecake.png</image>
+        <image>images/category/cheese cake/BasqueCheesecake.png</image>
     </product>
 
-    <product prodID="18" category="cheese_cake"> 
+    <product prodID="18" category="cheese cake"> 
         <name>Basque Ube Cheesecake</name>
         <description>
         Get a burst of fresh blueberries with our Blueberry Cheesecake! With fluffy vanilla cheesecake, graham crust, and blueberry compote topping, it's a classic combination that you'll definitely enjoy.
         </description>
         <unit_price>100</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/BasqueUbeCheesecake.png</image>
+        <image>images/category/cheese cake/BasqueUbeCheesecake.png</image>
     </product>
 
-    <product prodID="19" category="cheese_cake"> 
+    <product prodID="19" category="cheese cake"> 
         <name>Blueberry Cheesecake</name>
         <description>
         This velvety and smooth, sweet and tangy cheesecake topped with blueberry filling.
         </description>
         <unit_price>105</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/BlueberryCheesecake.png</image>
+        <image>images/category/cheese cake/BlueberryCheesecake.png</image>
     </product>
 
-    <product prodID="20" category="cheese_cake"> 
+    <product prodID="20" category="cheese cake"> 
         <name>Caramel Cheesecake</name>
         <description>
         This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The caramel sauce topping gives it just the right amount of creamy, sugary flavors.
         </description>
         <unit_price>105</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/CaramelCheesecake.png</image>
+        <image>images/category/cheese cake/CaramelCheesecake.png</image>
     </product>
 
-    <product prodID="21" category="cheese_cake"> 
+    <product prodID="21" category="cheese cake"> 
         <name>Chocolate Cheesecake</name>
         <description>
         This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The batter and the whipped cream toppings are mixed with pure dark cocoa to give it just the perfect dash of bittersweet and chocolatey goodness.
         </description>
         <unit_price>135</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/ChocolateCheesecake.png</image>
+        <image>images/category/cheese cake/ChocolateCheesecake.png</image>
     </product>
 
-    <product prodID="22" category="cheese_cake"> 
+    <product prodID="22" category="cheese cake"> 
         <name>Classic New York Cheesecake</name>
         <description>
         Satisfy your sweet tooth craving with this all-time classic. With fluffy vanilla cheesecake on top of a graham crust, it is made complete with a thin sour cream layer for a bite you're maybe familiar with but will fall for all over again.
         </description>
         <unit_price>145</unit_price>
-        <image>images/category/cheese_cake/ClassicNewYorkCheesecake.png</image>
+        <image>images/category/cheese cake/ClassicNewYorkCheesecake.png</image>
     </product>
 
-    <product prodID="23" category="cheese_cake"> 
+    <product prodID="23" category="cheese cake"> 
         <name>Coffee Cheesecake</name>
         <description>
         This cheesecake has been baked at moderate temperature, with a water bath, to make it rich, dense and creamy. The batter and the whipped cream toppings are mixed with coffee powder for an amazing coffee aroma.
         </description>
         <unit_price>105</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/CoffeeCheesecake.png</image>
+        <image>images/category/cheese cake/CoffeeCheesecake.png</image>
     </product>
 
-    <product prodID="24" category="cheese_cake"> 
+    <product prodID="24" category="cheese cake"> 
         <name>Dulce de Leche Cheesecake</name>
         <description>
         Have a slice of this fluffy vanilla cheesecake, made complete with graham crust and sweet dulce de leche fudge on top for a sweet treat no one can resist!
         </description>
         <unit_price>125</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/DulcedeLeche Cheesecake.png</image>
+        <image>images/category/cheese cake/DulcedeLeche Cheesecake.png</image>
     </product>
 
-    <product prodID="25" category="cheese_cake"> 
+    <product prodID="25" category="cheese cake"> 
         <name>Matcha Cheesecake</name>
         <description>
         This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The batter and the whipped cream toppings are mixed with creamy matcha to give it just the perfect dash of green tea taste.
         </description>
         <unit_price>135</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/MatchaCheesecake.png</image>
+        <image>images/category/cheese cake/MatchaCheesecake.png</image>
     </product>
 
-    <product prodID="26" category="cheese_cake"> 
+    <product prodID="26" category="cheese cake"> 
         <name>Oreo Cheesecake</name>
         <description>
         This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The layer of whipped cream topped with crushed Oreo cookies is definitely a hit for those cookies and cream fans.
         </description>
         <unit_price>145</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/OreoCheesecake.png</image>
+        <image>images/category/cheese cake/OreoCheesecake.png</image>
     </product>
 
-    <product prodID="27" category="cheese_cake"> 
+    <product prodID="27" category="cheese cake"> 
         <name>Strawberry Cheesecake</name>
         <description>
         This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The strawberry sauce topping gives it just the right amount of tart and sweet flavors.
         </description>
         <unit_price>145</unit_price>
         <stocks>100</stocks>
-        <image>images/category/cheese_cake/StrawberryCheesecake.png</image>
+        <image>images/category/cheese cake/StrawberryCheesecake.png</image>
     </product>
 
 <!--Cupcakes-->

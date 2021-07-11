@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
 </head>
 </head>
@@ -28,7 +29,7 @@
             <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
             <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
             <li>
-                <input type="text" id="nav-search" placeholder="Search" onenter="">
+                <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
             <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
@@ -44,6 +45,11 @@
             </li>
         </ul>
     </nav>
+    <div class="searchSuggestionContainer">
+        <ul id="suggestionList">
+            
+        </ul>
+    </div>
 
     <div id="slideshow"></div>
 
@@ -275,6 +281,7 @@
     <script src="js/homepage.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
+    <script src="js/search.js"></script>
 
 </body>
 </html>
