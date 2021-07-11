@@ -24,6 +24,7 @@
     height: 50px;
     position: relative;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .searchSuggestionContainer img{

@@ -13,13 +13,13 @@
          $prodName = $product->getElementsByTagName("name")[0]->nodeValue;
          $prodNameCaps = strtoupper($prodName);
          $prodNameSplit = explode(' ',$prodNameCaps);
-         $category = strtoupper($product->getAttribute("category"));
+         $category = $product->getAttribute("category");$categoryCaps = strtoupper($category);
         //  for($i = 0; $i<count($prodNameSplit))
         foreach($prodNameSplit as $partOfTheName){
-            if(strpos($partOfTheName,$toBeSearchCaps)===0||strpos($category,$toBeSearchCaps)===0){
+            if(strpos($partOfTheName,$toBeSearchCaps)===0||strpos($categoryCaps,$toBeSearchCaps)===0){
                 $prodImg = $product->getElementsByTagName("image")[0]->nodeValue;
                 $prodId = $product->getAttribute("prodID");
-                echo "<li onclick=openItemDisplay('$prodId')><img src='$prodImg'><span>$prodName</span></li>";
+                echo "<li onclick=openItemDisplay('$prodId'".","."'$category')><img src='$prodImg'><span>$prodName</span></li>";
                 $openSuggestion =1;
                 break; //lagay lang to
             }
