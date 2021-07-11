@@ -21,6 +21,7 @@
                 $prodId = $product->getAttribute("prodID");
                 echo "<li onclick=openItemDisplay('$prodId')><img src='$prodImg'><span>$prodName</span></li>";
                 $openSuggestion =1;
+                break; //lagay lang to
             }
         }
      }
