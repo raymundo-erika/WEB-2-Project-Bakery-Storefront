@@ -48,6 +48,14 @@
     -webkit-box-orient: vertical;  
 }
 
+.price label {
+    margin-top: 5px;
+    color: #bbb;
+    font-size: .65em;
+    display: block;
+    font-weight: 400;
+}
+
 .product .price {
     font-size: 1.125em;
     font-weight: 700;

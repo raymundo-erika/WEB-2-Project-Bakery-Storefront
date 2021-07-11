@@ -32,11 +32,12 @@ function hideActionButtons(element) {
     // $(element).children(".action-buttons").show();
 }
 
-function addToCart(productID, size, qty) {
-    openCart();
-}
+// function addToCart(productID, size, qty) {
+//     openCart();
+// }
 
-function addToCart(productID, qty) {
+function addToCart(productID, sizeID, qty) {
+    alert("hello!");
     openCart();
     //add to cart
 
@@ -49,7 +50,7 @@ function addToCart(productID, qty) {
 
     xhr.open("POST", "php/addToCart.php", true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send("productID="+productID+"&qty="+qty);
+    xhr.send("productID="+productID+"&size="+sizeID+"&qty="+qty);
 }
 
 function loadCart() {

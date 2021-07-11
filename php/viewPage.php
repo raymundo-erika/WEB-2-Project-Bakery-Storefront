@@ -42,7 +42,14 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
     $name = $products[$i]->getElementsByTagName("name")[0]->nodeValue;
     $image = $products[$i]->getElementsByTagName("image")[0]->nodeValue;
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
-    $unit_price = $products[$i]->getElementsByTagName("unit_price")[0]->nodeValue;
+    // $unit_price = $products[$i]->getElementsByTagName("unit_price")[0]->nodeValue;
+    $firstSizePrice = getFirstSizePrice($id);
+    $firstSizePriceID = $firstSizePrice->getAttribute("id");
+
+    echo "<h1>$firstSizePriceID</h1>"; 
+
+    $firstPrice = $firstSizePrice->getElementsByTagName("price")[0]->nodeValue;
+
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     
     echo "<div class='product' id='".$id."' onmouseover='displayActionButtons(this)' onmouseout='hideActionButtons(this)'>
@@ -51,23 +58,25 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
             </div>
             <div class='title'>" . $name . "</div>
             <div class='desc'> " . $description . " </div>";
-
-    if ($unit_price == NULL) {
-        echo "<div class='action-buttons'>
-                <a href='#'><button class='btn-addToCart'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button></a>
-                <button class='btn-wishList'><i class='far fa-heart'></i></button>
-            </div>";
-    } else {
-        echo "<div class='price'>&#8369;".$unit_price."</div>";
-        echo "<div class='action-buttons'>
-                <button class='btn-addToCart' onclick='addToCart(".$id.", 1)'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
-                <button class='btn-wishList'><i class='far fa-heart'></i></button>
-            </div>";
-    }
-    
+        
+    echo "<div class='price'>
+            <label>Price starts</label>&#8369;".number_format((float)$firstPrice, 2, '.', '')."</div>";
+    echo "<div class='action-buttons'>
+            <button class='btn-addToCart' onclick='addToCart(".$id.", \"".$firstSizePriceID."\", 1)'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
+            <button class='btn-wishList'><i class='far fa-heart'></i></button>
+        </div>";
     echo "</div>";
 }
 
+function getFirstSizePrice($prodID) {
 
+    $products = $GLOBALS['xml']->getElementsByTagName("product");
+
+    foreach($products as $product) {
+        if ($product->getAttribute("prodID") == $prodID) {
+            return $product->getElementsByTagName("size_price")[0];
+        }
+    }
+}
 
 ?>

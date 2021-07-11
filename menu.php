@@ -55,7 +55,10 @@
                 </div>
                 <div class="title">Ube Castard Cake</div>
                 <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
-                <div class="price">&#8369;750.00</div>
+                <div class="price">
+                    <label>Price starts</label>
+                    &#8369;750.00
+                </div>
                 <div class="action-buttons">
                     <button class="btn-addToCart"><i class="icon fas fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</button>
                     <button class="btn-wishList"><i class="far fa-heart"></i></button>
@@ -120,62 +123,6 @@
         </div>
         <div class="cart-overlay" onclick="closeCart()"></div>
     </div>
-
-    <!--chatbox-->
-    <div class="message-container">
-        <div class="message-nav">
-            <div class="message-pic" style="background-image: url(images/users/sample.jpeg)">
-                <span class="message-user-status"></span>
-            </div>
-            <div class="message-title">Sender name</div>
-            <div class="icons">
-                <span class="icon close">−</span>
-                <span class="icon close">&times;</span>
-            </div>
-        </div>
-        <div class="message-content">
-            <div class="message-item sender">
-                <div class="message-item-info">
-                    <div class="message-pic"></div>
-                    <div class="message-details">
-                        <label class="message">Hello!</label>
-                        <label class="sent-date">July 9, 2021 9:31pm</label>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="message-item receiver">
-                <div class="message-item-info">
-                    <div class="message-details">
-                        <label class="message">Hello!</label>
-                        <label class="sent-date">July 9, 2021 9:31pm</label>
-                    </div>
-                    <div class="message-pic"></div>
-                </div>
-            </div>
-        </div>
-        <div class="message-writer">
-            <textarea placeholder="Write your message..."></textarea>
-            <button>Send<img src="images/icons/send.png"></button>
-        </div>
-    </div>
-    
-    <!--Active users-->
-    <div class="users-container">
-        <div class="header">
-            <div class="active-label">
-                <b>10</b> Active Users
-            </div>
-            <i class="icon fas fa-chevron-up"></i>
-        </div>
-        <ul id="user-lists">
-            <li onclick = 'showChat("")' class='user clearfix'>
-                <div class='user-img' style='background-image: url(images/users/sample.jpeg)'></div>
-                <div class='user-fullname'>erika</div>
-             </li>
-        </ul>
-    </div>
-
 
    <!-- <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script> -->
     <script src="fontawesome-free-5.15.3-web/js/all.js"></script>
