@@ -1,300 +1,69 @@
-<?xml version="1.0"?> 
+<?xml version="1.0"?>
 <products>
 
 <!--Cakes--> 
-    <product prodID="1" category="cake"> 
-        <name>Blackout Cake</name>
-        <description>
+    <product prodID="1" category="cake"><name>Blackout Cake</name><description>
         A moist, rich, triple layer chocolate cake with a rich melt-in-your-mouth chocolate buttercream frosting and cake crumb coating.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/BlackoutCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>0</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>0</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>46</stocks></size_price></sizes_prices><image>images/category/cake/BlackoutCake.png</image></product>
 
-    <product prodID="2" category="cake"> 
-        <name>Mango Crème Cake</name>
-        <description>
+    <product prodID="2" category="cake"><name>Mango Cr&#xE8;me Cake</name><description>
         Simple vanilla cake with mango compote layers covered in light whipped cream and fresh mangoes.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/MangoCremeCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>0</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>0</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>0</stocks></size_price></sizes_prices><image>images/category/cake/MangoCremeCake.png</image></product>
 
-    <product prodID="3" category="cake"> 
-        <name>Caramel Cake</name>
-        <description>
+    <product prodID="3" category="cake"><name>Caramel Cake</name><description>
         A fluffy, vanilla cake layered with caramel fudge, coated with a creamy caramel buttercream frosting.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/CaramelCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>97</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>98</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>98</stocks></size_price></sizes_prices><image>images/category/cake/CaramelCake.png</image></product>
 
-    <product prodID="4" category="cake"> 
-        <name>Carrot Cake</name>
-        <description>
+    <product prodID="4" category="cake"><name>Carrot Cake</name><description>
         An old-fashioned moist and tender carrot cake that is perfectly spiced with layers of cream cheese frosting coated with homemade streusels and ground walnuts. A must have!
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/CarrotCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>0</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>0</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>0</stocks></size_price></sizes_prices><image>images/category/cake/CarrotCake.png</image></product>
 
-    <product prodID="5" category="cake"> 
-        <name>Chocolate Decadent Cake</name>
-        <description>
+    <product prodID="5" category="cake"><name>Chocolate Decadent Cake</name><description>
         A super moist chocolate cake filled and coated with a rich, dark chococolate ganache.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/ChocolateDecadentCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>53</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>53</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>53</stocks></size_price></sizes_prices><image>images/category/cake/ChocolateDecadentCake.png</image></product>
 
-    <product prodID="6" category="cake"> 
-        <name>Coffee Cashew Cake</name>
-        <description>
+    <product prodID="6" category="cake"><name>Coffee Cashew Cake</name><description>
         Love coffee? Have a bite of this rich, triple-layer mocha cake for a treat that'll go well with your cuppa. With chocolate ganache, coffee buttercream frosting, and crushed cashew nuts as coating, it's a slice any coffee aficionado will devour!
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/CoffeeCashewCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>72</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>72</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>72</stocks></size_price></sizes_prices><image>images/category/cake/CoffeeCashewCake.png</image></product>
 
-    <product prodID="7" category="cake"> 
-        <name>Lemon Meringue Cake</name>
-        <description>
+    <product prodID="7" category="cake"><name>Lemon Meringue Cake</name><description>
         A light sponge cake fiulled with lemon curd, covered in a toasted cloud-like, fluffy italian meringue frosting.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/LemonMeringueCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>99</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>99</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>99</stocks></size_price></sizes_prices><image>images/category/cake/LemonMeringueCake.png</image></product>
 
-    <product prodID="8" category="cake"> 
-        <name>Pastel de Tres Leches Cake</name>
-        <description>
+    <product prodID="8" category="cake"><name>Pastel de Tres Leches Cake</name><description>
         Get this crowd-pleaser for your next party and watch it be a hit! Made of vanilla sponge cake soaked in three kinds of milk and caramel, it is made even better with its chantilly cream coating and strawberry buts topping, for a taste you can never say no to!
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/PasteldeTresLechesCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>100</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>100</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>100</stocks></size_price></sizes_prices><image>images/category/cake/PasteldeTresLechesCake.png</image></product>
 
-    <product prodID="9" category="cake"> 
-        <name>Red Velvet Cake</name>
-        <description>
+    <product prodID="9" category="cake"><name>Red Velvet Cake</name><description>
         A moist, buttery and slightly chocolately spong cake covered in smooth cream cheese frosting, coated with red cake crumbs.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/RedVelvetCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>100</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>100</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>100</stocks></size_price></sizes_prices><image>images/category/cake/RedVelvetCake.png</image></product>
 
-    <product prodID="10" category="cake"> 
-        <name>Rocky Road Cake</name>
-        <description>
+    <product prodID="10" category="cake"><name>Rocky Road Cake</name><description>
         A rich and moist chocolate cake loaded with marshmallows, nuts and creamy chocolate ganache.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/RedVelvetCake.png</image>
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>90</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>100</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>100</stocks></size_price></sizes_prices><image>images/category/cake/RedVelvetCake.png</image></product>
 
-    <product prodID="11" category="cake"> 
-        <name>Strawberry Chantilly Cake</name>
-        <description>
-        A light strawberry sponge cake filled with strawberry compôte, coated with chantilly cream and topped with fresh strawberries.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>16” x 24” x 2”</size>
-                <price>612</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>18” x 24” x 3”</size>
-                <price>725</price> 
-                <stocks>100</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>18” x 26” x 2”</size>
-                <price>880</price> 
-                <stocks>100</stocks>
-            </size_price>
-        </sizes_prices>
-        <image>images/category/cake/StrawberryChantillyCake.png</image>
-    </product>
+    <product prodID="11" category="cake"><name>Strawberry Chantilly Cake</name><description>
+        A light strawberry sponge cake filled with strawberry comp&#xF4;te, coated with chantilly cream and topped with fresh strawberries.
+        </description><sizes_prices><size_price id="s1"><size>16&#x201D; x 24&#x201D; x 2&#x201D;</size><price>612</price><stocks>94</stocks></size_price><size_price id="s2"><size>18&#x201D; x 24&#x201D; x 3&#x201D;</size><price>725</price><stocks>100</stocks></size_price><size_price id="s3"><size>18&#x201D; x 26&#x201D; x 2&#x201D;</size><price>880</price><stocks>100</stocks></size_price></sizes_prices><image>images/category/cake/StrawberryChantillyCake.png</image></product>
 
     <product prodID="12" category="cake"> 
-        <name>Strawberry Crème Cake</name>
+        <name>Strawberry Cr&#xE8;me Cake</name>
         <description>
-        A buttery, strawberry sponge cake filled with strawberry compôte, coated with rich, strawberry cream.
+        A buttery, strawberry sponge cake filled with strawberry comp&#xF4;te, coated with rich, strawberry cream.
         </description>
         <sizes_prices>
             <size_price id="s1">
-                <size>16” x 24” x 2”</size>
+                <size>16&#x201D; x 24&#x201D; x 2&#x201D;</size>
                 <price>612</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s2">
-                <size>18” x 24” x 3”</size>
+                <size>18&#x201D; x 24&#x201D; x 3&#x201D;</size>
                 <price>725</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s3">
-                <size>18” x 26” x 2”</size>
+                <size>18&#x201D; x 26&#x201D; x 2&#x201D;</size>
                 <price>880</price> 
                 <stocks>100</stocks>
             </size_price>
@@ -309,17 +78,17 @@
         </description>
         <sizes_prices>
             <size_price id="s1">
-                <size>16” x 24” x 2”</size>
+                <size>16&#x201D; x 24&#x201D; x 2&#x201D;</size>
                 <price>612</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s2">
-                <size>18” x 24” x 3”</size>
+                <size>18&#x201D; x 24&#x201D; x 3&#x201D;</size>
                 <price>725</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s3">
-                <size>18” x 26” x 2”</size>
+                <size>18&#x201D; x 26&#x201D; x 2&#x201D;</size>
                 <price>880</price> 
                 <stocks>100</stocks>
             </size_price>
@@ -334,17 +103,17 @@
         </description>
         <sizes_prices>
             <size_price id="s1">
-                <size>16” x 24” x 2”</size>
+                <size>16&#x201D; x 24&#x201D; x 2&#x201D;</size>
                 <price>612</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s2">
-                <size>18” x 24” x 3”</size>
+                <size>18&#x201D; x 24&#x201D; x 3&#x201D;</size>
                 <price>725</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s3">
-                <size>18” x 26” x 2”</size>
+                <size>18&#x201D; x 26&#x201D; x 2&#x201D;</size>
                 <price>880</price> 
                 <stocks>100</stocks>
             </size_price>
@@ -359,17 +128,17 @@
         </description>
         <sizes_prices>
             <size_price id="s1">
-                <size>16” x 24” x 2”</size>
+                <size>16&#x201D; x 24&#x201D; x 2&#x201D;</size>
                 <price>612</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s2">
-                <size>18” x 24” x 3”</size>
+                <size>18&#x201D; x 24&#x201D; x 3&#x201D;</size>
                 <price>725</price> 
                 <stocks>100</stocks>
             </size_price>
             <size_price id="s3">
-                <size>18” x 26” x 2”</size>
+                <size>18&#x201D; x 26&#x201D; x 2&#x201D;</size>
                 <price>880</price> 
                 <stocks>100</stocks>
             </size_price>
@@ -377,4 +146,5 @@
         <image>images/category/cake/VanillaCelebrationCake.png</image>
     </product>
 
+    
 </products>

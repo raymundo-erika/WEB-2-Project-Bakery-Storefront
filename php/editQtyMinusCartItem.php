@@ -10,75 +10,37 @@
 
     if(isset($_POST)) {
         $cart = getCart();
-        $cart_item_id = getCartSize($cart->getAttribute("id")) + 1;
-
-        $productID = $_POST["productID"];
+        $cart_item_id = $_POST["cartItemID"];
         $qty = $_POST["qty"];
-        $size = $_POST["size"];
         $totalPrice = 0;
 
+        $cart_item = getCartItem($cart, $cart_item_id);
+        $productID = $cart_item->getElementsByTagName("productID")[0]->nodeValue;
+        $size = $cart_item->getElementsByTagName("size")[0]->nodeValue;
 
         #foremost, CHECK IF there is still stocks
-        $currentStocks = getStocks($productID, $size, $qty);
-
-        if($qty > 10) {
-            echo 1;
-            exit();
-        } else if ($currentStocks <=0) {
-            echo 2;   
-        }else {
-            #first! CHECK IF THE productID IS already there
-            $duplicate_item = checkForDuplicate($cart, $productID);
-            $cart_item = $xml_cart->createElement("cart_item");
-            $cart_item->appendChild($xml_cart->createElement("productID", $productID));
-
-            if($duplicate_item != NULL) {
-                $size = $duplicate_item->getElementsByTagName("size")[0]->nodeValue;
-                $newQty = $duplicate_item->getElementsByTagName("qty")[0]->nodeValue + $qty;
+        $currentStocks = getStocks($productID, $size);
 
 
-                $currentStocks = getStocks($productID, $size, $qty);
+            $new_cart_item = $xml_cart->createElement("cart_item");
+            $new_cart_item->setAttribute("id", $cart_item_id);
+            $new_cart_item->appendChild($xml_cart->createElement("productID", $productID));
 
-                if($newQty>10) {    
-                    echo 1;
-                    exit();
-                } else {
-                    if ($qty > $currentStocks) {
-                        echo $currentStocks;
-                        exit();
-                    } else {
-                        $totalPrice = getTotalPrice($productID, $size, $newQty);
+            $size = $cart_item->getElementsByTagName("size")[0]->nodeValue;
+            $newQty = $cart_item->getElementsByTagName("qty")[0]->nodeValue - $qty;
 
-                        $cart_item->setAttribute("id", $duplicate_item->getAttribute("id"));
-                        $cart_item->appendChild($xml_cart->createElement("size", $size));
-                        $cart_item->appendChild($xml_cart->createElement("qty", $newQty));
-                        $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
-                        
-                        $cart->replaceChild($cart_item, $duplicate_item);
-                        // echo "nagreplace na ako!";
-                    }
-                }
-
+            if($newQty <=0) {
+                echo 1;
+                exit();
             } else {
+    
+            $totalPrice = getTotalPrice($productID, $size, $newQty);
 
-                if ($qty > $currentStocks) {
-                    echo $currentStocks;
-                    exit();
-                } else {
-
-                    $totalPrice = getTotalPrice($productID, $size, $qty);
-
-                    $cart_item->setAttribute("id", $cart_item_id);
-                    $cart_item->appendChild($xml_cart->createElement("size", $size));
-                    $cart_item->appendChild($xml_cart->createElement("qty", $qty));
-                    $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
-                    $cart->appendChild($cart_item);
-                    // echo "nag-add lang ako!";
-
-
-                }
-
-            }
+            $new_cart_item->appendChild($xml_cart->createElement("size", $size));
+            $new_cart_item->appendChild($xml_cart->createElement("qty", $newQty));
+            $new_cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
+                        
+            $cart->replaceChild($new_cart_item, $cart_item);
             
             $cart_total = getCartTotal($cart);
             // echo "CARTTOTAL $cart_total";
@@ -116,38 +78,21 @@
 
             $xml_cart->save("../xml/carts.xml");
 
-            modifyStocks($productID, $size, $qty, 0);
+            modifyStocks($productID, $size, $qty, 1);
 
             echo 0;
         }
-
-
-
     }
 
-    function generateCartID() {
-		$carts = $GLOBALS['xml_cart']->getElementsByTagName("cart");
-		$cartIDs = [];
+    function getCartItem($cart, $cartItemID) {
+        $cartItems = $cart->getElementsByTagName("cart_item");
 
-        $chars = "0123456789";
-        $size = 4;
-        $cartID = date("Ymd");
-
-		foreach($carts as $cart) {
-			array_push($cartIDs, $cart->getAttribute("id"));
-		}
-
-        while(true) {
-            for($i = 0; $i < $size; $i++) {
-                $cartID .= $chars[rand(0, strlen($chars)-1)];
-            }
-
-            if(!in_array($cartID, $cartIDs))  {
-                return $cartID;
+        foreach($cartItems as $cartItem) {
+            if($cartItem->getAttribute("id") == $cartItemID) {
+                return $cartItem;
             }
         }
     }
-
 
     function getCart() {
         $carts = $GLOBALS['xml_cart']->getElementsByTagName("cart");
@@ -174,19 +119,6 @@
         $GLOBALS['xml_cart']->save("../xml/carts.xml");
 
         return $newNode;
-    }
-
-    function getCartSize($cartID) {
-
-        $count = 0;
-
-        $carts = $GLOBALS['xml_cart']->getElementsByTagName("cart");
-        foreach($carts as $cart) {
-            if($cart->getAttribute("id") == $cartID) {
-                $cart_items = $cart->getElementsByTagName("cart_item");
-                return sizeof($cart_items);
-            }
-        }
     }
 
     function getTotalPrice($productID, $sizeID, $qty) {
@@ -227,19 +159,7 @@
         return $total;
     }
 
-    function checkForDuplicate($cart, $productID) {
-        $cart_items = $cart->getElementsByTagName("cart_item");
-
-        foreach($cart_items as $cart_item) {
-            if($cart_item->getElementsByTagName("productID")[0]->nodeValue == $productID) {
-                return $cart_item;
-            }
-        }
-
-        return NULL;
-    }
-
-    function getStocks($productID, $size, $qty) {
+    function getStocks($productID, $size) {
 
         $xml_prod = new DOMDocument();
         $xml_prod->load("../xml/products.xml");
@@ -322,26 +242,5 @@
             }
         }
     }
-
-    // function getTotalPrice($productID, $size, $qty) {
-    //     $products = $GLOBALS['xml_cart']->getElementsByTagName("product");
-
-    //     foreach($products as $product) {
-    //         if($product->getAttribute("id") == $productID) {
-
-    //             $sizes_prices = $product->getElementsByTagName("size_price");
-    //             if($sizes_prices!=NULL) {
-    //                 foreach($sizes_prices as $size_price) {
-    //                     if($size_price->getElementsByTagName("size")[0]->nodeValue == $size) {
-    //                         return $size_price->getElementsByTagName("price")[0]->nodeValue * $qty;
-    //                     }
-    //                 }
-    //             }
-
-    //             $total_price = $product->getElementsByTagName("unit_price")[0]->nodeValue * $qty;
-    //             return $total_price;
-    //         }
-    //     }
-    // }
 
 ?>

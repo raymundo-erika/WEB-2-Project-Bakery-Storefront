@@ -26,8 +26,8 @@ foreach($products as $product) {
                 $status = "checked";
             }
 
-            echo "<label class='container' id='s1'><b>&#8369;".number_format((float)$price, 2, '.', '')."</b> - $size
-                    <input type='radio' $status name='size_price'>
+            echo "<label class='container'><b>&#8369;".number_format((float)$price, 2, '.', '')."</b> - $size
+                    <input type='radio' $status name='size_price' value=\"$size_price_id\" onclick='checkAvailability(\"$size_price_id\")'>
                     <span class='checkmark'></span>
                 </label>";
         }
