@@ -10,15 +10,16 @@ function registerUser() {
 
     
 
-    if (un == "" || pass == "" || email == "" || fullname == "" || address == "" || birthdate == ""||!validcap()) {
-        if(!validcap()){
-            swal("Incorrect captcha.", "Please try again.", "info");
-        }else{
-            swal("Please fill up all the fields.", "Provide your valid information.", "info");
-        }
+    if (un == "" || pass == "" || email == "" || fullname == "" || address == "" || birthdate == "") {
+        
+    swal("Please fill up all the fields.", "Provide your valid information.", "info");
+        
         
 
-    } else {
+    } else if(!validcap()){
+        swal("Incorrect captcha.", "Please try again.", "info");
+
+    }else{
         xhr = new XMLHttpRequest();
 
         xhr.onreadystatechange = () => {
