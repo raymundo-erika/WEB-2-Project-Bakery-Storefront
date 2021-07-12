@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +15,14 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
 </head>
+
 <body>
     <nav>
         <!-- <div id="banner"><button id="nav-create-cake">Create your own cake</button></div> -->
         <ul class="horizontal">
-            <a href="index.html"><li id="nav-logo"></li></a>
+            <a href="index.html">
+                <li id="nav-logo"></li>
+            </a>
             <li class="category">
                 <a href="index.html">Home</a>
             </li>
@@ -33,7 +37,7 @@
             <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
                 <span>10</span>
-                <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>   
+                <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>
             </li>
             <li>
                 <i class="icon far fa-user-circle"></i>
@@ -46,64 +50,91 @@
     </nav>
     <div class="searchSuggestionContainer">
         <ul id="suggestionList">
-            
+
         </ul>
     </div>
 
     <div id="slideshow">
         <div class="radios">
-            <input type="radio" name="r" id = "r1" checked>
-            <input type="radio" name="r" id = "r2">
-            <input type="radio" name="r" id = "r3">
+            <input type="radio" name="r" id="r1">
+            <input type="radio" name="r" id="r2" checked>
+            <input type="radio" name="r" id="r3">
         </div>
-              <div class="swiper-slide">
-                  <div class = "slide first">
-                    <div class = "title-text">
-                        <h1>Pastel de Tres<br/>Leches</h1>
-                        <p>A moist, rich, triple layer chocolate cake<br/>with a rich melt-in-your-mouth<br/>chocolate buttercream frosting and<br/>cake crumb coating.</p>
-                        <button>Buy Now</button>
-                    </div>
-            
-                    <div class="image-container">
-                        <img src="images/category/cake/cake.png" alt="">
-                    </div>
-                  </div>
-                  </div>
-               
-                  <div class="swiper-slide">
-                 <div class = "slide second">
-                    <div class = "title-text">
-                        <h1>Pastel de Tres<br/>Leches</h1>
-                        <p>A moist, rich, triple layer chocolate cake<br/>with a rich melt-in-your-mouth<br/>chocolate buttercream frosting and<br/>cake crumb coating.</p>
-                        <button>Buy Now</button>
-                    </div>
-            
-                    <div class="image-container">
-                        <img src="images/category/cake/cake.png" alt="">
-                    </div>
-                  </div>
-                  </div>
+        <div class="swiper-slide">
+            <div class="slide first">
+                <div class="title-text">
+                    <h1>Pastel de Tres<br />Leches</h1>
+                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
+                        buttercream frosting and<br />cake crumb coating.</p>
+                    <button>Buy Now</button>
+                </div>
 
-                  <div class="swiper-slide">
-                <div class = "slide third">
-                    <div class = "title-text">
-                        <h1>Pastel de Tres<br/>Leches</h1>
-                        <p>A moist, rich, triple layer chocolate cake<br/>with a rich melt-in-your-mouth<br/>chocolate buttercream frosting and<br/>cake crumb coating.</p>
-                        <button>Buy Now</button>
-                    </div>
-            
-                    <div class="image-container">
-                        <img src="images/category/cake/cake.png" alt="">
-                    </div>
-                  </div>
-              </div>
+                <div class="image-container">
+                    <img src="images/category/cake/cake.png" alt="">
+                </div>
+            </div>
+            <div class="slide second">
+                <div class="title-text">
+                    <h1>Pastel de Tres<br />Leches</h1>
+                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
+                        buttercream frosting and<br />cake crumb coating.</p>
+                    <button>Buy Now</button>
+                </div>
 
-              <div class = "slider-pagination">
-                <label for="r1" class = "slide-nav1"></label>
-                <label for="r2" class = "slide-nav2"></label>
-                <label for="r3" class = "slide-nav3"></label>
-              </div>
-                   
+                <div class="image-container">
+                    <img src="images/category/cake/cake.png" alt="">
+                </div>
+            </div>
+            <div class="slide third">
+                <div class="title-text">
+                    <h1>Pastel de Tres<br />Leches</h1>
+                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
+                        buttercream frosting and<br />cake crumb coating.</p>
+                    <button>Buy Now</button>
+                </div>
+
+                <div class="image-container">
+                    <img src="images/category/cake/cake.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="swiper-slide">
+            <div class="slide second">
+                <div class="title-text">
+                    <h1>Pastel de 1313131Tres<br />Leches</h1>
+                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
+                        buttercream frosting and<br />cake crumb coating.</p>
+                    <button>Buy Now</button>
+                </div>
+
+                <div class="image-container">
+                    <img src="images/category/cake/cake.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide third">
+                <div class="title-text">
+                    <h1>Pastel de Tres<br />Leches</h1>
+                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
+                        buttercream frosting and<br />cake crumb coating.</p>
+                    <button>Buy Now</button>
+                </div>
+
+                <div class="image-container">
+                    <img src="images/category/cake/cake.png" alt="">
+                </div>
+            </div>
+        </div> -->
+
+        <div class="slider-pagination">
+            <label for="r1" class="slide-nav1"></label>
+            <label for="r2" class="slide-nav2"></label>
+            <label for="r3" class="slide-nav3"></label>
+        </div>
+
     </div>
 
     <div id="menu">
@@ -125,157 +156,159 @@
                 <div class="title">Ube Castard Cake</div>
                 <div class="desc">Red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing</div>
                 <!-- <div class="price">&#8369;750.00</div> -->
-                <div class="action-buttons">
-                    <button class="btn-addToCart"><i class="icon fas fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</button>
-                    <button class="btn-wishList"><i class="far fa-heart"></i></button>
-                </div>
-            </div> -->
-        </div>
+            <div class="action-buttons">
+                <button class="btn-addToCart"><i class="icon fas fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</button>
+                <button class="btn-wishList"><i class="far fa-heart"></i></button>
+            </div>
+        </div> -->
+    </div>
 
-        <div class="pagination">
-            <a href="#" class="disabled"><i class="fas fa-chevron-left"></i></a>
-            <a class="active" href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#"><i class="fas fa-chevron-right"></i></a>
-        </div>
+    <div class="pagination">
+        <a href="#" class="disabled"><i class="fas fa-chevron-left"></i></a>
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#"><i class="fas fa-chevron-right"></i></a>
+    </div>
 
     </div>
 
     <div id="about">
         <div class="content">
             <h1>About Patisserie</h1>
-            <div class = image-con>
+            <div class=image-con>
                 <img src="images/category/cake/cake.png" alt="">
             </div>
             <div class="about-text">
-                <p>All of our products are made from our<br/>scratch using family recipes with only<br/>the highest quality ingredients. We<br/>bake and sell fresh daily to ensure<br/>only the best products are sold to<br/>our customers.</p>
+                <p>All of our products are made from our<br />scratch using family recipes with only<br />the highest
+                    quality ingredients. We<br />bake and sell fresh daily to ensure<br />only the best products are
+                    sold to<br />our customers.</p>
             </div>
         </div>
 
     </div>
 
-        <div class="cart">
-            <div class="cart-header">
-                <i class="icon fas fa-shopping-cart"></i>
-                <label>Cart</label>
-                <span class="icon close" onclick="closeCart()">&times;</span>
-            </div>
-    
-            
-            <div class="cart-body">
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                <div class="cart-item">
-                    <div class="icon close">&times;</div>
-                    <div class="cart-item-image-left">
-                        <img src="images/category/cake/PasteldeTresLechesCake.png">
-                    </div>
-                    <div class="cart-item-right">
-    
-                        <div class="cart-item-title">
-                            Cake de la feur
-                        </div>
-                        <div class="cart-item-desc">
-                            Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
-                        </div>
-                        <div class="cart-item-qty-price">
-                            <div class="cart-item-qty">
-                                <button>+</button>
-                                <input type="text" value=1 readonly>
-                                <button>-</button>
-                            </div>
-                            <div class="cart-item-price">&#8369;750.00</div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-    
+    <div class="cart">
+        <div class="cart-header">
+            <i class="icon fas fa-shopping-cart"></i>
+            <label>Cart</label>
+            <span class="icon close" onclick="closeCart()">&times;</span>
+        </div>
 
-            <div class="cart-footer">
-                <div class="cart-total">Total: <b>&#8369;750.00</b></div>
-                <div class="btn-checkout"><i class="icon fas fa-shopping-cart"></i>Checkout</div>
+
+        <div class="cart-body">
+            <div class="cart-item">
+                <div class="icon close">&times;</div>
+                <div class="cart-item-image-left">
+                    <img src="images/category/cake/PasteldeTresLechesCake.png">
+                </div>
+                <div class="cart-item-right">
+
+                    <div class="cart-item-title">
+                        Cake de la feur
+                    </div>
+                    <div class="cart-item-desc">
+                        Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                    </div>
+                    <div class="cart-item-qty-price">
+                        <div class="cart-item-qty">
+                            <button>+</button>
+                            <input type="text" value=1 readonly>
+                            <button>-</button>
+                        </div>
+                        <div class="cart-item-price">&#8369;750.00</div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="icon close">&times;</div>
+                <div class="cart-item-image-left">
+                    <img src="images/category/cake/PasteldeTresLechesCake.png">
+                </div>
+                <div class="cart-item-right">
+
+                    <div class="cart-item-title">
+                        Cake de la feur
+                    </div>
+                    <div class="cart-item-desc">
+                        Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                    </div>
+                    <div class="cart-item-qty-price">
+                        <div class="cart-item-qty">
+                            <button>+</button>
+                            <input type="text" value=1 readonly>
+                            <button>-</button>
+                        </div>
+                        <div class="cart-item-price">&#8369;750.00</div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="icon close">&times;</div>
+                <div class="cart-item-image-left">
+                    <img src="images/category/cake/PasteldeTresLechesCake.png">
+                </div>
+                <div class="cart-item-right">
+
+                    <div class="cart-item-title">
+                        Cake de la feur
+                    </div>
+                    <div class="cart-item-desc">
+                        Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                    </div>
+                    <div class="cart-item-qty-price">
+                        <div class="cart-item-qty">
+                            <button>+</button>
+                            <input type="text" value=1 readonly>
+                            <button>-</button>
+                        </div>
+                        <div class="cart-item-price">&#8369;750.00</div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="icon close">&times;</div>
+                <div class="cart-item-image-left">
+                    <img src="images/category/cake/PasteldeTresLechesCake.png">
+                </div>
+                <div class="cart-item-right">
+
+                    <div class="cart-item-title">
+                        Cake de la feur
+                    </div>
+                    <div class="cart-item-desc">
+                        Size: <b>16" x 12"</b> Price: <b>&#8369;750.00</b>
+                    </div>
+                    <div class="cart-item-qty-price">
+                        <div class="cart-item-qty">
+                            <button>+</button>
+                            <input type="text" value=1 readonly>
+                            <button>-</button>
+                        </div>
+                        <div class="cart-item-price">&#8369;750.00</div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="cart-overlay" onclick="closeCart()"></div>
-    
+
+
+        <div class="cart-footer">
+            <div class="cart-total">Total: <b>&#8369;750.00</b></div>
+            <div class="btn-checkout"><i class="icon fas fa-shopping-cart"></i>Checkout</div>
+        </div>
+    </div>
+    <div class="cart-overlay" onclick="closeCart()"></div>
+
 
     <!--chatbox-->
     <div class="message-container">
@@ -299,7 +332,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="message-item receiver">
                 <div class="message-item-info">
                     <div class="message-details">
@@ -316,7 +349,7 @@
         </div>
     </div>
 
-    
+
     <!--Active users-->
     <div class="users-container">
         <div class="header">
@@ -326,14 +359,14 @@
             <i class="icon fas fa-chevron-up" id="upArrow4Message"></i>
         </div>
         <ul id="user-lists">
-            <li onclick = 'showChat("")' class='user clearfix'>
+            <li onclick='showChat("")' class='user clearfix'>
                 <div class='user-img' style='background-image: url(images/users/sample.jpeg)'></div>
                 <div class='user-fullname'>erika</div>
-             </li>
+            </li>
         </ul>
     </div>
 
-    
+
     <!-- <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script> -->
     <!-- <script src="fontawesome-free-5.15.3-web/js/all.js"></script> -->
     <!-- <script
@@ -342,7 +375,7 @@
     crossorigin="anonymous">
     </script> -->
 
-<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/homepage.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
@@ -350,4 +383,5 @@
 
 
 </body>
+
 </html>
