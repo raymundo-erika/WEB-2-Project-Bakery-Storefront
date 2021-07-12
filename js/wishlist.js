@@ -17,11 +17,14 @@ function addToWishlist(productID, sizeID) {
 
                 case "duplicated":
                     swal(title, "Already added on wishlist!");
-                    console.log("56 from add to cart");
                     break;
 
                 case "ok":
-                    console.log("successfully added sa wishlist");
+                    swal({
+                        title: "Wish successfully added!",
+                        text: "Treat yourself and do not forget to buy it!",
+                        icon: "success",
+                      });
                     break;
 
                 default:

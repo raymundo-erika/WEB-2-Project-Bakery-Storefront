@@ -24,12 +24,28 @@ nav .horizontal li {
     position: relative;
 }
 
+.category-container {
+    min-width: 500px;
+    /* border: 2px solid blue; */
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    float: left;
+    margin-left: 1.25% !important;
+    margin-right: 1.25% !important;
+}
+
 
 nav .category a {
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     color: #DDA74F;
     text-decoration: none;
+    
 }
 
 nav .category:after {    
@@ -49,6 +65,12 @@ nav .category:hover:after {
     width: 100%; 
     left: 0; 
 }
+
+.category-container {
+    /* display: flex; */
+}
+
+
   
 nav .icon {
     color: #DDA74F;

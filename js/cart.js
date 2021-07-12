@@ -1,5 +1,6 @@
 $("document").ready(function(){
     loadCart();
+    getCartItemsNo();
 
     $(".btn-checkout").css("cursor", "pointer").click(function (e) { 
         e.preventDefault();
@@ -29,63 +30,48 @@ function closeCart() {
 }
 
 function displayActionButtons(element) {
-    // $(".product .action-buttons").hide();
     $(element).children(".action-buttons").show();
 }
 
 function hideActionButtons(element) {
     $(".product .action-buttons").hide();
-    // $(element).children(".action-buttons").show();
 }
 
 function addToCart(productID, sizeID, qty) {
-    // alert("hello!");
-    // openCart();
-    //add to cart
 
-    console.log("from add to cart");
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
         if(xhr.readyState == 4 && xhr.status == 200) {
-            // alert();
 
-            console.log("1111111from add to cart");
             var title = "Patisserie's Sweet Reminder";
-            var alert = "";            
+            var message = "";            
 
             switch(xhr.responseText) {
 
                 case "0":
+                    getCartItemsNo();
                     loadCart();
                     openCart();
-                    console.log("56 from add to cart");
                     break;
 
                 case "1":
-                    alert="You can only buy 10 of that item with that particular size for your cart.";
-                    swal(title, alert);
-                    console.log("55from add to cart");
+                    message="You can only buy 10 of that item with that particular size for your cart.";
+                    swal(title, message);
                     break;
 
                 case "2":
-                    alert = "This product has no stocks left, why don't you try other our other products?";
-                    swal(title, alert);
-                    console.log("44from add to cart");
+                    message = "This product has no stocks left, why don't you try other our other products?";
+                    swal(title, message);
                     break;
 
                     
                 default:
-                    alert="There are only ("+xhr.responseText+") stocks left for that product size.";
-                    swal(title, alert);
-                    console.log("33from add to cart");
+                    message="There are only ("+xhr.responseText+") stocks left for that product size.";
+                    swal(title, message);
                     break;
 
             }
-
-            console.log("2222222222222from add to cart");
-
-            // loadCart();
         }
     }
 
@@ -122,14 +108,11 @@ function displayTotal() {
 }
 
 function deleteCartItem(cartItemID) {
-
-    // alert("woyo>>>!  " + cartItemID);
-
     var xhr1 = new XMLHttpRequest();
     xhr1.onreadystatechange = () => {
         if(xhr1.readyState == 4 && xhr1.status == 200) {
-            // alert("woyo2!"  + xhr1.responseText);
             loadCart();
+            getCartItemsNo();
         }
     }
 
@@ -140,23 +123,18 @@ function deleteCartItem(cartItemID) {
 
 function editQtyAddCartItem(cartItemID, qty) {
 
-    // alert("hi!");
-
     var xhr1 = new XMLHttpRequest();
     xhr1.onreadystatechange = () => {
         if(xhr1.readyState == 4 && xhr1.status == 200) {
 
             var title = "Patisserie's Sweet Reminder";
             var message = "";            
-            // alert("my alert= "+xhr1.responseText);
-            // alert("he!"+xhr1.responseText);
-
-            // alert("loool " + xhr1.responseText);
 
             switch(xhr1.responseText) {
 
                 case "0":
                     loadCart();
+                    getCartItemsNo();
                     break;
 
                 case "1":
@@ -182,7 +160,6 @@ function editQtyAddCartItem(cartItemID, qty) {
         }
     }
  
-    // alert("yow!");
     xhr1.open("POST", "php/editQtyAddCartItem.php", true);
     xhr1.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr1.send("cartItemID="+cartItemID+"&qty="+qty);
@@ -196,16 +173,13 @@ function editQtyMinusCartItem(cartItemID, qty) {
 
             var title = "Patisserie's Sweet Reminder";
             var message = "";
-
-            // alert("alert for minus is " + xhr1.responseText);
         
             var title = "Patisserie's Sweet Reminder";
             var message = "";            
             switch(xhr1.responseText) {
                 case "0":
-                    // message="success";
-                    // swal(title, message);
                     loadCart();
+                    getCartItemsNo();
                     break;
 
                 case "1":
@@ -217,8 +191,20 @@ function editQtyMinusCartItem(cartItemID, qty) {
         }
     }
  
-    // alert("yow!");
     xhr1.open("POST", "php/editQtyMinusCartItem.php", true);
     xhr1.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr1.send("cartItemID="+cartItemID+"&qty="+qty);
+}
+
+function getCartItemsNo() {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            console.log("hello!");
+            $("#cartItems").html(xhr.responseText)
+        }
+    }
+
+    xhr.open("GET", "php/getCartItemsNo.php", true);
+    xhr.send(); 
 }

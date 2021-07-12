@@ -10,7 +10,7 @@ foreach($categories as $category) {
     $id = $category->getAttribute("id");
     $title = $category->getElementsByTagName("title")[0]->nodeValue;
 
-    echo 
+    echo "<li class='category'><a href='menu.html?category=$id'>$title</a></li>";
 }
 
 
