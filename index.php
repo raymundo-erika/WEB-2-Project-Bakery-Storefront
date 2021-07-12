@@ -311,10 +311,6 @@
             <i class="icon fas fa-chevron-up" id="upArrow4Message"></i>
         </div>
         <ul id="user-lists">
-            <li onclick='showChat("")' class='user clearfix'>
-                <div class='user-img' style='background-image: url(images/users/sample.jpeg)'></div>
-                <div class='user-fullname'>erika</div>
-            </li>
         </ul>
     </div>
 
