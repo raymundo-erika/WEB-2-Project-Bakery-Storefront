@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <users>
     <user username="erika_raymundo" status="1"><fullName>Erika Raymundo</fullName><email>raymundo.erika.s.1230@gmail.com</email><birthdate>03-25-2000</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234abcd</password><profilePic>images/users/girl-try.jpg</profilePic></user>
-     <user username="sheen" status="1"><fullName>sheen the great</fullName><email>sheenthegreat0@gmail.com</email><birthdate>03-25-2000</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234abcd</password><profilePic>images/users/sample.jpeg</profilePic></user>
-</users>
+     <user username="sheen" status="0"><fullName>sheen the great</fullName><email>sheenthegreat0@gmail.com</email><birthdate>03-25-2000</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234abcd</password><profilePic>images/users/sample.jpeg</profilePic></user>
+<user username="sisiglog" status="0"><fullName>sheensheen</fullName><email>sheensheen@gmail.com</email><birthdate>0023-03-31</birthdate><address>asdasdasd</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user><user username="sisiglogg" status="0"><fullName>sheen jester</fullName><email>tiu@gmail.com</email><birthdate>0123-03-12</birthdate><address>address</address><password>123123</password><profilePic>images/users/sample.jpeg</profilePic></user></users>

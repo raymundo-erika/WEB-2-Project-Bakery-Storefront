@@ -16,6 +16,10 @@ if ($_SESSION['verifier'] == "verified") {
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 </head>
 
 <body>
@@ -59,7 +63,12 @@ if ($_SESSION['verifier'] == "verified") {
                         <input type="date" id="reg-bday" class="input-box1" placeholder="Birthdate" required>
                         <input type="text" id="reg-un" class="input-box1" placeholder="Username" required>
                         <input type="password" id="reg-pass" class="input-box1" placeholder="Password" required>
-
+                        <div class="contain">
+                            <input type="text" id="capt" readonly="readonly" >
+                            <div id="refresh"> <img src="images/icons/refresh.png" width="50px" onload="cap()" onclick="cap()"></div>
+                    
+                            <input type="text" id="textinput" placeholder="enter..">
+                        </div>
                         <!--add one here for captcha-->
 
                         <!-- <input type="password" id="password-input" class="input-box1" placeholder="Password" required> -->
@@ -103,9 +112,8 @@ if ($_SESSION['verifier'] == "verified") {
         }
     </script>
 
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="text/javascript" src="js/register.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
+   
+    
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <?php 
 
-
-    $username = "erika_raymundo"; // kunin sa session
+    session_start();
+    $username = $_SESSION["username"]; // kunin sa session
     $xml = new DOMDocument();
     $xml->load("../xml/users.xml");
     

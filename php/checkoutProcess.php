@@ -1,5 +1,6 @@
 <?php 
-    $username = "erika_raymundo";// coconnect sa session
+      session_start();
+      $username = $_SESSION["username"]; // kunin sa session
 
     $xml = new DOMDocument();
     $xml->load("../xml/carts.xml");
