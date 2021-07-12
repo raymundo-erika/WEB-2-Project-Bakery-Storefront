@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <users>
-    <user username="erika_raymundo" status="1">
+    <!-- <user username="erika_raymundo" status="1">
         <fullName>Erika Raymundo</fullName>
         <email>raymundo.erika.s.1230@gmail.com</email>
         <birthdate>03-25-2000</birthdate>
@@ -14,5 +15,5 @@
         <address>#40 Ligas, Malolos, Bulacan</address>
         <password>1234abcd</password>
         <profilePic>images/users/sample.jpeg</profilePic>
-    </user>
-</users>
+    </user> -->
+<user username="erikasong" status="1"><fullName>Erika Simbulan Raymundo</fullName><email>raymundo.erika.s.1230@gmail.com</email><birthdate>2021-07-14</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user><user username="erikasong" status="0"><fullName>Erika Simbulan Raymundo</fullName><email>raymundo.erika.s.1230@gmail.com</email><birthdate>2021-07-20</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user><user username="erikasong" status="0"><fullName>Erika Simbulan Raymundo</fullName><email>raymundo.erika.s.1230@gmail.com</email><birthdate>2021-07-13</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user><user username="erikasong" status="0"><fullName>Erika Simbulan Raymundo</fullName><email>raymundo.erika.s.1230@gmail.com</email><birthdate>2021-08-03</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user></users>

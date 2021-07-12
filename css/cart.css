@@ -20,7 +20,7 @@
 }
 
 .cart {
-    z-index: 100;
+    z-index: 200;
     position: fixed;
     top: 0;
     right: -400px;

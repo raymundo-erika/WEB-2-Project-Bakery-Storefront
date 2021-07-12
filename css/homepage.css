@@ -149,7 +149,6 @@ body {
     transition: 0.5s;
     position: absolute;
     display: flex;
-    /* z-index: -1; */
 }
 .slide{
     /* margin-left: -100%; */
