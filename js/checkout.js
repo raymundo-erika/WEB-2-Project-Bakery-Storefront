@@ -58,7 +58,7 @@ function checkoutNow(){
         xhr.onreadystatechange = () => {
             if (xhr.readyState == 4 && xhr.status == 200) {
                 swal("Success!","Thank you for buying! You will be redirected to the homepage","success").then((value) => {
-                    window.location.href="index.html";
+                    window.location.href="index.php";
                   });
                
             }

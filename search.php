@@ -102,6 +102,7 @@
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
     <script src="js/searchPage.js"></script>
+    <script src="js/nav.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
