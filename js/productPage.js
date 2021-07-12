@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("body").fadeIn();
     getProductImage();
     getProductName();
     getProductDescription();
@@ -123,13 +124,12 @@ function checkAvailability(size) {
             console.log("size >>>" + xhr.responseText);
             if(xhr.responseText == 0) {
                 $("#productQtyPrice").hide();
-                $("#productActionButtons").hide();
-                $("#notAvailable").show();
+                $("#btnAddToCart").hide();
+                // $("#notAvailable").show();
             } else {
 
                 $("#productQtyPrice").show();
-                $("#productActionButtons").show();
-                $("#notAvailable").hide();
+                $("#btnAddToCart").show();
                 getProductItemTotal(size, 1);
                 // $("#productActionButtons").html("Not available");
             }
@@ -235,14 +235,17 @@ function getProductItemTotal(size, qty) {
     xhr.send();
 }
 
-function buttonAddToCartOnClick() {
-
-    console.log("YOWWAAGAGA2");
+function eventAddToCartOnClick() {
     var productID = location.search.split('id=')[1];
     var size = $('input[name="size_price"]:checked').val();
     var qty = $("#qtyInput").val();
 
     addToCart(productID, size, qty);
+}
 
-    console.log("YOWWAAGAGA");
+function eventAddToWishlistOnClick() {
+    var productID = location.search.split('id=')[1];
+    var size = $('input[name="size_price"]:checked').val();
+
+    addToWishlist(productID, size);
 }

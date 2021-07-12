@@ -126,14 +126,17 @@
 
    <!-- <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script> -->
     <script src="fontawesome-free-5.15.3-web/js/all.js"></script>
-    <script
+    <!-- <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous">
-    </script>
+    </script> -->
 
+<script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/pagination.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/wishlist.js"></script>
     <!-- <script src="js/product.js"></script> -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

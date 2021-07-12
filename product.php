@@ -137,21 +137,23 @@
     </div>
     
     <div class="product-action-buttons" id="productActionButtons">
-            <button class='btn-addToCart' onclick='buttonAddToCartOnClick()'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
-            <button class='btn-wishList'><i class='far fa-heart'></i>&nbsp;&nbsp;Add to wishlist</button>
+            <button id="btnAddToCart" class='btn-addToCart' onclick='eventAddToCartOnClick()'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
+            <button id="btnWishList" class='btn-wishList' onclick='eventAddToWishlistOnClick()'><i class='far fa-heart'></i>&nbsp;&nbsp;Add to wishlist</button>
         </div>
 
     <div id="notAvailable">Not available</div>
 </div>
 
-<script
+<!-- <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous">
-    </script>
+    </script> -->
 
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/wishlist.js"></script>
     <script src="js/productPage.js"></script>
 
 </body>

@@ -1,5 +1,9 @@
 $(document).ready(function () {
-    
+    $("#nav-search").on('keypress',function(e) {
+        if(e.which == 13) {
+            searchOnEnter($("#nav-search").val());
+        }
+    });
 });
 
 function search(toBeSearch) {
@@ -26,4 +30,11 @@ function search(toBeSearch) {
 
 function openItemDisplay(prodID,categoryId){
     window.location.href = "product.php?id="+prodID+"&category="+categoryId;
+}
+
+function searchOnEnter(toBeSearch) {
+    if(toBeSearch.trim()!=""){
+        window.location.href = "search.php?toBeSearch="+toBeSearch;
+    }
+   
 }
