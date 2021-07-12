@@ -9,7 +9,7 @@ if(isset($_POST)) {
 
     $xml->formatOutput = true;
     $xml->preserveWhiteSpace = false;
-    $sender = "sheen"; // connect sa session;
+    $sender = "erika_raymundo"; // connect sa session;
 
     $receiver = $_POST["receiver"];
     $msgContent = $_POST["msgContent"];

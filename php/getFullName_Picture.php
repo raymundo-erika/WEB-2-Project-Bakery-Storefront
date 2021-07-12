@@ -3,7 +3,7 @@
  
      $xml = new DOMDocument();
      $xml->load("../xml/users.xml");
-     $userProfilePic = "images/users/sample.jpeg";
+     $userProfilePic = "images/users/girl-try.jpg"; // kunin sa sesson ung img ni user
 
      $users = $xml->getElementsByTagName("user");
 

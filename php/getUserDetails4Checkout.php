@@ -1,7 +1,7 @@
 <?php 
 
 
-    $username = "sheen"; // kunin sa session
+    $username = "erika_raymundo"; // kunin sa session
     $xml = new DOMDocument();
     $xml->load("../xml/users.xml");
     

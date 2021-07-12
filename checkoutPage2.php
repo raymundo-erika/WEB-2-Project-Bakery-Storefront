@@ -57,7 +57,7 @@
         
     <div id="left-container">
     
-        <h1 id="heading-contact">Contact Information</h1>
+        <h1 id="heading-contact">Payment</h1>
 
         <table id="tbl-account-info">
         <tr>
@@ -72,14 +72,14 @@
 
 
         <h1 id="heading-shipping">Shipping Address</h1>
-        <p>Fill up the following fields correctly, this is where your purchased items will be delivered.</p>
+        <p><?php echo $_GET["address"]?></p>
         <span id="required-label" class="subtitle"></span>
 
         <table id="tbl-shipping">
 
         <tr>
             <td colspan="2">
-            <label for="address">House No, Building, Street* </label>
+            <label for="address">Card Holder Name* </label>
             <input type="text" id="address" name="address" placeholder=""> 
             <span id="validation-add" class="validation-label"></span>
             </td>
@@ -87,14 +87,14 @@
         
         <tr>
             <td>
-            <label for="city">Barangay* </label>
+            <label for="city">Expiry* </label>
             <input type="text"  id="brgy" name="brgy" placeholder=""
                     value="">
             <span id="validation-city" class="validation-label"></span>
             </td>
         
             <td>
-            <label for="city">City* </label>
+            <label for="city">CCV* </label>
             <input type="text"  id="city" name="city">
             <span id="validation-city" class="validation-label"></span>
             </td>
@@ -102,40 +102,15 @@
         
         <tr>
             <td colspan="2">
-            <label for="province">Province* </label>
+            <label for="province">Card Number* </label>
             <input type="text"  id="province" name="province" placeholder=""
                     value="">
             <span id="validation-province" class="validation-label"></span> 
             </td>
         </tr>
 
-        <tr>
-            <td >
-            <label for="region">Region* </label>
-            <input type="text"  id="region" name="region" placeholder=""
-                    value="">
-            <span id="validation-region" class="validation-label"></span> 
-            </td>
-            
-            <td>
-            <label for="postal_code">Postal Code* </label>
-            <input type="number"  id="postal_code" name="postal_code" placeholder=""
-                    value="">
-            <span id="validation-city" class="validation-label"></span>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-            <label for="landmark1">Landmark* </label>
-            <input type="text"  id="landmark1" name="landmark1" placeholder="" 
-                    value="">
-            <span id="validation-landmark1" class="validation-label"></span>
-            </td>
-        </tr>
-
         <tr id="button-area">
-            <td><input type="submit" value="Continue to Payment" class="toPayment"></td>
+            <td><input type="submit" value="Pay now" class="paymentButton"></td>
         </tr>
         </table>
 
@@ -376,9 +351,9 @@
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous">
     </script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script src="js/cart.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
     <script src="js/checkout.js"></script>

@@ -1,8 +1,9 @@
 $(document).ready(function () {
 
     userContainerOpen = false;
+    
     loadActiveUsers();
-
+    
     $("#upArrow4Message").click(function (e) { 
         e.preventDefault();
         if(!userContainerOpen){
@@ -22,6 +23,7 @@ $(document).ready(function () {
 
 
 });
+myLoading = setInterval(loadActiveUsers,10000);
 
 function loadActiveUsers(){
     var xhr = new XMLHttpRequest();
