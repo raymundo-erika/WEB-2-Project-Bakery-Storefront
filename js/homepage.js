@@ -4,6 +4,8 @@ $(document).ready(function(){
     displayCategories();
     displayItems();
     displayPagination();
+    showThreeProducts(null, "cake");
+    getFirstCategory();
 });
 
 
@@ -54,4 +56,31 @@ function displayFeaturedProducts() {
 
     xhr.open("GET", "php/displayFeaturedProducts.php", true);
     xhr.send();
+}
+
+function showThreeProducts(element, category) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            $("#products").html(xhr.responseText);
+            $(".category").removeClass("category-clicked");
+            $(element).addClass("category-clicked");
+        }
+    }
+
+    xhr.open("GET", "php/showThreeProducts.php?category="+category, true);
+    xhr.send();
+}
+
+function getFirstCategory() {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            showThreeProducts(null, xhr.responseText);    
+            $(".category")[0].addClass("category-clicked"); 
+        }
+    }
+
+    xhr.open("GET", "php/showThreeProducts.php?category="+category, true);
+    xhr.send(); 
 }

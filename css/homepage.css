@@ -22,6 +22,7 @@ body {
     height: 200px;
     padding-top: 4%;
     border: 3px solid transparent;
+    cursor: pointer;
 }
 
 .title {
@@ -59,6 +60,33 @@ body {
     border: 3px solid #DDA74F !important;
     border-radius: 25px;
 }
+
+#showMore {
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: flex-end;
+    justify-self: flex-end;
+    position:relative;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#showMore button {
+    background-color: transparent;
+    border: 3px solid #CD9948;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 12.5px 50px;
+    border-radius: 25px;
+    position:absolute;
+    right: 0;
+    top:0;
+    font-size: 1em;
+}
+
 
 #slideshow {
     display: flex;
