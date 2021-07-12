@@ -14,3 +14,14 @@ function navCategories() {
     xhr.send(); 
 }
 
+function openLogout() {
+    console.log("hi from open!");
+    $("#dropdownAcc").toggle();
+
+    // if($("dropdownAcc").
+
+}
+
+// function hideLogout() {
+//     $("#dropdownAcc").hide();
+// }

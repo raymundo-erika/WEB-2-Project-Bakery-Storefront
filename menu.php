@@ -65,8 +65,8 @@
     <!--menu-->
     
     <div id="menu">
-        <h1 class="title">Patisserie’s Cupcakes</h1>
-        <p class="title-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</p>
+        <div id="categoryDetails">
+        </div>
 
         <div id="products"></div>
 

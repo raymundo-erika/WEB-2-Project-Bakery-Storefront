@@ -38,7 +38,7 @@
                 $xml->save("../xml/users.xml");
 
                 session_start();
-                $_SESSION['username'] = $username;
+                $_SESSION["username"] = $username;
 
                 echo 1;
                 break;

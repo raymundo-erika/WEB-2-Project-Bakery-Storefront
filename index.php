@@ -50,9 +50,9 @@
                 <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>
             </li>
             <li>
-                <i class="icon far fa-user-circle"></i>
-                <ul class="dropdown">
-                    <li><a href="">Account Settings</a></li>
+                <i class="icon far fa-user-circle" onclick="openLogout()"></i>
+                <ul class="dropdown" id="dropdownAcc">
+                    <!-- <li><a href="">Account Settings</a></li> -->
                     <li><a href="logout.php">Logout</a></li>
                 </ul>
             </li>
@@ -110,13 +110,13 @@
             <p>Copyright © 2021. Patisserie</p>
         </div>
         <div class="footer-menu">
-            <h1>menu</h1>
+            <h1>BSIT 3M - GROUP 1</h1>
             <ul>
-                <li><a>cake</a></li>
-                <li><a>cupcakes</a></li>
-                <li><a>cheesecakes</a></li>
-                <li><a>croissants</a></li>
-                <li><a>donuts</a></li>
+                <li>Cajucom, Kurth</li>
+                <li>Dalusung, Mark Joseph</li>
+                <li>Oronce, Frederick Nino</li>
+                <li>Raymundo, Erika</a></li>
+                <li>Tiu, Jester Sheen</a></li>
             </ul>
         </div>
         <div class="contacts">
@@ -325,6 +325,7 @@
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
+    <script src="js/nav.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script>

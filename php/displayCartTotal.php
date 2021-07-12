@@ -1,8 +1,9 @@
 <?php
-
+session_start();
 $xml_cart = new DOMDocument();
 $xml_cart->load("../xml/carts.xml");
 $username = $_SESSION["username"];
+
     $cart = getCart();
     $total = getCartTotal($cart);
 
@@ -11,7 +12,7 @@ $username = $_SESSION["username"];
     function getCart() {
         $carts = $GLOBALS['xml_cart']->getElementsByTagName("cart");
         foreach($carts as $cart) {
-            if($cart->getAttribute("status") == 0 && $cart->getAttribute("username") == $username) {
+            if($cart->getAttribute("status") == 0 && $cart->getAttribute("username") == $GLOBALS['username']) {
                 return $cart;
             }
         }

@@ -23,8 +23,8 @@
     z-index: 200;
     position: fixed;
     top: 0;
-    right: -400px;
-    width: 400px;
+    right: 0px;
+    width: 1000px;
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.75);
     background: #fff;
