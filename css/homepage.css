@@ -58,9 +58,6 @@
     height: 100vh;
     z-index: -10;
 }
-input[type="radio"]{
-    visibility: hidden;
-}
 .radios{
     margin-left: 10%;
     position: absolute;
@@ -141,10 +138,10 @@ input[type="radio"]{
     margin-left : 0;
 }
 #r2:checked ~ .slide .second{
-    margin-left: -100vw;
+    margin-left: -100%;
 }
 #r3:checked ~ .slide .third{
-    margin-left: -200vw;
+    margin-left: -200%;
 }
 #about{
     width: 100%;
