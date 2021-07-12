@@ -13,7 +13,7 @@ $xml->load("../xml/products.xml");
 
 $products = []; //products to be displayed
 
-#get all the product ID of that category
+#get all the product of that category
 foreach($xml->getElementsByTagName("product") as $product) {
     if($product->getAttribute("category") == $catID)
         array_push($products, $product);
@@ -26,12 +26,14 @@ $size = sizeof($products);
 $lengthOfPages = ceil($size/$items);
 
 #check if the length of pages is equal to the currently selected page
-#make sure that the items to be displayed is the remainder
-
 if ($lengthOfPages == $page) {
-    $items = ($lengthOfPages * $items)  - $size;
-    $items = ($items == 0) ? 6 : $items;
+    $items = $size;
+
+    for($i=0;$i<$lengthOfPages-1;$i++) {
+        $items-=6;
+    }
 }
+
 #display the products by 6 items at a time
 $startIndex = ($page * $default) - $default;
 $lastIndex = $startIndex + $items;
@@ -43,13 +45,11 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
     $image = $products[$i]->getElementsByTagName("image")[0]->nodeValue;
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     $category = getProductCategoryID($id);
-    // $unit_price = $products[$i]->getElementsByTagName("unit_price")[0]->nodeValue;
     $firstSizePrice = getFirstSizePrice($id);
     $firstSizePriceID = $firstSizePrice->getAttribute("id");
 
 
     $firstPrice = $firstSizePrice->getElementsByTagName("price")[0]->nodeValue;
-    // echo "<h1>$firstSizePriceID</h1>$firstPrice<br>"; 
 
     $description = $products[$i]->getElementsByTagName("description")[0]->nodeValue;
     
@@ -64,7 +64,7 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
             <label>Price starts</label>&#8369;".number_format((float)$firstPrice, 2, '.', '')."</div>";
     echo "<div class='action-buttons'>
             <button class='btn-addToCart' onclick='addToCart(".$id.", \"".$firstSizePriceID."\", 1)'><i class='icon fas fa-shopping-cart'></i>&nbsp;&nbsp;Add to cart</button>
-            <button class='btn-wishList'><i class='far fa-heart'></i></button>
+            <button class='btn-wishList' onclick='addToWishlist(".$id.", \"".$firstSizePriceID."\")'><i class='far fa-heart'></i></button>
         </div>";
     echo "</div>";
 }

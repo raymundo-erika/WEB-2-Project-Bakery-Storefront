@@ -1,4 +1,8 @@
-
+body {
+    
+    /* background-image: url(../images/graphics/full_bg4.png) !important; */
+    background-color: #0F0F0F;
+}
 
 #menu {
     margin-top: 10vh;

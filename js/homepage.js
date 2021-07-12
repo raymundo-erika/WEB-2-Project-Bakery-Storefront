@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
     displayCategories();
     displayItems();
     displayPagination();
