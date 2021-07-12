@@ -41,7 +41,7 @@
     function getCart() {
         $carts = $GLOBALS['xml_cart']->getElementsByTagName("cart");
         foreach($carts as $cart) {
-            if($cart->getAttribute("status") == 0) {
+            if($cart->getAttribute("status") == 0 && $cart->getAttribute("username") == $GLOBALS['username']) {
                 return $cart;
             }
         }

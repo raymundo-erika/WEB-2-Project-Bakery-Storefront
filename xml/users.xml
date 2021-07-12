@@ -1,5 +1,3 @@
 <?xml version="1.0"?>
 <users>
-    <user username="erika_raymundo" status="1"><fullName>Erika Raymundo</fullName><email>raymundo.erika.s.1230@gmail.com</email><birthdate>03-25-2000</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234abcd</password><profilePic>images/users/girl-try.jpg</profilePic></user>
-     <user username="sheen" status="1"><fullName>sheen the great</fullName><email>sheenthegreat0@gmail.com</email><birthdate>03-25-2000</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234abcd</password><profilePic>images/users/sample.jpeg</profilePic></user>
-</users>
+<user username="erikasong" status="1"><fullName>Erika Simbulan Raymundo</fullName><email>erikasong1925@gmail.com</email><birthdate>2021-07-28</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user><user username="mira" status="0"><fullName>Mira Ragasga</fullName><email>mira2@gmail.clm</email><birthdate>2021-07-21</birthdate><address>1313131</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user></users>
