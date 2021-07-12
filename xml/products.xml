@@ -8,7 +8,7 @@
 
     <product prodID="2" category="cake" featured="1"><name>Mango Cr&#xE8;me Cake</name><description>
         Simple vanilla cake with mango compote layers covered in light whipped cream and fresh mangoes.
-        </description><sizes_prices><size_price id="s1"><size>6" x 5"</size><price>780</price><stocks>2</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>1,080</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1,500</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/MangoCremeCake.png</image></product>
+        </description><sizes_prices><size_price id="s1"><size>6" x 5"</size><price>780</price><stocks>1</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>1,080</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1,500</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/MangoCremeCake.png</image></product>
 
     <product prodID="3" category="cake" featured="0"><name>Caramel Cake</name><description>
         A fluffy, vanilla cake layered with caramel fudge, coated with a creamy caramel buttercream frosting.
@@ -1157,27 +1157,9 @@
 
     </product>
 
-    <product prodID="56" category="donut" featured="0"> 
-        <name>Boston Choco Donut</name>
-        <description>
+    <product prodID="56" category="donut" featured="0"><name>Boston Choco Donut</name><description>
         Traditional boston cream filling is a custard cream, made by combining egg yolks with cream and sugar
-        </description>
-        <sizes_prices>
-           <size_price id="s1">
-                <size>Box of 6</size>
-                <price>210</price>
-                <stocks>75</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>Box of 12</size>
-                <price>420</price>
-                <stocks>75</stocks>
-            </size_price>
-        </sizes_prices>
-               
-        <image>images/category/donut/BostonChocoDonut.png</image>
-
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>Box of 6</size><price>210</price><stocks>74</stocks></size_price><size_price id="s2"><size>Box of 12</size><price>420</price><stocks>75</stocks></size_price></sizes_prices><image>images/category/donut/BostonChocoDonut.png</image></product>
 
     <product prodID="57" category="donut" featured="0"> 
         <name>Choco Dip Donut</name>
