@@ -26,11 +26,15 @@
             <li class="category">
                 <a href="index.html">Home</a>
             </li>
-            <li class="category"><a href="menu.php?category=cake">Cakes</a></li>
-            <li class="category"><a href="menu.php?category=cupcake">Cupcakes</a></li>
-            <li class="category"><a href="menu.php?category=cheese_cake">Cheese cakes</a></li>
-            <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
-            <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
+
+            <div class="category-container" style="display: flex">
+                <li class="category"><a href="menu.php?category=cake">Cakes</a></li>
+                <li class="category"><a href="menu.php?category=cupcake">Cupcakes</a></li>
+                <li class="category"><a href="menu.php?category=cheese_cake">Cheese cakes</a></li>
+                <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
+                <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
+            </div>
+            
             <li>
                 <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
