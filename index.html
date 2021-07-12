@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web 2 Project</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/chat.css">
     <link rel="stylesheet" href="css/search.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+
 </head>
 
 <body>
     <nav>
-        <!-- <div id="banner"><button id="nav-create-cake">Create your own cake</button></div> -->
         <ul class="horizontal">
             <a href="index.html">
                 <li id="nav-logo"></li>
@@ -27,20 +31,14 @@
                 <a href="index.html">Home</a>
             </li>
 
-            <div class="category-container" style="display: flex">
-                <li class="category"><a href="menu.php?category=cake">Cakes</a></li>
-                <li class="category"><a href="menu.php?category=cupcake">Cupcakes</a></li>
-                <li class="category"><a href="menu.php?category=cheese_cake">Cheese cakes</a></li>
-                <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
-                <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
-            </div>
+            <section class="category-container" style="display: inline-block"></section>
             
             <li>
                 <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
-            <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
+            <li><a href="wishlist.html"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
-                <span>10</span>
+                <span id="cartItems"></span>
                 <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>
             </li>
             <li>
@@ -54,7 +52,6 @@
     </nav>
     <div class="searchSuggestionContainer">
         <ul id="suggestionList">
-
         </ul>
     </div>
 
@@ -64,45 +61,23 @@
             <input class="slide-radio" type="radio" name="r" id="r2" onclick="slideshow(1)">
             <input class="slide-radio" type="radio" name="r" id="r3" onclick="slideshow(2)">
         </div>
-        <div class="swiper-slide" id="featuredSlide">
-            <div class="slide">
-                <div class="title-text">
-                    <h1>1Pastel de Tre Leches</h1>
-                    <p>A moist, rich, triple layer chocolate cake with a rich melt-in-your-mouth hocolate
-                        buttercream frosting and bake crumb coating.</p>
-                    <button>Buy Now</button>
-                </div>
-
-                <div class="image-container">
-                    <img src="images/category/cheesecake/BlueberryCheesecake.png" alt="">
-
-                </div>
-            </div>
-        </div>
+        <div class="swiper-slide" id="featuredSlide"></div>
         <div class="slider-pagination">
             <label for="r1" class="slide-nav active" id="slideNav1"></label>
             <label for="r2" class="slide-nav" id="slideNav2"></label>
             <label for="r3" class="slide-nav" id="slideNav3"></label>
         </div>
-
     </div>
 
     <div id="menu">
         <h1 class="title">Taste the sweetness</h1>
         <p class="title-sub">Patisserie offers the best cakes and sweets for you.</p>
 
-        <div id="categories">
+        <div id="categories"></div>
 
-        </div>
-
-        <div id="products">
-
-        </div>
+        <div id="products"></div>
 
     </div>
-
-
-
     </div>
 
     <div id="about">
@@ -336,19 +311,13 @@
     </div>
 
 
-    <!-- <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script> -->
-    <!-- <script src="fontawesome-free-5.15.3-web/js/all.js"></script> -->
-    <!-- <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous">
-    </script> -->
-
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script>
     <script src="js/homepage.js"></script>
+    <script src="js/wishlist.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script>
         function slideshow(slideNo) {

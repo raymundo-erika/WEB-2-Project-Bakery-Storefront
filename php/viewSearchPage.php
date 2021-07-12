@@ -70,7 +70,7 @@ for($i = $startIndex; $i < $lastIndex; $i++) {
     
     echo "<div class='product' id='".$id."' onmouseover='displayActionButtons(this)' onmouseout='hideActionButtons(this)'>
             <div class='product-img'>
-                <a href='product.php?category=$category&id=$id'><img src=\"" . $image . "\"></a>
+                <a href='product.html?category=$category&id=$id'><img src=\"" . $image . "\"></a>
             </div>
             <div class='title'>" . $name . "</div>
             <div class='desc'> " . $description . " </div>";
