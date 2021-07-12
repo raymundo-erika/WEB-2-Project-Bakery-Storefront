@@ -20,11 +20,11 @@
 }
 
 .cart {
-    z-index: 200;
+    z-index: 100;
     position: fixed;
     top: 0;
-    right: 0px;
-    width: 1000px;
+    right: -400px;
+    width: 400px;
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.75);
     background: #fff;

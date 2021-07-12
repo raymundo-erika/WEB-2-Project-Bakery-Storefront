@@ -2,7 +2,7 @@
     session_start();
 
     $xml = new DOMDocument();
-    $xml->load("../xml/users.xml");
+    $xml->load("xml/users.xml");
 
         $users = $xml->getElementsByTagName("user");
 
@@ -13,6 +13,8 @@
     
             if(strtolower($_SESSION['username']) == strtolower($username)) {
 
+
+                echo "<script>console.log('hello!')</script>";
 
                 //we will update the node
                 $fullName = $user->getElementsByTagName("fullName")[0]->nodeValue;
@@ -34,7 +36,7 @@
 
                 $currentNode = $user;
                 $xml->getElementsByTagName("users")[0]->replaceChild($newNode, $currentNode);
-                $xml->save("../xml/users.xml");
+                $xml->save("xml/users.xml");
                 break;
             } 
         }

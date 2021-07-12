@@ -1,3 +1,3 @@
 <?xml version="1.0"?>
 <users>
-<user username="erikasong" status="1"><fullName>Erika Raymundo</fullName><email>erikasong1925@gmail.com</email><birthdate>2000-03-25</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user></users>
+<user username="erikasong" status="0"><fullName>Erika Raymundo</fullName><email>erikasong1925@gmail.com</email><birthdate>2000-03-25</birthdate><address>#40 Ligas, Malolos, Bulacan</address><password>1234</password><profilePic>images/users/sample.jpeg</profilePic></user></users>
