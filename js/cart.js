@@ -1,5 +1,10 @@
 $("document").ready(function(){
     loadCart();
+
+    $(".btn-checkout").css("cursor", "pointer").click(function (e) { 
+        e.preventDefault();
+        window.location.href="checkoutPage.php";
+    });
 });
 
 function openCart() {

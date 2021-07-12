@@ -1,0 +1,53 @@
+
+/* Style the list */
+ul.breadcrumb {
+  /* padding: 10px 16px; */
+  padding: 0px 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+li form {
+  display: inline;
+}
+
+li button {
+  background: none;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: .85em;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 0 5px;
+  content: ">";
+  color: #444;
+  font-size: .85em;
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #444;
+  text-decoration: none;
+}
+
+ul.breadcrumb li .active {
+  color: #B59686 !important;
+  font-weight: 500;
+  /* text-decoration: underline; */
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover, li button:hover {
+  color: #B59686;
+  text-decoration: underline;
+  transition: .075s ease-in;
+  cursor: pointer;
+}
