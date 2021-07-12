@@ -175,8 +175,9 @@
     z-index: 10;
     /* height: 90vh; */
     height: 7vh;
-    width: 260px;
+    width: 300px;
     background-color: #fafafa;
+    /* border: 2px solid blue; */
     position: fixed;
     bottom: 0%;
     right: 4%;
@@ -195,8 +196,9 @@
 }
 
 .users-container .active-label {
-    width: 70%;
+    width: 65%;
     display: inline-block;
+    /* border: 2px solid blue; */
     /* border: 2px solid blue; */
 }
 
@@ -223,6 +225,7 @@
     padding: 0;
     margin: 20px 20px;
     display: hidden;
+    overflow: scroll;
 }
 
 #user-lists li {

@@ -4,7 +4,7 @@
 <!--Cakes--> 
     <product prodID="1" category="cake" featured="0"><name>Blackout Cake</name><description>
         A moist, rich, triple layer chocolate cake with a rich melt-in-your-mouth chocolate buttercream frosting and cake crumb coating.
-        </description><sizes_prices><size_price id="s1"><size>6" x 5"</size><price>580</price><stocks>8</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>880</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1180</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/BlackOutCake.png</image></product>
+        </description><sizes_prices><size_price id="s1"><size>6" x 5"</size><price>580</price><stocks>7</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>880</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1180</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/BlackOutCake.png</image></product>
 
     <product prodID="2" category="cake" featured="1"><name>Mango Cr&#xE8;me Cake</name><description>
         Simple vanilla cake with mango compote layers covered in light whipped cream and fresh mangoes.

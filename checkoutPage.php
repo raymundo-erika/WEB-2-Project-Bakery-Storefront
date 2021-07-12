@@ -18,37 +18,35 @@
 </head>
 <body>
     <nav>
-        <!-- <div id="banner"><button id="nav-create-cake">Create your own cake</button></div> -->
         <ul class="horizontal">
-            <a href="index.html"><li id="nav-logo"></li></a>
+            <a href="index.php">
+                <li id="nav-logo"></li>
+            </a>
             <li class="category">
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
             </li>
-            <li class="category"><a href="menu.php?category=cake">Cakes</a></li>
-            <li class="category"><a href="menu.php?category=cupcake">Cupcakes</a></li>
-            <li class="category"><a href="menu.php?category=cheese_cake">Cheese cakes</a></li>
-            <li class="category"><a href="menu.php?category=croissant">Croissants</a></li>
-            <li class="category"><a href="menu.php?category=donut">Donuts</a></li>
+
+            <section class="category-container" style="display: inline-block"></section>
+            
             <li>
                 <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
             <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
-                <span>10</span>
-                <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>   
+                <span id="cartItems"></span>
+                <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>
             </li>
             <li>
-                <i class="icon far fa-user-circle"></i>
-                <ul class="dropdown">
-                    <li><a href="">Account Settings</a></li>
-                    <li><a href="">Logout</a></li>
+                <i class="icon far fa-user-circle" onclick="openLogout()"></i>
+                <ul class="dropdown" id="dropdownAcc">
+                    <!-- <li><a href="">Account Settings</a></li> -->
+                    <li><a href="logout.php">Logout</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
     <div class="searchSuggestionContainer">
         <ul id="suggestionList">
-            
         </ul>
     </div>
     
@@ -371,6 +369,7 @@
     
     <!-- <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script> -->
     <!-- <script src="fontawesome-free-5.15.3-web/js/all.js"></script> -->
+    <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script>
     <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -382,6 +381,7 @@
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
     <script src="js/checkout.js"></script>
+    <script src="js/nav.js"></script>
 
 </body>
 </html>
