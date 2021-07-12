@@ -43,7 +43,7 @@
             <li>
                 <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
-            <li><a href="wishlist.html"><i class="icon far fa-heart"></i></a></li>
+            <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
                 <span id="cartItems"></span>
                 <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>
@@ -65,8 +65,8 @@
     <!--menu-->
     
     <div id="menu">
-        <h1 class="title">Patisserie’s Cupcakes</h1>
-        <p class="title-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</p>
+        <div id="categoryDetails">
+        </div>
 
         <div id="products"></div>
 

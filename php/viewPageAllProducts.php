@@ -1,10 +1,9 @@
 <?php
 
 session_start();
-// $catID = $_SESSION["current_category"];
 
 if(isset($_GET)) {
-    $catID = $_GET["category"];
+
     $page = $_GET["pageNo"];
 
     $default = 6;
@@ -17,8 +16,7 @@ if(isset($_GET)) {
 
     #get all the product of that category
     foreach($xml->getElementsByTagName("product") as $product) {
-        if($product->getAttribute("category") == $catID)
-            array_push($products, $product);
+        array_push($products, $product);
     }
 
     #get the size or count

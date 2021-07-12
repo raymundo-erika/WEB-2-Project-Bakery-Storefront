@@ -45,7 +45,7 @@
             <li>
                 <input type="text" id="nav-search" placeholder="Search" onkeyup="search(this.value)" autocomplete="off">
             </li>
-            <li><a href="wishlist.html"><i class="icon far fa-heart"></i></a></li>
+            <li><a href="wishlist.php"><i class="icon far fa-heart"></i></a></li>
             <li id="nav-cart">
                 <span id="cartItems"></span>
                 <i class="icon fas fa-shopping-cart" onclick="openCart()"></i>

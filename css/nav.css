@@ -154,14 +154,14 @@ nav #banner {
 nav .dropdown {
     background: white;
     color: #070707;
-    font-size: .75em;
-    padding: 2px;
-    display: block !important;
+    font-size: .85em;
+    padding: 3px;
+    display: none;
     position: absolute;
-    bottom: -70px;
-    right: -7px;
+    bottom: -45px;
+    right: -10px;
     margin: 0;
-    width: 150px;
+    width: 100px;
     border-radius: 5px;
     z-index: 100;
 }

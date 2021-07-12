@@ -2,26 +2,26 @@
     <category id="cake">
         <title>Cakes</title>
         <icon>images/category/cake_icon.png</icon>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+        <description>Cake is good. Feel good.</description>
     </category>
     <category id="cheesecake">
         <title>Cheese cakes</title>
         <icon>images/category/cheesecake_icon.png</icon>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>        
+        <description>Cheesecake is better. Feel better.</description>        
     </category>
     <category id="croissant">
         <title>Croissants</title>
         <icon>images/category/croissant_icon.png</icon>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+        <description>Having a bad day? Eat our croissant!</description>
     </category>
     <category id="cupcake">
         <title>Cupcakes</title>
         <icon>images/category/cupcake_icon.png</icon>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+        <description>Lighten up your day with these yummy cupcakes!</description>
     </category>cake
     <category id="donut">
         <title>Donuts</title>
         <icon>images/category/donut_icon.png</icon>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae erat in lacus mattis bibendum. Nullam dignissim commodo risus, nec blandit libero accumsan in.</description>
+        <description>Need some good amount of sugar rush?! Try our donuuuts!</description>
     </category>
 </categories>

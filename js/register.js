@@ -9,7 +9,7 @@ function registerUser() {
     birthdate = $("#reg-bday").val().trim();
 
     if (un == "" || pass == "" || email == "" || fullname == "" || address == "" || birthdate == "") {
-        swal("Please fill up all the fields.", "Provide your valid information.", "error");
+        swal("Please fill up all the fields.", "Provide your valid information.", "info");
 
     } else {
         xhr = new XMLHttpRequest();
