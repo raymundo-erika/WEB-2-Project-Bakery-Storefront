@@ -1,6 +1,6 @@
 <?php
     $otherUser = $_POST["otherUser"];
-    $userName = "sheen"; // coconnect sa session
+    $userName = "erika_raymundo"; // coconnect sa session
 
     $xml = new DOMDocument();
     $xml->load("../xml/messages.xml");

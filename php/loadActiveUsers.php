@@ -2,7 +2,7 @@
     $xml = new DOMDocument();
     $xml->load("../xml/users.xml");
 
-    $username = "sheen"; // coconect sa session
+    $username = "erika_raymundo"; // coconect sa session
     
     $users = $xml->getElementsByTagName("user");
 

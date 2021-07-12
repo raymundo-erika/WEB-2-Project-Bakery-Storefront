@@ -1,5 +1,5 @@
 <?php 
-    $username = "sheen"; // kunin sa session
+    $username = "erika_raymundo"; // kunin sa session
     $xml = new DOMDocument();
     $xml->load("../xml/carts.xml");
 
@@ -10,7 +10,7 @@
     $products = $xmlForProduct->getElementsByTagName("product");
 
     foreach($carts as $cart){
-        if($cart->getAttribute("username")==$username){
+        if($cart->getAttribute("username")==$username&&$cart->getAttribute("status")==0){
             $cart_items= $cart->getElementsByTagName("cart_item");
             echo "<div class='purchase-items' id=''> ";
             echo "<table> <caption>Your Cart</caption>";
@@ -79,6 +79,7 @@
                     </tr>
                     <tr>
                 </table>";
+          break;
         }
     }
 
