@@ -12,7 +12,7 @@
 
     <product prodID="3" category="cake" featured="0"><name>Caramel Cake</name><description>
         A fluffy, vanilla cake layered with caramel fudge, coated with a creamy caramel buttercream frosting.
-        </description><sizes_prices><size_price id="s1"><size>6" 5"</size><price>580</price><stocks>8</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>880</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1180</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/CaramelCake.png</image></product>
+        </description><sizes_prices><size_price id="s1"><size>6" 5"</size><price>580</price><stocks>5</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>880</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1180</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/CaramelCake.png</image></product>
 
     <product prodID="4" category="cake" featured="0"> 
         <name>Carrot Cake</name>
@@ -41,32 +41,9 @@
 
     </product>
 
-    <product prodID="5" category="cake" featured="0"> 
-        <name>Chocolate Decadent Cake</name>
-        <description>
+    <product prodID="5" category="cake" featured="0"><name>Chocolate Decadent Cake</name><description>
         A super moist chocolate cake filled and coated with a rich, dark chococolate ganache.
-        </description>
-        <sizes_prices>
-             <size_price id="s1">
-                <size>6" x 5"</size>
-                <price>680</price>
-                <stocks>10</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>7" x 5"</size>
-                <price>980</price>
-                <stocks>10</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>10" x 5"</size>
-                <price>1280</price>
-                <stocks>10</stocks>
-            </size_price>
-        </sizes_prices>
-
-         <image>images/category/cake/ChocolateDecadentCake.png</image>
-
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>6" x 5"</size><price>680</price><stocks>4</stocks></size_price><size_price id="s2"><size>7" x 5"</size><price>980</price><stocks>10</stocks></size_price><size_price id="s3"><size>10" x 5"</size><price>1280</price><stocks>10</stocks></size_price></sizes_prices><image>images/category/cake/ChocolateDecadentCake.png</image></product>
 
     <product prodID="6" category="cake" featured="0"><name>Coffee Cashew Cake</name><description>
         Love coffee? Have a bite of this rich, triple-layer mocha cake for a treat that'll go well with your cuppa. With chocolate ganache, coffee buttercream frosting, and crushed cashew nuts as coating, it's a slice any coffee aficionado will devour!
@@ -299,7 +276,7 @@
 
     <product prodID="17" category="cheesecake" featured="0"><name>Basque Cheesecake</name><description>
         This cheesecake has a beautiful, dark exterior full of bittersweet notes that make the light, creamy cheesecake interior seem even more rich and flavorful.
-        </description><sizes_prices><size_price id="s1"><size>6" x 3"</size><price>550</price><stocks>8</stocks></size_price><size_price id="s2"><size>8" x 3"</size><price>1200</price><stocks>20</stocks></size_price><size_price id="s3"><size>10" x 3"</size><price>1600</price><stocks>20</stocks></size_price></sizes_prices><image>images/category/cheesecake/BasqueCheesecake.png</image></product>
+        </description><sizes_prices><size_price id="s1"><size>6" x 3"</size><price>550</price><stocks>0</stocks></size_price><size_price id="s2"><size>8" x 3"</size><price>1200</price><stocks>13</stocks></size_price><size_price id="s3"><size>10" x 3"</size><price>1600</price><stocks>20</stocks></size_price></sizes_prices><image>images/category/cheesecake/BasqueCheesecake.png</image></product>
 
     <product prodID="18" category="cheesecake" featured="0"> 
         <name>Basque Ube Cheesecake</name>
@@ -328,59 +305,13 @@
 
     </product>
 
-    <product prodID="19" category="cheesecake" featured="1"> 
-        <name>Blueberry Cheesecake</name>
-        <description>
+    <product prodID="19" category="cheesecake" featured="1"><name>Blueberry Cheesecake</name><description>
         This velvety and smooth, sweet and tangy cheesecake topped with blueberry filling.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>6" x 3"</size>
-                <price>550</price>
-                <stocks>20</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>8" x 3"</size>
-                <price>1,200</price>
-                <stocks>20</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>10" x 3"</size>
-                <price>1800</price>
-                <stocks>20</stocks>
-            </size_price>
-        </sizes_prices>
-              
-        <image>images/category/cheesecake/BlueberryCheesecake.png</image>
+        </description><sizes_prices><size_price id="s1"><size>6" x 3"</size><price>550</price><stocks>20</stocks></size_price><size_price id="s2"><size>8" x 3"</size><price>1,200</price><stocks>20</stocks></size_price><size_price id="s3"><size>10" x 3"</size><price>1800</price><stocks>20</stocks></size_price></sizes_prices><image>images/category/cheesecake/BlueberryCheesecake.png</image></product>
 
-    </product>
-
-    <product prodID="20" category="cheesecake" featured="0"> 
-        <name>Caramel Cheesecake</name>
-        <description>
+    <product prodID="20" category="cheesecake" featured="0"><name>Caramel Cheesecake</name><description>
         This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The caramel sauce topping gives it just the right amount of creamy, sugary flavors.
-        </description>
-        <sizes_prices>
-            <size_price id="s1">
-                <size>6" x 3"</size>
-                <price>550</price>
-                <stocks>20</stocks>
-            </size_price>
-            <size_price id="s2">
-                <size>8" x 3"</size>
-                <price>1200</price>
-                <stocks>20</stocks>
-            </size_price>
-            <size_price id="s3">
-                <size>10" x 3"</size>
-                <price>1800</price>
-                <stocks>20</stocks>
-            </size_price>
-        </sizes_prices>
-               
-        <image>images/category/cheesecake/CaramelCheesecake.png</image>
-
-    </product>
+        </description><sizes_prices><size_price id="s1"><size>6" x 3"</size><price>550</price><stocks>9</stocks></size_price><size_price id="s2"><size>8" x 3"</size><price>1200</price><stocks>20</stocks></size_price><size_price id="s3"><size>10" x 3"</size><price>1800</price><stocks>20</stocks></size_price></sizes_prices><image>images/category/cheesecake/CaramelCheesecake.png</image></product>
 
     <product prodID="21" category="cheesecake" featured="0"> 
         <name>Chocolate Cheesecake</name>

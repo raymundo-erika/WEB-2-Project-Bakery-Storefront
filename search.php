@@ -63,7 +63,7 @@
     </div>
 
     <div id="menu">
-        <h1 class="title">Search Results for </h1>
+        <h1 class="title" id="titleSearch">Search Results for </h1>
 
         <div id="products">
         </div>
