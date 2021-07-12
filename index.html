@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
 </head>
+
 <body>
     <nav>
         <!-- <div id="banner"><button id="nav-create-cake">Create your own cake</button></div> -->
@@ -115,19 +116,12 @@
 
     </div>
 
-    <div id="about">
-        <div class="content">
-            <h1>About Patisserie</h1>
-            <div class = image-con>
-                <img class = "about-cake" src="images/category/cake/cake.png" alt="">
-                <img class = "glitter" src="images/graphics/Red Flat & Minimalist Comfort Food Website (7) 1@2x.png" alt="">
-            </div>
-            <div class="about-text">
-                <p>All of our products are made from our<br/>scratch using family recipes with only<br/>the highest quality ingredients. We<br/>bake and sell fresh daily to ensure<br/>only the best products are sold to<br/>our customers.</p>
-            </div>
+    <div class="cart">
+        <div class="cart-header">
+            <i class="icon fas fa-shopping-cart"></i>
+            <label>Cart</label>
+            <span class="icon close" onclick="closeCart()">&times;</span>
         </div>
-
-    </div>
 
 
         <div class="cart-body">
@@ -309,7 +303,7 @@
     crossorigin="anonymous">
     </script> -->
 
-<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/homepage.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
