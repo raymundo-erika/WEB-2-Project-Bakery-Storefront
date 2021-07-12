@@ -1,7 +1,10 @@
 <?php 
-    $username = "erika_raymundo"; // kunin sa session
+      session_start();
+      $username = $_SESSION["username"]; // kunin sa session
     $xml = new DOMDocument();
     $xml->load("../xml/carts.xml");
+
+    $superTotal = 0;
 
     $xmlForProduct = new DOMDocument();
     $xmlForProduct->load("../xml/products.xml");

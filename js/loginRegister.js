@@ -40,9 +40,7 @@ function register() {
     ln = $("#reg-ln").val().trim();
 
     if (un == "" || pass == "" || fn == "" || ln == "") {
-
         swal("Please fill up all the fields.", "Provide your valid information.");
-
     } else {
         xhr = new XMLHttpRequest();
 
@@ -62,6 +60,7 @@ function register() {
     }
 
 }
+
 
 //contains the main registration code, we separated it for better readability
 function actionRegister() {
@@ -86,3 +85,4 @@ function displayStatus(id, message) {
 function removeStatus(id) {
     $(id).innerHTML = "";
 }
+
