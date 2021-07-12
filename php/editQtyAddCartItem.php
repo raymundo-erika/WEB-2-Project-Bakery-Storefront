@@ -249,6 +249,7 @@
                 $newNode = $xml_prod->createElement("product");
                 $newNode->setAttribute("prodID", $productID);
                 $newNode->setAttribute("category", $product->getAttribute("category"));
+                $newNode->setAttribute("featured", $product->getAttribute("featured"));
                 $newNode->appendChild($xml_prod->createElement("name", $name));
                 $newNode->appendChild($xml_prod->createElement("description", $desc));
                 $newNode->appendChild($new_sizes_prices);

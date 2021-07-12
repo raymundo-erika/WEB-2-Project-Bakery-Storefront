@@ -1,6 +1,6 @@
 
 nav {
-    z-index: 3;
+    /* z-index: 100 !important; */
 }
 
 nav .horizontal {
@@ -9,6 +9,7 @@ nav .horizontal {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid brown; */
 }
 
 nav .horizontal li {

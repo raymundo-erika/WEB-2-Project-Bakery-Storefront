@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+    displayFeaturedProducts();
     displayCategories();
     displayItems();
     displayPagination();
@@ -11,7 +11,7 @@ function displayCategories() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            document.getElementById("categories").innerHTML = xhr.responseText;
+            $("#categories").html(xhr.responseText);
         }
     }
 
@@ -23,7 +23,7 @@ function displayItems() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            document.getElementById("products").innerHTML = xhr.responseText;
+            $("#products").html(xhr.responseText);
         }
     }
 
@@ -36,10 +36,22 @@ function displayPagination() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            document.getElementsByClassName("pagination")[0].innerHTML = xhr.responseText;
+            $(".pagination").html(xhr.responseText);
         }
     }
 
     xhr.open("GET", "php/displayPagination.php", true);
+    xhr.send();
+}
+
+function displayFeaturedProducts() {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            $("#featuredSlide").html(xhr.responseText);
+        }
+    }
+
+    xhr.open("GET", "php/displayFeaturedProducts.php", true);
     xhr.send();
 }

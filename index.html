@@ -56,83 +56,29 @@
 
     <div id="slideshow">
         <div class="radios">
-            <input type="radio" name="r" id="r1">
-            <input type="radio" name="r" id="r2" checked>
-            <input type="radio" name="r" id="r3">
+            <input class="slide-radio" type="radio" name="r" id="r1" onclick="slideshow(0)" checked>
+            <input class="slide-radio" type="radio" name="r" id="r2" onclick="slideshow(1)">
+            <input class="slide-radio" type="radio" name="r" id="r3" onclick="slideshow(2)">
         </div>
-        <div class="swiper-slide">
-            <div class="slide first">
+        <div class="swiper-slide" id="featuredSlide">
+            <div class="slide">
                 <div class="title-text">
-                    <h1>Pastel de Tres<br />Leches</h1>
-                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
-                        buttercream frosting and<br />cake crumb coating.</p>
+                    <h1>1Pastel de Tre Leches</h1>
+                    <p>A moist, rich, triple layer chocolate cake with a rich melt-in-your-mouth hocolate
+                        buttercream frosting and bake crumb coating.</p>
                     <button>Buy Now</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="images/category/cake/cake.png" alt="">
-                </div>
-            </div>
-            <div class="slide second">
-                <div class="title-text">
-                    <h1>Pastel de Tres<br />Leches</h1>
-                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
-                        buttercream frosting and<br />cake crumb coating.</p>
-                    <button>Buy Now</button>
-                </div>
+                    <img src="images/category/cheesecake/BlueberryCheesecake.png" alt="">
 
-                <div class="image-container">
-                    <img src="images/category/cake/cake.png" alt="">
-                </div>
-            </div>
-            <div class="slide third">
-                <div class="title-text">
-                    <h1>Pastel de Tres<br />Leches</h1>
-                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
-                        buttercream frosting and<br />cake crumb coating.</p>
-                    <button>Buy Now</button>
-                </div>
-
-                <div class="image-container">
-                    <img src="images/category/cake/cake.png" alt="">
                 </div>
             </div>
         </div>
-
-        <!-- <div class="swiper-slide">
-            <div class="slide second">
-                <div class="title-text">
-                    <h1>Pastel de 1313131Tres<br />Leches</h1>
-                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
-                        buttercream frosting and<br />cake crumb coating.</p>
-                    <button>Buy Now</button>
-                </div>
-
-                <div class="image-container">
-                    <img src="images/category/cake/cake.png" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper-slide">
-            <div class="slide third">
-                <div class="title-text">
-                    <h1>Pastel de Tres<br />Leches</h1>
-                    <p>A moist, rich, triple layer chocolate cake<br />with a rich melt-in-your-mouth<br />chocolate
-                        buttercream frosting and<br />cake crumb coating.</p>
-                    <button>Buy Now</button>
-                </div>
-
-                <div class="image-container">
-                    <img src="images/category/cake/cake.png" alt="">
-                </div>
-            </div>
-        </div> -->
-
         <div class="slider-pagination">
-            <label for="r1" class="slide-nav1"></label>
-            <label for="r2" class="slide-nav2"></label>
-            <label for="r3" class="slide-nav3"></label>
+            <label for="r1" class="slide-nav active" id="slideNav1"></label>
+            <label for="r2" class="slide-nav" id="slideNav2"></label>
+            <label for="r3" class="slide-nav" id="slideNav3"></label>
         </div>
 
     </div>
@@ -381,6 +327,27 @@
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
 
+    <script>
+        function slideshow(slideNo) {
+
+            $(".slide-radio").each(function() {
+                var id = $(this).attr("id");
+                $("label[for='"+id+"']").removeClass("active");
+            });
+
+            $(".slide-radio:checked").each(function() {
+                var id = $(this).attr("id");
+                $("label[for='"+id+"']").addClass("active");
+            });
+
+            var pos = slideNo * -100;
+            var position = pos + "vw";
+
+            $("#featuredSlide").animate({
+                left: position
+            }, 400);
+        }
+    </script>
 
 </body>
 

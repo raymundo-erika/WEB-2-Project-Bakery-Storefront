@@ -1,0 +1,1725 @@
+<?xml version="1.0"?> 
+<products>
+
+<!--Cakes--> 
+    <product prodID="1" category="cake"> 
+        <name>Blackout Cake</name>
+        <description>
+        A moist, rich, triple layer chocolate cake with a rich melt-in-your-mouth chocolate buttercream frosting and cake crumb coating.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s1">
+                <size>6&#34 x 5&#34</size>
+                <price>580</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r1">
+                <size>7&#34 x 5&#34</size>
+                <price>880</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l1">
+                <size>10&#34 x 5&#34</size>
+                <price>1,180</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+      <image>images/category/cake/BlackOutCake.png</image>
+
+    </product>
+
+    <product prodID="2" category="cake"> 
+        <name>Mango Crème Cake</name>
+        <description>
+        Simple vanilla cake with mango compote layers covered in light whipped cream and fresh mangoes.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s2">
+                <size>6&#34x 5&#34</size>
+                <price>780</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r2">
+                <size>7&#34 x 5&#34</size>
+                <price>1,080</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l2">
+                <size>10&#34 x 5&#34</size>
+                <price>1,500</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+    
+            <image>images/category/cake/MangoCremeCake.png</image>
+
+    </product>
+
+    <product prodID="3" category="cake"> 
+        <name>Caramel Cake</name>
+        <description>
+        A fluffy, vanilla cake layered with caramel fudge, coated with a creamy caramel buttercream frosting.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s3">
+                <size>6&#34x 5&#34</size>
+                <price>580</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r3">
+                <size>7&#34 x 5&#34</size>
+                <price>880</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l3">
+                <size>10&#34 x 5&#34</size>
+                <price>1,180</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+        
+              <image>images/category/cake/CaramelCake.png</image>
+        
+    </product>
+
+    <product prodID="4" category="cake"> 
+        <name>Carrot Cake</name>
+        <description>
+        An old-fashioned moist and tender carrot cake that is perfectly spiced with layers of cream cheese frosting coated with homemade streusels and ground walnuts. A must have!
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s4">
+                <size>6&#34x 5&#34</size>
+                <price>780</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r4">
+                <size>7&#34 x 5&#34</size>
+                <price>1,080</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l4">
+                <size>10&#34 x 5&#34</size>
+                <price>1,500</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+         <image>images/category/cake/CarrotCake.png</image>
+
+    </product>
+
+    <product prodID="5" category="cake"> 
+        <name>Chocolate Decadent Cake</name>
+        <description>
+        A super moist chocolate cake filled and coated with a rich, dark chococolate ganache.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+             <size_price id="s5">
+                <size>6&#34 x 5&#34</size>
+                <price>680</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r5">
+                <size>7&#34 x 5&#34</size>
+                <price>980</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l5">
+                <size>10&#34 x 5&#34</size>
+                <price>1,280</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+         <image>images/category/cake/ChocolateDecadentCake.png</image>
+
+    </product>
+
+    <product prodID="6" category="cake"> 
+        <name>Coffee Cashew Cake</name>
+        <description>
+        Love coffee? Have a bite of this rich, triple-layer mocha cake for a treat that'll go well with your cuppa. With chocolate ganache, coffee buttercream frosting, and crushed cashew nuts as coating, it's a slice any coffee aficionado will devour!
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s6">
+                <size>6&#34 x 5&#34</size>
+                <price>680</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r6">
+                <size>7&#34 x 5&#34</size>
+                <price>980</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l6">
+                <size>10&#34 x 5&#34</size>
+                <price>1,280</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+       <image>images/category/cake/CoffeeCashew.png</image>
+
+    </product>
+
+    <product prodID="7" category="cake"> 
+        <name>Lemon Meringue Cake</name>
+        <description>
+        A light sponge cake fiulled with lemon curd, covered in a toasted cloud-like, fluffy italian meringue frosting.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s7">
+                <size>6&#34x 5&#34</size>
+                <price>780</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r7">
+                <size>7&#34 x 5&#34</size>
+                <price>1,080</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l7">
+                <size>10&#34 x 5&#34</size>
+                <price>1,500</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+        
+	<image>images/category/cake/LemonMeringueCake.png</image>
+
+    </product>
+
+    <product prodID="8" category="cake"> 
+        <name>Pastel de Tres Leches Cake</name>
+        <description>
+        Get this crowd-pleaser for your next party and watch it be a hit! Made of vanilla sponge cake soaked in three kinds of milk and caramel, it is made even better with its chantilly cream coating and strawberry buts topping, for a taste you can never say no to!
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s8">
+                <size>6&#34 x 5&#34</size>
+                <price>680</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r8">
+                <size>7&#34 x 5&#34</size>
+                <price>980</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l8">
+                <size>10&#34 x 5&#34</size>
+                <price>1,280</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+        <image>images/category/cake/PasteldeTresLechesCake.png</image>
+
+    </product>
+
+    <product prodID="9" category="cake"> 
+        <name>Red Velvet Cake</name>
+        <description>
+        A moist, buttery and slightly chocolately spong cake covered in smooth cream cheese frosting, coated with red cake crumbs.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s9">
+                <size>6&#34 x 5&#34</size>
+                <price>780</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r9">
+                <size>7&#34 x 5 &#34</size>
+                <price>1,080</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l9">
+                <size>10&#34 x 5&#34</size>
+                <price>1,500</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+        <image>images/category/cake/RedVelvetCake.png</image>
+
+    </product>
+
+    <product prodID="10" category="cake"> 
+        <name>Rocky Road Cake</name>
+        <description>
+        A rich and moist chocolate cake loaded with marshmallows, nuts and creamy chocolate ganache.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s10">
+                <size>6&#34 x 5&#34</size>
+                <price>680</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r10">
+                <size>7&#34 x 5&#34</size>
+                <price>980</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l10">
+                <size>10&#34 x 5&#34</size>
+                <price>1,280</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+        <image>images/category/cake/RockyRoadCake.png</image>
+
+    </product>
+
+    <product prodID="11" category="cake"> 
+        <name>Strawberry Chantilly Cake</name>
+        <description>
+        A light strawberry sponge cake filled with strawberry compôte, coated with chantilly cream and topped with fresh strawberries.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s11">
+                <size>6&#34x 5&#34</size>
+                <price>780</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r11">
+                <size>7&#34 x 5&#34</size>
+                <price>1,080</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l11">
+                <size>10&#34 x 5&#34</size>
+                <price>1,500</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+        <image>images/category/cake/StrawberryChantillyCake.png</image>
+
+    </product>
+
+    <product prodID="12" category="cake"> 
+        <name>Strawberry Crème Cake</name>
+        <description>
+        A buttery, strawberry sponge cake filled with strawberry compôte, coated with rich, strawberry cream.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s12">
+                <size>6&#34x 5&#34</size>
+                <price>680</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r12">
+                <size>7&#34 x 5&#34</size>
+                <price>980</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l12">
+                <size>10&#34 x 5&#34</size>
+                <price>1,280</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+        <image>images/category/cake/StrawberryCremeCake.png</image>
+
+    </product>
+
+    <product prodID="13" category="cake"> 
+        <name>Triple Decker Mousse Cake</name>
+        <description>
+        A combination of moist chocolate cake, homemade chocolate ganache, and a smooth creamy layers of chocolate and white chocolate mousse.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s13">
+                <size>6&#34 x 5&#34</size>
+                <price>680</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r13">
+                <size>7&#34 x 5&#34</size>
+                <price>980</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l13">
+                <size>10&#34 x 5&#34</size>
+                <price>1,280</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+
+        <image>images/category/cake/TripleDeckerMousseCake.png</image>
+
+    </product>
+
+    <product prodID="14" category="cake"> 
+        <name>Ube Castard Cake</name>
+        <description>
+        Fluffy ube flavored chiffon cake with layers of homemade caramel custard cream coated with ube frosting and cake crumbs coating.
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s14">
+                <size>6&#34x 5&#34</size>
+                <price>580</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r14">
+                <size>7&#34 x 5&#34</size>
+                <price>880</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l14">
+                <size>10&#34 x 5&#34</size>
+                <price>1,180</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+       
+        <image>images/category/cake/UbeCastardCake.png</image>
+
+    </product>
+
+    <product prodID="15" category="cake"> 
+        <name>Vanilla Celebration Cake</name>
+        <description>
+        A soft, vanilla cake froasted with sweet vanilla buttercream, topped off with fun sprinkles!
+        </description>
+        <stocks>30</stocks>
+        <sizes_prices>
+            <size_price id="s15">
+                <size>6&#34 x 5&#34</size>
+                <price>580</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="r15">
+                <size>7&#34 x 5&#34</size>
+                <price>880</price>
+                <stocks>10</stocks>
+            </size_price>
+            <size_price id="l15">
+                <size>10&#34 x 5&#34</size>
+                <price>1,180</price>
+                <stocks>10</stocks>
+            </size_price>
+        </sizes_prices>
+        
+        <image>images/category/cake/VanillaCelebrationCake.png</image>
+
+    </product>
+
+<!--Cheese Cakes-->
+    <product prodID="16" category="cheesecake"> 
+        <name>Apple Cheesecake</name>
+        <description>
+        An apple a day keeps the doctor away! A mix of health and happiness in one cake. This cake is the perfect combination of your favorite creamy and rich cheesecake paired with a nice refreshing crunch from the apples.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s16">
+                <size>6&#34x 3&#34</size>
+                <price>550</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r16">
+                <size>8&#34 x 3&#34</size>
+                <price>1,300</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l16">
+                <size>10&#34 x 3&#34</size>
+                <price>1,800</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+        
+        <image>images/category/cheesecake/AppleCheesecake.png</image>
+
+    </product>
+
+    <product prodID="17" category="cheesecake"> 
+        <name>Basque Cheesecake</name>
+        <description>
+        This cheesecake has a beautiful, dark exterior full of bittersweet notes that make the light, creamy cheesecake interior seem even more rich and flavorful.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s17">
+                <size>6&#34x 3&#34</size>
+                <price>550</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r17">
+                <size>8&#34 x 3&#34</size>
+                <price>1,200</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l17">
+                <size>10&#34 x 3&#34</size>
+                <price>1,600</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+        
+        <image>images/category/cheesecake/BasqueCheesecake.png</image>
+
+    </product>
+
+    <product prodID="18" category="cheesecake"> 
+        <name>Basque Ube Cheesecake</name>
+        <description>
+        Get a burst of fresh blueberries with our Blueberry Cheesecake! With fluffy vanilla cheesecake, graham crust, and blueberry compote topping, it's a classic combination that you'll definitely enjoy.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s18">
+                <size>6&#34x 3&#34</size>
+                <price>550</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r18">
+                <size>8&#34 x 3&#34</size>
+                <price>1,200</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l18">
+                <size>10&#34 x 3&#34</size>
+                <price>1,600</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+        
+        <image>images/category/cheesecake/BasqueUbeCheesecake.png</image>
+
+    </product>
+
+    <product prodID="19" category="cheesecake"> 
+        <name>Blueberry Cheesecake</name>
+        <description>
+        This velvety and smooth, sweet and tangy cheesecake topped with blueberry filling.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s19">
+                <size>6&#34 x 3&#34</size>
+                <price>550</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r19">
+                <size>8&#34 x 3&#34</size>
+                <price>1,200</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l19">
+                <size>10&#34 x 3&#34</size>
+                <price>1,800</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+              
+        <image>images/category/cheesecake/BlueberryCheesecake.png</image>
+
+    </product>
+
+    <product prodID="20" category="cheesecake"> 
+        <name>Caramel Cheesecake</name>
+        <description>
+        This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The caramel sauce topping gives it just the right amount of creamy, sugary flavors.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s20">
+                <size>6&#34x 3&#34</size>
+                <price>550</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r20">
+                <size>8&#34 x 3&#34</size>
+                <price>1,200</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l20">
+                <size>10&#34 x 3&#34</size>
+                <price>1,800</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cheesecake/CaramelCheesecake.png</image>
+
+    </product>
+
+    <product prodID="21" category="cheesecake"> 
+        <name>Chocolate Cheesecake</name>
+        <description>
+        This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The batter and the whipped cream toppings are mixed with pure dark cocoa to give it just the perfect dash of bittersweet and chocolatey goodness.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s21">
+                <size>6&#34x 3&#34</size>
+                <price>750</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r21">
+                <size>8&#34 x 3&#34</size>
+                <price>1,300</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l21">
+                <size>10&#34 x 3&#34</size>
+                <price>1,950</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+              
+        <image>images/category/cheesecake/ChocolateCheesecake.png</image>
+
+    </product>
+
+    <product prodID="22" category="cheesecake"> 
+        <name>Classic New York Cheesecake</name>
+        <description>
+        Satisfy your sweet tooth craving with this all-time classic. With fluffy vanilla cheesecake on top of a graham crust, it is made complete with a thin sour cream layer for a bite you're maybe familiar with but will fall for all over again.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s22">
+                <size>6&#34 x 3&#34</size>
+                <price>550</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r22">
+                <size>8&#34 x 3&#34</size>
+                <price>1,300</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l22">
+                <size>10&#34 x 3&#34</size>
+                <price>1,550</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+        
+        <image>images/category/cheesecake/ClassicNewYorkCheesecake.png</image>
+
+    </product>
+
+    <product prodID="23" category="cheesecake"> 
+        <name>Coffee Cheesecake</name>
+        <description>
+        This cheesecake has been baked at moderate temperature, with a water bath, to make it rich, dense and creamy. The batter and the whipped cream toppings are mixed with coffee powder for an amazing coffee aroma.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s23">
+                <size>6&#34x 3&#34</size>
+                <price>650</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r23">
+                <size>8&#34 x 3&#34</size>
+                <price>1,200</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l23">
+                <size>10&#34 x 3&#34</size>
+                <price>1,500</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+          
+        <image>images/category/cheesecake/CoffeeCheesecake.png</image>
+
+    </product>
+
+    <product prodID="24" category="cheesecake"> 
+        <name>Dulce de Leche Cheesecake</name>
+        <description>
+        Have a slice of this fluffy vanilla cheesecake, made complete with graham crust and sweet dulce de leche fudge on top for a sweet treat no one can resist!
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+           <size_price id="s24">
+                <size>6&#34 x 3&#34</size>
+                <price>600</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r24">
+                <size>8&#34 x 3&#34</size>
+                <price>1,100</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l24">
+                <size>10&#34 x 3&#34</size>
+                <price>1,650</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cheesecake/DulcedeLecheCheesecake.png</image>
+
+    </product>
+
+    <product prodID="25" category="cheesecake"> 
+        <name>Matcha Cheesecake</name>
+        <description>
+        This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The batter and the whipped cream toppings are mixed with creamy matcha to give it just the perfect dash of green tea taste.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s25">
+                <size>6&#34 x 3&#34</size>
+                <price>750</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r25">
+                <size>8&#34 x 3&#34</size>
+                <price>1,400</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l25">
+                <size>10&#34 x 3&#34</size>
+                <price>2,100</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cheesecake/MatchaCheesecake.png</image>
+
+    </product>
+
+    <product prodID="26" category="cheesecake"> 
+        <name>Oreo Cheesecake</name>
+        <description>
+        This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The layer of whipped cream topped with crushed Oreo cookies is definitely a hit for those cookies and cream fans.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s26">
+                <size>6&#34 x 3&#34</size>
+                <price>700</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r26">
+                <size>8&#34 x 3&#34</size>
+                <price>1,300</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l26">
+                <size>10&#34 x 3&#34</size>
+                <price>1,950</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+                
+        <image>images/category/cheesecake/OreoCheesecake.png</image>
+
+    </product>
+
+    <product prodID="27" category="cheesecake"> 
+        <name>Strawberry Cheesecake</name>
+        <description>
+        This cheesecake has been baked in moderate temperature, with water bath, to make it rich, dense and creamy. The strawberry sauce topping gives it just the right amount of tart and sweet flavors.
+        </description>
+        <stocks>60</stocks>
+        <sizes_prices>
+            <size_price id="s27">
+                <size>6&#34 x 3&#34</size>
+                <price>650</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="r27">
+                <size>8&#34 x 3&#34</size>
+                <price>1,200</price>
+                <stocks>20</stocks>
+            </size_price>
+            <size_price id="l27">
+                <size>10&#34 x 3&#34</size>
+                <price>1,650</price>
+                <stocks>20</stocks>
+            </size_price>
+        </sizes_prices>
+                
+        <image>images/category/cheesecake/StrawberryCheesecake.png</image>
+
+    </product>
+
+<!--Cupcakes-->
+    <product prodID="28" category="cupcake"> 
+        <name>Red Velvet Vixen</name>
+        <description>
+        Traditional Southern Red Velvet cupcake made with Belgian cocoa and topped with luscious cream cheese frosting
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price>
+                <size_price id="s28">
+                <size>Box of 6</size>
+                <price>630</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r28">
+                <size>Box of 12</size>
+                <price>980</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/RedVelvetVixen.png</image>
+
+    </product>
+
+    <product prodID="29" category="cupcake"> 
+        <name>Vanilla Sunshine</name>
+        <description>
+        Classic fluffy yellow cupcake topped with our signature vanilla buttercream and sprinkles
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price>
+                <size_price id="s29">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r29">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+                
+        <image>images/category/cupcake/VanillaSunshine.png</image>
+
+    </product>
+
+    <product prodID="30" category="cupcake"> 
+        <name>Peppermint Patty</name>
+        <description>
+        Valrhona dark chocolate cupcake topped with our refreshing peppermint frosting
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price>
+                <size_price id="s30">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r30">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/PeppermintPatyy.png</image>
+
+    </product>
+
+    <product prodID="31" category="cupcake"> 
+        <name>Lemon Drop</name>
+        <description>
+        Springy vanilla cupcake topped with our lemon buttercream frosting and sprinkles
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s31">
+                <size>Box of 6</size>
+                <price>630</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r31">
+                <size>Box of 12</size>
+                <price>980</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/LemonDrop.png</image>
+
+    </product>
+
+    <product prodID="32" category="cupcake"> 
+        <name>Chocolate Overload</name>
+        <description>
+        Rich, moist Valrhona chocolate cupcake filled with thick chocolate ganache crowned with velvety chocolate cream.
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+           <size_price id="s32">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r32">
+                <size>Box of 12</size>
+                <price>900</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/ChocolateOverload.png</image>
+
+    </product>
+
+    <product prodID="33" category="cupcake"> 
+        <name>Berries and Cream</name>
+        <description>
+        Brown butter almond cupcake, topped with sweet fresh strawberry slices and whipped cream icing
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s33">
+                <size>Box of 6</size>
+                <price>630</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r33">
+                <size>Box of 12</size>
+                <price>980</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+                
+        <image>images/category/cupcake/BerriesandCream.png</image>
+
+    </product>
+
+    <product prodID="34" category="cupcake"> 
+        <name>Mocha Motion</name>
+        <description>
+        Moist Valrhona chocolate cupcake topped with a dollop of frothy mocha buttercream
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s34">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r34">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/MochaMotion.png</image>
+
+    </product>
+
+    <product prodID="35" category="cupcake"> 
+        <name>Peanut Butter Nutella</name>
+        <description>
+        Peanut butter cupcake with creamy Nutella center and Nutella buttercream frosting
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s35">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r35">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/PeanutButterNutella.png</image>
+
+    </product>
+
+    <product prodID="36" category="cupcake"> 
+        <name>Banana Monkey Cream Pie</name>
+        <description>
+        Luscious banana cream with slices of fresh banana and rum-flavored caramel in a pecan and butter cookie crust, and crowned with freshly whipped cream
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+             <size_price id="s36">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r36">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/BananaMonkeyPie.png</image>
+
+    </product>
+
+    <product prodID="37" category="cupcake"> 
+        <name>Chocolate Cream Pie</name>
+        <description>
+        Belgian chocolate cream in Oreo®️ crust, generously topped with whipped cream and Oreo®️ bits
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s37">
+                <size>Box of 6</size>
+                <price>630</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r37">
+                <size>Box of 12</size>
+                <price>980</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+                
+        <image>images/category/cupcake/ChocolateCreamPie.png</image>
+
+    </product>
+
+    <product prodID="38" category="cupcake"> 
+        <name>Cookie Monster</name>
+        <description>
+        Yellow vanilla cupcake with a cookie dough center, topped with a mini chocolate chip cookie nestled on swirls of butter cream
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s38">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r38">
+                <size>Box of 12</size>
+                <price>900</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/CookieMonster.png</image>
+
+    </product>
+
+    <product prodID="39" category="cupcake"> 
+        <name>Bunny Hugger</name>
+        <description>
+        Moist classic carrot cupcake, spiced with cinnamon and covered with our signature cream cheese icing
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s39">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r39">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/BunnyHugger.png</image>
+
+    </product>
+
+     <product prodID="40" category="cupcake"> 
+        <name>Creme Brûlée</name>
+        <description>
+        Rich custard base topped with a layer of hardened caramelized sugar- in a cupcake form!
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s40">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r40">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/CremeBrulee.png</image>
+
+    </product>
+
+    <product prodID="41" category="cupcake"> 
+        <name>Elvis</name>
+        <description>
+        Oreo®️ cookie crust filled with rich peanut butter cream with Reese’s®️ chocolate bits, slathered with chocolate and caramel topped with caramelized banana slices and whipped cream
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+            <size_price id="s41">
+                <size>Box of 6</size>
+                <price>630</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r41">
+                <size>Box of 12</size>
+                <price>980</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/Elvis.png</image>
+
+    </product>
+
+    <product prodID="42" category="cupcake"> 
+        <name>Chocolate Cream Cheese Swirl</name>
+        <description>
+        Perfectly moist Valrhona chocolate cupcake with cream cheese surprise
+        </description>
+        <stocks>90</stocks>
+        <sizes_prices>
+           <size_price id="s42">
+                <size>Box of 6</size>
+                <price>450</price>
+                <stocks>45</stocks>
+            </size_price>
+            <size_price id="r42">
+                <size>Box of 12</size>
+                <price>850</price>
+                <stocks>45</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/cupcake/AppleCheesecake.png</image>
+
+    </product>
+
+<!--Croissant--> 
+    <product prodID="43" category="croissant"> 
+        <name>Almond Croissant</name>
+        <description>
+        With almond custard filling
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s43">
+                <size>Box of 4</size>
+                <price>440</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r43">
+                <size>Box of 6</size>
+                <price>660</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l43">
+                <size>Box of 8</size>
+                <price>880</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/AlmondCroissant.png</image>
+
+    </product>
+
+    <product prodID="44" category="croissant"> 
+        <name>Apple Crumble</name>
+        <description>
+        With apple chunks
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+           <size_price id="s44">
+                <size>Box of 4</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r44">
+                <size>Box of 6</size>
+                <price>720</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l44">
+                <size>Box of 8</size>
+                <price>960</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/AppleCrumble.png</image>
+
+    </product>
+
+    <product prodID="45" category="croissant"> 
+        <name>Grilled European Croissant Sandwich</name>
+        <description>
+        Forest ham, emmental cheese, lettuce, tomato, mayonnaise
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+           <size_price id="s45">
+                <size>Box of 4</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r45">
+                <size>Box of 6</size>
+                <price>720</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l45">
+                <size>Box of 8</size>
+                <price>960</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/GrilledEuropeanCroissantSandwich.png</image>
+
+    </product>
+
+    <product prodID="46" category="croissant"> 
+        <name>Ham and Cheese Bechamel</name>
+        <description>
+       white cheese sauce
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s46">
+                <size>Box of 4</size>
+                <price>440</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r46">
+                <size>Box of 6</size>
+                <price>660</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l46">
+                <size>Box of 8</size>
+                <price>880</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/HamandCheeseBechamel.png</image>
+
+    </product>
+
+    <product prodID="47" category="croissant"> 
+        <name>Nutella Mousse</name>
+        <description>
+       sprinkled with sugar dust
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+             <size_price id="s47">
+                <size>Box of 4</size>
+                <price>520</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r47">
+                <size>Box of 6</size>
+                <price>780</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l47">
+                <size>Box of 8</size>
+                <price>1,040</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/NutellaMousse.png</image>
+
+    </product>
+
+    <product prodID="48" category="croissant"> 
+        <name>Original Croissant</name>
+        <description>
+       buttery and flaky layered yeast-leavened dough
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s48">
+                <size>Box of 4</size>
+                <price>320</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r48">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l48">
+                <size>Box of 8</size>
+                <price>640</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/OriginalCroissant.png</image>
+
+    </product>
+
+    <product prodID="49" category="croissant"> 
+        <name>Salmon Confit</name>
+        <description>
+       herb cream cheese, dill, candied lemons
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s49">
+                <size>Box of 4</size>
+                <price>340</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r49">
+                <size>Box of 6</size>
+                <price>510</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l49">
+                <size>Box of 8</size>
+                <price>680</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/SalmonConfit.png</image>
+
+    </product>
+
+    <product prodID="50" category="croissant"> 
+        <name>Salted Egg</name>
+        <description>
+        With salted egg custard filling
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s50">
+                <size>Box of 4</size>
+                <price>320</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r50">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l50">
+                <size>Box of 8</size>
+                <price>640</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/SaltedEgg.png</image>
+
+    </product>
+
+    <product prodID="51" category="croissant"> 
+        <name>Strawberries and Cream Croissant</name>
+        <description>
+        Strawberry glaze, whipped cream
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s51">
+                <size>Box of 4</size>
+                <price>520</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r51">
+                <size>Box of 6</size>
+                <price>780</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l51">
+                <size>Box of 8</size>
+                <price>1,040</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/StrawberriesandCreamCroissant.png</image>
+
+    </product>
+
+    <product prodID="52" category="croissant"> 
+        <name>Tiramisu</name>
+        <description>
+        With chocolate dust
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s52">
+                <size>Box of 4</size>
+                <price>320</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r52">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l52">
+                <size>Box of 8</size>
+                <price>640</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/Tiramisu.png</image>
+
+    </product>
+
+    <product prodID="53" category="croissant"> 
+        <name>Torsade</name>
+        <description>
+        With chocolate dust
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s53">
+                <size>Box of 4</size>
+                <price>320</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r53">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l53">
+                <size>Box of 8</size>
+                <price>640</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/Torsade.png</image>
+
+    </product>
+
+    <product prodID="54" category="croissant"> 
+        <name>Truffle Cream</name>
+        <description>
+        Pure happiness croissant
+        </description>
+        <stocks>120</stocks>
+        <sizes_prices>
+            <size_price id="s54">
+                <size>Box of 4</size>
+                <price>320</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="r54">
+                <size>Box of 6</size>
+                <price>480</price>
+                <stocks>40</stocks>
+            </size_price>
+            <size_price id="l54">
+                <size>Box of 8</size>
+                <price>640</price>
+                <stocks>40</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/croissant/TruffleCream.png</image>
+
+    </product>
+
+<!--Donuts--> 
+    <product prodID="55" category="donut"> 
+        <name>Bavarian Donut</name>
+        <description>
+        Classic donut tossed in powdered sugar
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s55">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r55">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/BavarianDonut.png</image>
+
+    </product>
+
+    <product prodID="56" category="donut"> 
+        <name>Boston Choco Donut</name>
+        <description>
+        Traditional boston cream filling is a custard cream, made by combining egg yolks with cream and sugar
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+           <size_price id="s56">
+                <size>Box of 6</size>
+                <price>210</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r56">
+                <size>Box of 12</size>
+                <price>420</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/BostonChocoDonut.png</image>
+
+    </product>
+
+    <product prodID="57" category="donut"> 
+        <name>Choco Dip Donut</name>
+        <description>
+        Soft donut dipped in a chocolate fondant
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+           <size_price id="s57">
+                <size>Box of 6</size>
+                <price>150</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r57">
+                <size>Box of 12</size>
+                <price>300</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/ChocoDipDonut.png</image>
+
+    </product>
+
+    <product prodID="58" category="donut"> 
+        <name>Double Chocolate Donut</name>
+        <description>
+        Chocolate donut dipped in chocolate
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+           <size_price id="s58">
+                <size>Box of 6</size>
+                <price>150</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r58">
+                <size>Box of 12</size>
+                <price>300</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/DoubleChocolateDonut.png</image>
+
+    </product>
+
+    <product prodID="59" category="donut"> 
+        <name>Cinnamon Donut</name>
+        <description>
+        Classic donut tossed in cinnamon
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+           <size_price id="s59">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r59">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/CinnamonDonut.png</image>
+
+    </product>
+
+    <product prodID="60" category="donut"> 
+        <name>Glazed Donut</name>
+        <description>
+        Classic donut glazed with melted sugar and honey 
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s60">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r60">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/GlazedDonut.png</image>
+
+    </product>
+
+    <product prodID="61" category="donut"> 
+        <name>Matcha Donut</name>
+        <description>
+        Crafted by combining our Matcha green tea powder blend with guests' choice of milk for a fresh, vibrant green tea flavor balanced with subtle sweetness
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s61">
+                <size>Box of 6</size>
+                <price>210</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r61">
+                <size>Box of 12</size>
+                <price>420</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/MatchaDonut.png</image>
+
+    </product>
+
+    <product prodID="62" category="donut"> 
+        <name>Strawberry Vanilla Donut</name>
+        <description>
+        Strawberry filled donut with vanilla fondant icing and hundreds and thousands topping
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+             <size_price id="s62">
+                <size>Box of 6</size>
+                <price>150</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r62">
+                <size>Box of 12</size>
+                <price>300</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/StrawberryVanillaDonut.png</image>
+
+    </product>
+
+    <product prodID="63" category="donut"> 
+        <name>Vanilla Dip Donut</name>
+        <description>
+        Strawberry filled donut with vanilla fondant icing and hundreds and thousands topping
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s63">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r63">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/VanillaDipDonut.png</image>
+
+    </product>
+
+    <product prodID="64" category="donut"> 
+        <name>Choco Sprinkled Donut</name>
+        <description>
+        Classic donut glazed with chocolate topped with rainbow sprinkles
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s64">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r64">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/ChocoSprinkledDonut.png</image>
+
+    </product>
+
+    <product prodID="65" category="donut"> 
+        <name>Sugar Coated Donut</name>
+        <description>
+       unglazed ring, covered in granulated sugar
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s65">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r65">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/SugarCoatedDonut.png</image>
+
+    </product>
+
+    <product prodID="66" category="donut"> 
+        <name>Vanilla Glazed Donut</name>
+        <description>
+        Glazed ring donut dipped in Maple fondant icing
+        </description>
+        <stocks>150</stocks>
+        <sizes_prices>
+            <size_price id="s66">
+                <size>Box of 6</size>
+                <price>120</price>
+                <stocks>75</stocks>
+            </size_price>
+            <size_price id="r66">
+                <size>Box of 12</size>
+                <price>240</price>
+                <stocks>75</stocks>
+            </size_price>
+        </sizes_prices>
+               
+        <image>images/category/donut/VanillaGlazedDonut.png</image>
+
+    </product>
+    
+</products>
