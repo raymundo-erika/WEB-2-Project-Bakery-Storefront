@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wishlist</title>
+    <title>Patisserie - Cake</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/chat.css">
     <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/wishlist.css">
+    <link rel="stylesheet" href="css/searchPage.css">
     <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
     <script src="js/nav.js"></script>
 </head>
-
 <body>
-
     <!--navbar-->
     <nav>
         <ul class="horizontal">
@@ -56,6 +54,17 @@
         </ul>
     </div>
 
+    <div id="menu">
+        <h1 class="title">Search Results for </h1>
+
+        <div id="products">
+        </div>
+
+        <div class="pagination">
+        </div>
+
+    </div>
+    
     <div class="cart-container">
         <div class="cart">
             <div class="cart-header">
@@ -63,12 +72,12 @@
                 <label>Cart</label>
                 <span class="icon close" onclick="closeCart()">&times;</span>
             </div>
-
-
+    
+            
             <div class="cart-body">
-
+                
             </div>
-
+    
 
             <div class="cart-footer">
                 <div class="cart-total">Total: <b>&#8369;750.00</b></div>
@@ -78,21 +87,14 @@
         <div class="cart-overlay" onclick="closeCart()"></div>
     </div>
 
-
-
-
-    <h1 class="title">Wishlist</h1>
-
-    <div id="wishlist"></div>
-
     <script src="https://kit.fontawesome.com/6a07858133.js" crossorigin="anonymous"></script>
     <script src="js/pagination.js"></script>
     <script src="js/wishlist.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/messageFunctionalities.js"></script>
     <script src="js/search.js"></script>
+    <script src="js/searchPage.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
-
 </html>

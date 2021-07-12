@@ -29,7 +29,7 @@ if(isset($_GET)) {
     
             echo "<div class='product' id='".$productID."' onmouseover='displayActionButtons(this)' onmouseout='hideActionButtons(this)'>
                     <div class='product-img'>
-                        <a href='product.php?category=$category&id=$productID'><img src=\"" . $productImage . "\"></a>
+                        <a href='product.html?category=$category&id=$productID'><img src=\"" . $productImage . "\"></a>
                     </div>
                     <div class='title'>" . $productName . "</div>
                     <div class='desc'> " . $productDesc . " </div>";

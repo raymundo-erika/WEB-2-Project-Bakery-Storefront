@@ -23,7 +23,7 @@ foreach($products as $product) {
                 <div class='title-text'>
                     <h1>$productName</h1>
                     <p>$productDesc</p>
-                    <a href='product.php?category=$category&id=$productID'><button>Buy now</button></a>
+                    <a href='product.html?category=$category&id=$productID'><button>Buy now</button></a>
                 </div>
 
                 <div class='image-container'>

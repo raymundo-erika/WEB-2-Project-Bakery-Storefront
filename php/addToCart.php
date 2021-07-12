@@ -55,7 +55,6 @@
                         $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
                         
                         $cart->replaceChild($cart_item, $duplicate_item);
-                        // echo "nagreplace na ako!";
                     }
                 }
 
@@ -73,7 +72,6 @@
                     $cart_item->appendChild($xml_cart->createElement("qty", $qty));
                     $cart_item->appendChild($xml_cart->createElement("totalPrice", $totalPrice));
                     $cart->appendChild($cart_item);
-                    // echo "nag-add lang ako!";
 
 
                 }
@@ -81,7 +79,6 @@
             }
             
             $cart_total = getCartTotal($cart);
-            // echo "CARTTOTAL $cart_total";
 
             #now, let us edit the cart
 
@@ -323,26 +320,5 @@
             }
         }
     }
-
-    // function getTotalPrice($productID, $size, $qty) {
-    //     $products = $GLOBALS['xml_cart']->getElementsByTagName("product");
-
-    //     foreach($products as $product) {
-    //         if($product->getAttribute("id") == $productID) {
-
-    //             $sizes_prices = $product->getElementsByTagName("size_price");
-    //             if($sizes_prices!=NULL) {
-    //                 foreach($sizes_prices as $size_price) {
-    //                     if($size_price->getElementsByTagName("size")[0]->nodeValue == $size) {
-    //                         return $size_price->getElementsByTagName("price")[0]->nodeValue * $qty;
-    //                     }
-    //                 }
-    //             }
-
-    //             $total_price = $product->getElementsByTagName("unit_price")[0]->nodeValue * $qty;
-    //             return $total_price;
-    //         }
-    //     }
-    // }
 
 ?>

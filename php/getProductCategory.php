@@ -11,7 +11,7 @@ $products = $xml->getElementsByTagName("product");
 
 foreach($products as $product) {
     if ($product->getAttribute("prodID") == $productID) {
-        echo "<a href='menu.php?category=$categoryID'><i class='fas fa-chevron-left'></i> Back to <b>".getCategoryName($categoryID)."</b> Menu</a>";
+        echo "<a href='menu.html?category=$categoryID'><i class='fas fa-chevron-left'></i> Back to <b>".getCategoryName($categoryID)."</b> Menu</a>";
         break;
     }
 }

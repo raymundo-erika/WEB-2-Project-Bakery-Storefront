@@ -25,7 +25,6 @@
         $totalPrice = $cart_item->getElementsByTagName("totalPrice")[0]->nodeValue;
         
         echo "<div class='cart-item'>
-                category is $category
                 <div class='icon close' onclick='deleteCartItem(\"".$cartItemID."\")'>&times;</div>
                 <div class='cart-item-image-left'>
                     <a href='product.php?category=$category&id=$prodID'><img src='" . $image . "'></a>
@@ -101,7 +100,6 @@
 
         foreach($products as $product) {
             if($product->getAttribute("prodID") == $productID) {
-                // return $product->getElementsByTagName("unit_price")[0]->nodeValue;
 
                 $sizes_prices = $product->getElementsByTagName("size_price");
                 foreach($sizes_prices as $size_price) {
