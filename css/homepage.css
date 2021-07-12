@@ -171,7 +171,7 @@ body {
     transform: translateX(20%);
     margin-top: -5%;
 }
-.image-con img{
+.image-con .about-cake{
     width: 536px;
     height: 339px;
 }
@@ -192,6 +192,15 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: normal;
+    line-height: 36px;
+}
+.glitter{
+    width: 280%;
+    height: 280%;
+    position: absolute;
+    margin-left: -250%;
+    margin-top: -50%;
+    z-index: -1;
 }
 
 
