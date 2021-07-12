@@ -72,6 +72,7 @@
     padding:15px 20px 10px;
     height: 40vh;
     background: #fff; 
+    overflow-y: scroll;
     /* border: 2px solid blue;  */
 }
 

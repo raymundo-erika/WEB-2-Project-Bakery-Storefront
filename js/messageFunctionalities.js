@@ -23,7 +23,12 @@ $(document).ready(function () {
 
 
 });
+usernameee = "";
 myLoading = setInterval(loadActiveUsers,10000);
+myLoadingg = setInterval( function() { loadMessage(usernameee); }, 500 );
+
+
+
 
 function loadActiveUsers(){
     var xhr = new XMLHttpRequest();
@@ -39,6 +44,7 @@ function loadActiveUsers(){
 }
 
 function showChat(username){
+    usernameee = username;
     loadMessage(username);
     getFullName_Picture(username);
     $(".message-container").css("display", "block");
@@ -70,6 +76,7 @@ function showChat(username){
             $(".message-nav").css("cursor", "default");
         });
     });
+    
 }
 
 function loadMessage(username) {

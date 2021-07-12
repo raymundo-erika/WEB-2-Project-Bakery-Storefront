@@ -38,7 +38,8 @@
                 $xml->save("../xml/users.xml");
 
                 session_start();
-                $_SESSION["username"] = $username;
+                $_SESSION['username'] = $username;
+                $_SESSION['profilePic'] = $profilePic;
 
                 echo 1;
                 break;
