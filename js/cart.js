@@ -4,9 +4,26 @@ $("document").ready(function(){
 
     $(".btn-checkout").css("cursor", "pointer").click(function (e) { 
         e.preventDefault();
-        window.location.href="checkoutPage.php";
+        getsizecart();
+        
     });
 });
+
+function getsizecart(){
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            if(xhr.responseText==0){
+                swal("Error","There is no product in your cart.","info");
+            }else{
+                window.location.href="checkoutPage.php";
+            }
+        }
+    }
+
+    xhr.open("GET", "php/getCartItemsNo.php", true);
+    xhr.send(); 
+}
 
 function openCart() {
     $(".cart-overlay").fadeIn();

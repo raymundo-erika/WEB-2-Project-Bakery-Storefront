@@ -272,7 +272,7 @@
 <!--Cheese Cakes-->
     <product prodID="16" category="cheesecake" featured="0"><name>Apple Cheesecake</name><description>
         An apple a day keeps the doctor away! A mix of health and happiness in one cake. This cake is the perfect combination of your favorite creamy and rich cheesecake paired with a nice refreshing crunch from the apples.
-        </description><sizes_prices><size_price id="s1"><size>6" x 3"</size><price>550</price><stocks>18</stocks></size_price><size_price id="s2"><size>8" x 3"</size><price>1300</price><stocks>20</stocks></size_price><size_price id="s3"><size>10" x 3"</size><price>1800</price><stocks>20</stocks></size_price></sizes_prices><image>images/category/cheesecake/AppleCheesecake.png</image></product>
+        </description><sizes_prices><size_price id="s1"><size>6" x 3"</size><price>550</price><stocks>17</stocks></size_price><size_price id="s2"><size>8" x 3"</size><price>1300</price><stocks>20</stocks></size_price><size_price id="s3"><size>10" x 3"</size><price>1800</price><stocks>20</stocks></size_price></sizes_prices><image>images/category/cheesecake/AppleCheesecake.png</image></product>
 
     <product prodID="17" category="cheesecake" featured="0"><name>Basque Cheesecake</name><description>
         This cheesecake has a beautiful, dark exterior full of bittersweet notes that make the light, creamy cheesecake interior seem even more rich and flavorful.
