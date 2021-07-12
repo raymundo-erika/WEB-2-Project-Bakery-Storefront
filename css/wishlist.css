@@ -1,0 +1,80 @@
+.title {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 3em;
+    width: auto;
+}
+
+.title::after {
+    width: 10%;
+    content: "";
+    display: block;
+    margin: 25px auto;
+    border: 2px solid #fff;
+}
+
+#wishlist {
+    margin: 5% auto;
+    max-width: 60%;
+    min-width: 700px;
+    /* border: 2px solid goldenrod; */
+}
+
+.wish_item {
+    width: 100%;
+    /* border: 2px solid goldenrod; */
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.wish_item .wish_left {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.wish_left img{
+    padding: 3%;
+    width: 100%;
+}
+
+.wish_center {  
+    width: 50%;
+    padding: 5%;
+}
+
+.wish_name  {
+    font-size: 1.5em;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: bold;
+    color: #DDA74F;
+}
+
+.wish_desc {
+    font-size: .85em;
+    padding: 2% 0;
+}
+
+.wish_size {
+    padding: 1% 0;
+}
+
+.wish_price {
+    font-size: 1.125em;
+    font-weight: 700;
+    padding: 1% 0;
+}
+
+.wish_right {
+    width: 28%;
+    padding: 7% 1% 2%; 
+}
+
+.wish_right button {
+    width: 100%;
+    font-size: 1.125em !important;
+    border-radius: 300px;
+    padding: 6% 2%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+}
