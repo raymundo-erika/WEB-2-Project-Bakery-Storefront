@@ -34,7 +34,7 @@ function openItemDisplay(prodID,categoryId){
 
 function searchOnEnter(toBeSearch) {
     if(toBeSearch.trim()!=""){
-        window.location.href = "search.html?toBeSearch="+toBeSearch;
+        window.location.href = "search.php?toBeSearch="+toBeSearch;
     }
    
 }

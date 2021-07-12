@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    if (!isset($_SESSION['username'])) {
+        header("Location: loginRegister.html");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,11 +32,11 @@
 <body>
     <nav>
         <ul class="horizontal">
-            <a href="index.html">
+            <a href="index.php">
                 <li id="nav-logo"></li>
             </a>
             <li class="category">
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
             </li>
 
             <section class="category-container" style="display: inline-block"></section>
@@ -45,7 +53,7 @@
                 <i class="icon far fa-user-circle"></i>
                 <ul class="dropdown">
                     <li><a href="">Account Settings</a></li>
-                    <li><a href="">Logout</a></li>
+                    <li><a href="logout.php">Logout</a></li>
                 </ul>
             </li>
         </ul>

@@ -2,8 +2,7 @@
     session_start();
     date_default_timezone_set('Asia/Manila');
 
-    // $username = $_SESSION["username"];
-    $username = "erika_raymundo";
+    $username = $_SESSION["username"];
 
     $xml_cart = new DOMDocument();
     $xml_cart->load("../xml/carts.xml");

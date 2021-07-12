@@ -1,6 +1,6 @@
 
 nav {
-    /* z-index: 100 !important; */
+    z-index: 1 !important;
 }
 
 nav .horizontal {
@@ -163,6 +163,7 @@ nav .dropdown {
     margin: 0;
     width: 150px;
     border-radius: 5px;
+    z-index: 100;
 }
 
 .dropdown li {

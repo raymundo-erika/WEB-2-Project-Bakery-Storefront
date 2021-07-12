@@ -1,0 +1,107 @@
+<?php
+error_reporting(0);
+session_start();
+if ($_SESSION['verifier'] == "verified") {
+    header('Location: index.php');
+}
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Login to Patiserrie </title>
+    <!-- <link rel="stylesheet" href="css\loginRegister.css"> -->
+    <link rel="stylesheet" href="css\loginRegister.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <h1>Log-in</h1>
+                    <h5>Don't have an account yet?</h5>
+                    <h4>
+                        <button1 type="button" class="btn" onclick="openRegister()">Sign up now</button1>
+                    </h4>
+                        <input type="hidden" id="sucess" />
+                        <input type="text" id="login-un" class="input-box1" placeholder="Username" required>
+                        <input type="password" id="login-pass" class="input-box1" placeholder="Password"
+                            required>
+                        <button onclick="login()">Log-in</button>
+                    </form>
+                    <h5>
+                        <button1 type="button" class="btn" onclick="open/*forgot password page*/()">Forgot Password?
+                        </button1>
+                    </h5>
+                </div>
+
+
+                <div class="card-back">
+                    <h1>Sign-up</h1>
+                    <h5>Already have an account?</h5>
+                    <div>
+                        <h5>
+                            <button1 type="button" class="btn" onclick="openLogin()">Login now</button1>
+                        </h5>
+                        <input type="text" id="reg-fullname" class="input-box1" placeholder="Full Name" required>
+                        <input type="text" id="reg-email" class="input-box1" placeholder="Email" required>
+                        <input type="text" id="reg-address" class="input-box1" placeholder="Address" required>
+                        <input type="date" id="reg-bday" class="input-box1" placeholder="Birthdate" required>
+                        <input type="text" id="reg-un" class="input-box1" placeholder="Username" required>
+                        <input type="password" id="reg-pass" class="input-box1" placeholder="Password" required>
+
+                        <!--add one here for captcha-->
+
+                        <!-- <input type="password" id="password-input" class="input-box1" placeholder="Password" required> -->
+
+                        <button onclick="registerUser()">Sign up</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var card = document.getElementById("card");
+
+        function openRegister() {
+            card.style.transform = "rotateY(-180deg)";
+            resetLogin();
+        }
+        function openLogin() {
+            card.style.transform = "rotateY(0deg)";
+            resetReg();
+        }
+
+        function resetLogin() {
+            un = $("#login-un").val("");
+            pass = $("#login-pass").val("");
+        }
+
+        function resetReg() {
+            un = $("#reg-un").val("");
+            pass = $("#reg-pass").val("");
+            email = $("#reg-email").val("");
+            fullname = $("#reg-fullname").val("");
+            address = $("#reg-address").val("");
+            birthdate = $("#reg-bday").val("");
+        }
+    </script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</body>
+
+</html>

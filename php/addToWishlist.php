@@ -2,8 +2,7 @@
     session_start();
     date_default_timezone_set('Asia/Manila');
 
-    // $username = $_SESSION["username"];
-    $username = "erika_raymundo";
+    $username = $_SESSION["username"];
 
     $xml = new DOMDocument();
     $xml->load("../xml/wishes.xml");
